@@ -1,0 +1,21 @@
+{
+  "id": "ollama",
+  "name": "Ollama",
+  "slug": "ollama",
+  "category": "ai-ml",
+  "shortDescription": "Chạy LLM cục bộ",
+  "description": "Chạy mô hình ngôn ngữ lớn cục bộ trên máy của bạn.",
+  "icon": "/icons/ollama.svg",
+  "website": "https://ollama.com/",
+  "github": "https://github.com/ollama/ollama",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "local",
+    "ai"
+  ]
+}

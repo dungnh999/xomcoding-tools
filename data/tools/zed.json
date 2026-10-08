@@ -1,0 +1,21 @@
+{
+  "id": "zed",
+  "name": "Zed",
+  "slug": "zed",
+  "category": "developer",
+  "shortDescription": "High-performance Editor",
+  "description": "Trình soạn thảo code nhanh, viết bằng Rust.",
+  "icon": "/icons/zed.svg",
+  "website": "https://zed.dev/",
+  "github": "https://github.com/zed-industries/zed",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "editor",
+    "ide",
+    "rust"
+  ]
+}

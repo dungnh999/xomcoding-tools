@@ -1,0 +1,21 @@
+{
+  "id": "brevo",
+  "name": "Brevo",
+  "slug": "brevo",
+  "category": "email",
+  "shortDescription": "Marketing & Email",
+  "description": "Email marketing, SMS và automation tất cả trong một.",
+  "icon": "/icons/brevo.svg",
+  "website": "https://www.brevo.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "email",
+    "marketing",
+    "sms"
+  ]
+}

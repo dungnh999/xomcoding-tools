@@ -1,0 +1,21 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "slug": "framer",
+  "category": "ui-design",
+  "shortDescription": "Design & Publish",
+  "description": "Thiết kế và xuất bản website tương tác không cần code.",
+  "icon": "/icons/framer.svg",
+  "website": "https://www.framer.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "design",
+    "website",
+    "nocode"
+  ]
+}

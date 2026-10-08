@@ -1,0 +1,21 @@
+{
+  "id": "github-actions",
+  "name": "GitHub Actions",
+  "slug": "github-actions",
+  "category": "devops",
+  "shortDescription": "CI/CD",
+  "description": "Tự động hóa build, kiểm thử và triển khai ngay trên GitHub.",
+  "icon": "/icons/githubactions.svg",
+  "website": "https://github.com/features/actions",
+  "github": "https://github.com/actions",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ci",
+    "cd",
+    "automation"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "umami",
+  "name": "Umami",
+  "slug": "umami",
+  "category": "others",
+  "shortDescription": "Web Analytics",
+  "description": "Công cụ phân tích web đơn giản, thay thế Google Analytics.",
+  "icon": "/icons/umami.svg",
+  "website": "https://umami.is/",
+  "github": "https://github.com/umami-software/umami",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "analytics",
+    "privacy",
+    "self-hosted"
+  ]
+}

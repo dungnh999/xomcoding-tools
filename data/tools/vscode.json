@@ -1,0 +1,21 @@
+{
+  "id": "vscode",
+  "name": "Visual Studio Code",
+  "slug": "vscode",
+  "category": "developer",
+  "shortDescription": "Code Editor",
+  "description": "Trình soạn thảo code linh hoạt, đa nền tảng, nhiều extension.",
+  "icon": "/icons/visualstudiocode.svg",
+  "website": "https://code.visualstudio.com/",
+  "github": "https://github.com/microsoft/vscode",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "editor",
+    "ide",
+    "microsoft"
+  ]
+}

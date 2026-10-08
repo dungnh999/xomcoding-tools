@@ -1,0 +1,21 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "slug": "cursor",
+  "category": "ai-coding",
+  "shortDescription": "AI Code Editor",
+  "description": "Trình soạn thảo code tích hợp AI, hỗ trợ edit đa file.",
+  "icon": "/icons/cursor.svg",
+  "website": "https://cursor.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "editor",
+    "ai",
+    "ide"
+  ]
+}

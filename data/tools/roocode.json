@@ -1,0 +1,21 @@
+{
+  "id": "roocode",
+  "name": "Roo Code",
+  "slug": "roocode",
+  "category": "ai-coding",
+  "shortDescription": "AI Coding Agent",
+  "description": "Mở rộng của Cline cho VS Code với nhiều chế độ làm việc.",
+  "icon": "/icons/roocode.svg",
+  "website": "https://roocode.com/",
+  "github": "https://github.com/RooCodeInc/Roo-Code",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "agent",
+    "vscode"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "slug": "figma",
+  "category": "ui-design",
+  "shortDescription": "Design Tool",
+  "description": "Công cụ thiết kế giao diện và prototype cộng tác.",
+  "icon": "/icons/figma.svg",
+  "website": "https://www.figma.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "design",
+    "ui",
+    "prototype"
+  ]
+}

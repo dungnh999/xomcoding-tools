@@ -1,0 +1,21 @@
+{
+  "id": "fly",
+  "name": "Fly.io",
+  "slug": "fly",
+  "category": "cloud",
+  "shortDescription": "Run Apps Globally",
+  "description": "Chạy ứng dụng gần người dùng trên hạ tầng phân tán toàn cầu.",
+  "icon": "/icons/fly.svg",
+  "website": "https://fly.io/",
+  "github": "https://github.com/superfly/flyctl",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "deploy",
+    "containers",
+    "edge"
+  ]
+}

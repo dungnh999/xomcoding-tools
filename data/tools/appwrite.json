@@ -1,0 +1,21 @@
+{
+  "id": "appwrite",
+  "name": "Appwrite",
+  "slug": "appwrite",
+  "category": "database",
+  "shortDescription": "Open Source BaaS",
+  "description": "Backend-as-a-Service mã nguồn mở: auth, database, storage, functions.",
+  "icon": "/icons/appwrite.svg",
+  "website": "https://appwrite.io/",
+  "github": "https://github.com/appwrite/appwrite",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "baas",
+    "self-hosted",
+    "auth"
+  ]
+}

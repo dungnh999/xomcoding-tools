@@ -1,0 +1,38 @@
+{
+  "name": "xomcoding-dev-tools",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Thư viện công cụ mã nguồn mở cho Developer Việt Nam - Xóm Coding",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "validate": "node scripts/validate-tools.ts",
+    "check-tools": "node scripts/check-tools.ts",
+    "sync-xomcoding": "node scripts/sync-xomcoding-articles.ts",
+    "generate-data": "node scripts/generate-data.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^30.1.2",
+    "oxlint": "^1.81.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^4.1.10"
+  }
+}

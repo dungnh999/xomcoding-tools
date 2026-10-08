@@ -1,0 +1,21 @@
+{
+  "id": "astro",
+  "name": "Astro",
+  "slug": "astro",
+  "category": "frontend",
+  "shortDescription": "Content-driven Framework",
+  "description": "Framework web ưu tiên nội dung, ship ít JavaScript hơn.",
+  "icon": "/icons/astro.svg",
+  "website": "https://astro.build/",
+  "github": "https://github.com/withastro/astro",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ssg",
+    "content",
+    "islands"
+  ]
+}

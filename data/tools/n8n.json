@@ -1,0 +1,21 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "slug": "n8n",
+  "category": "self-hosted",
+  "shortDescription": "Workflow Automation",
+  "description": "Nền tảng tự động hóa quy trình mã nguồn mở, tự hosting.",
+  "icon": "/icons/n8n.svg",
+  "website": "https://n8n.io/",
+  "github": "https://github.com/n8n-io/n8n",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "automation",
+    "workflow",
+    "self-hosted"
+  ]
+}

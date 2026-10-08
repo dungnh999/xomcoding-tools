@@ -1,0 +1,21 @@
+{
+  "id": "nextcloud",
+  "name": "Nextcloud",
+  "slug": "nextcloud",
+  "category": "storage",
+  "shortDescription": "Self-hosted Cloud",
+  "description": "Cloud lưu trữ, chia sẻ file và cộng tác tự hosting.",
+  "icon": "/icons/nextcloud.svg",
+  "website": "https://nextcloud.com/",
+  "github": "https://github.com/nextcloud/server",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "storage",
+    "sync",
+    "self-hosted"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "railway",
+  "name": "Railway",
+  "slug": "railway",
+  "category": "cloud",
+  "shortDescription": "Instant Deploy",
+  "description": "Deploy ứng dụng từ repo với môi trường và database tự động.",
+  "icon": "/icons/railway.svg",
+  "website": "https://railway.app/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "paas",
+    "deploy",
+    "database"
+  ]
+}

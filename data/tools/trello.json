@@ -1,0 +1,21 @@
+{
+  "id": "trello",
+  "name": "Trello",
+  "slug": "trello",
+  "category": "productivity",
+  "shortDescription": "Kanban Board",
+  "description": "Bảng kanban kéo thả để theo dõi tiến độ công việc.",
+  "icon": "/icons/trello.svg",
+  "website": "https://trello.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "kanban",
+    "boards",
+    "projects"
+  ]
+}

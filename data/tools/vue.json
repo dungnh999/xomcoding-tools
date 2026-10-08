@@ -1,0 +1,21 @@
+{
+  "id": "vue",
+  "name": "Vue.js",
+  "slug": "vue",
+  "category": "frontend",
+  "shortDescription": "Progressive Framework",
+  "description": "Framework linh hoạt để xây dựng giao diện người dùng.",
+  "icon": "/icons/vuejs.svg",
+  "website": "https://vuejs.org/",
+  "github": "https://github.com/vuejs/core",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "javascript",
+    "framework",
+    "ui"
+  ]
+}

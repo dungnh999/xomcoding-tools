@@ -1,0 +1,21 @@
+{
+  "id": "huggingface",
+  "name": "Hugging Face",
+  "slug": "huggingface",
+  "category": "ai-ml",
+  "shortDescription": "AI Model Hub",
+  "description": "Kho mô hình, dataset và demo AI mở.",
+  "icon": "/icons/huggingface.svg",
+  "website": "https://huggingface.co/",
+  "github": "https://github.com/huggingface",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "models",
+    "dataset",
+    "ml"
+  ]
+}

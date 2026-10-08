@@ -1,0 +1,21 @@
+{
+  "id": "jenkins",
+  "name": "Jenkins",
+  "slug": "jenkins",
+  "category": "devops",
+  "shortDescription": "Automation Server",
+  "description": "Máy chủ tự động hóa build và CI/CD mã nguồn mở.",
+  "icon": "/icons/jenkins.svg",
+  "website": "https://www.jenkins.io/",
+  "github": "https://github.com/jenkinsci/jenkins",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ci",
+    "cd",
+    "automation"
+  ]
+}

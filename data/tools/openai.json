@@ -1,0 +1,21 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "slug": "openai",
+  "category": "ai-ml",
+  "shortDescription": "Nền tảng AI",
+  "description": "API mô hình ngôn ngữ và đa phương thức GPT.",
+  "icon": "/icons/openai.svg",
+  "website": "https://openai.com/",
+  "github": "https://github.com/openai",
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "api",
+    "gpt"
+  ]
+}

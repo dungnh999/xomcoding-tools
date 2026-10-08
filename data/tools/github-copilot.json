@@ -1,0 +1,21 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "slug": "github-copilot",
+  "category": "ai-coding",
+  "shortDescription": "AI Coding Assistant",
+  "description": "AI hỗ trợ hoàn thành, giải thích và tạo mã nguồn.",
+  "icon": "/icons/githubcopilot.svg",
+  "website": "https://github.com/features/copilot",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "assistant",
+    "github"
+  ]
+}

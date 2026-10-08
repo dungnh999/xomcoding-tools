@@ -1,0 +1,21 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "slug": "claude-code",
+  "category": "ai-coding",
+  "shortDescription": "Coding Agent",
+  "description": "Trợ lý lập trình dạng agent chạy trong terminal và IDE.",
+  "icon": "/icons/anthropic.svg",
+  "website": "https://www.anthropic.com/claude-code",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "agent",
+    "terminal"
+  ]
+}

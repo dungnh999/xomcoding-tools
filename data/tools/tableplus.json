@@ -1,0 +1,21 @@
+{
+  "id": "tableplus",
+  "name": "TablePlus",
+  "slug": "tableplus",
+  "category": "developer",
+  "shortDescription": "Native Database GUI",
+  "description": "GUI database gọn gàng, native cho macOS và Windows.",
+  "icon": "/icons/tableplus.svg",
+  "website": "https://tableplus.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "database",
+    "gui",
+    "native"
+  ]
+}

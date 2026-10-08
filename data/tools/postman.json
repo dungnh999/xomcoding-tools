@@ -1,0 +1,21 @@
+{
+  "id": "postman",
+  "name": "Postman",
+  "slug": "postman",
+  "category": "developer",
+  "shortDescription": "API Platform",
+  "description": "Thiết kế, kiểm thử và cộng tác với API.",
+  "icon": "/icons/postman.svg",
+  "website": "https://www.postman.com/",
+  "github": "https://github.com/postmanlabs",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "api",
+    "testing",
+    "rest"
+  ]
+}

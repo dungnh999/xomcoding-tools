@@ -1,0 +1,22 @@
+{
+  "id": "cloudflare",
+  "name": "Cloudflare",
+  "slug": "cloudflare",
+  "category": "cloud",
+  "shortDescription": "CDN & Security",
+  "description": "CDN, DNS, bảo mật và nền tảng tính toán biên (edge).",
+  "icon": "/icons/cloudflare.svg",
+  "website": "https://www.cloudflare.com/",
+  "github": "https://github.com/cloudflare",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "cdn",
+    "dns",
+    "wasm",
+    "edge"
+  ]
+}

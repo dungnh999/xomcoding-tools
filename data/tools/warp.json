@@ -1,0 +1,21 @@
+{
+  "id": "warp",
+  "name": "Warp",
+  "slug": "warp",
+  "category": "developer",
+  "shortDescription": "AI Terminal",
+  "description": "Terminal hiện đại với AI và gợi ý lệnh theo ngữ cảnh.",
+  "icon": "/icons/warp.svg",
+  "website": "https://www.warp.dev/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "terminal",
+    "ai",
+    "cli"
+  ]
+}

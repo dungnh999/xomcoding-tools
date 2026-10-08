@@ -1,0 +1,21 @@
+{
+  "id": "svelte",
+  "name": "Svelte",
+  "slug": "svelte",
+  "category": "frontend",
+  "shortDescription": "Compile-time Framework",
+  "description": "Biên dịch thành JS thuần, không cần virtual DOM.",
+  "icon": "/icons/svelte.svg",
+  "website": "https://svelte.dev/",
+  "github": "https://github.com/sveltejs/svelte",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "framework",
+    "compiler",
+    "ui"
+  ]
+}

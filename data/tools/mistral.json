@@ -1,0 +1,21 @@
+{
+  "id": "mistral",
+  "name": "Mistral AI",
+  "slug": "mistral",
+  "category": "ai-ml",
+  "shortDescription": "Open-weight LLM",
+  "description": "Mô hình ngôn ngữ open-weight và nền tảng API từ châu Âu.",
+  "icon": "/icons/mistralai.svg",
+  "website": "https://mistral.ai/",
+  "github": "https://github.com/mistralai",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "models",
+    "api"
+  ]
+}

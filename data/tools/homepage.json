@@ -1,0 +1,21 @@
+{
+  "id": "homepage",
+  "name": "Homepage",
+  "slug": "homepage",
+  "category": "self-hosted",
+  "shortDescription": "Service Dashboard",
+  "description": "Bảng điều khiển cho các dịch vụ tự hosting trong gia đình.",
+  "icon": "/icons/homepage.svg",
+  "website": "https://gethomepage.dev/",
+  "github": "https://github.com/gethomepage/homepage",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "dashboard",
+    "homelab",
+    "startpage"
+  ]
+}

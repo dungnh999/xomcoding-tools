@@ -1,0 +1,17 @@
+[
+  { "id": "database", "name": "Database & Backend", "icon": "database", "order": 1 },
+  { "id": "cloud", "name": "Cloud & Hosting", "icon": "cloud", "order": 2 },
+  { "id": "ai-coding", "name": "AI Coding & Agents", "icon": "bot", "order": 3 },
+  { "id": "ai-ml", "name": "AI & Machine Learning", "icon": "brain-circuit", "order": 4 },
+  { "id": "devops", "name": "DevOps", "icon": "infinity", "order": 5 },
+  { "id": "developer", "name": "Developer Tools", "icon": "terminal", "order": 6 },
+  { "id": "frontend", "name": "Frontend", "icon": "monitor", "order": 7 },
+  { "id": "ui-design", "name": "UI & Design", "icon": "palette", "order": 8 },
+  { "id": "security", "name": "Security", "icon": "shield", "order": 9 },
+  { "id": "productivity", "name": "Productivity", "icon": "zap", "order": 10 },
+  { "id": "storage", "name": "Storage & Media", "icon": "hard-drive", "order": 11 },
+  { "id": "email", "name": "Email & Communication", "icon": "mail", "order": 12 },
+  { "id": "payment", "name": "Payment", "icon": "credit-card", "order": 13 },
+  { "id": "self-hosted", "name": "Self-hosted", "icon": "server", "order": 14 },
+  { "id": "others", "name": "Others", "icon": "package", "order": 15 }
+]

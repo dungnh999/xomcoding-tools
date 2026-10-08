@@ -1,0 +1,21 @@
+{
+  "id": "plausible",
+  "name": "Plausible",
+  "slug": "plausible",
+  "category": "others",
+  "shortDescription": "Lightweight Analytics",
+  "description": "Phân tích web đơn giản, không cookie, mã nguồn mở.",
+  "icon": "/icons/plausible.svg",
+  "website": "https://plausible.io/",
+  "github": "https://github.com/plausible/analytics",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "analytics",
+    "privacy",
+    "lightweight"
+  ]
+}

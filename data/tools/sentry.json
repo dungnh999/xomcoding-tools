@@ -1,0 +1,21 @@
+{
+  "id": "sentry",
+  "name": "Sentry",
+  "slug": "sentry",
+  "category": "others",
+  "shortDescription": "Error Tracking",
+  "description": "Theo dõi lỗi và hiệu năng ứng dụng theo thời gian thực.",
+  "icon": "/icons/sentry.svg",
+  "website": "https://sentry.io/",
+  "github": "https://github.com/getsentry/sentry",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "errors",
+    "monitoring",
+    "performance"
+  ]
+}

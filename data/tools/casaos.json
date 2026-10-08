@@ -1,0 +1,21 @@
+{
+  "id": "casaos",
+  "name": "CasaOS",
+  "slug": "casaos",
+  "category": "self-hosted",
+  "shortDescription": "Home Server OS",
+  "description": "Hệ điều hành máy chủ gia đình, cài ứng dụng bằng một click.",
+  "icon": "/icons/casaos.svg",
+  "website": "https://casaos.io/",
+  "github": "https://github.com/IceWhaleTech/casaos",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "homelab",
+    "dashboard",
+    "self-hosted"
+  ]
+}

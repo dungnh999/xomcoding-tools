@@ -1,0 +1,21 @@
+{
+  "id": "bootstrap",
+  "name": "Bootstrap",
+  "slug": "bootstrap",
+  "category": "frontend",
+  "shortDescription": "CSS Framework",
+  "description": "Framework HTML/CSS/JS lâu đời với hệ thống lưới mạnh.",
+  "icon": "/icons/bootstrap.svg",
+  "website": "https://getbootstrap.com/",
+  "github": "https://github.com/twbs/bootstrap",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "css",
+    "framework",
+    "responsive"
+  ]
+}

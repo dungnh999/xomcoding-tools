@@ -1,0 +1,21 @@
+{
+  "id": "posthog",
+  "name": "Posthog",
+  "slug": "posthog",
+  "category": "others",
+  "shortDescription": "Product Analytics",
+  "description": "Phân tích sản phẩm, session recording và feature flags.",
+  "icon": "/icons/posthog.svg",
+  "website": "https://posthog.com/",
+  "github": "https://github.com/PostHog/posthog",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "analytics",
+    "tracking",
+    "features"
+  ]
+}

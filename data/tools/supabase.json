@@ -1,0 +1,22 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "slug": "supabase",
+  "category": "database",
+  "shortDescription": "Backend as a Service",
+  "description": "Postgres, Authentication, Storage và Realtime trong một nền tảng.",
+  "icon": "/icons/supabase.svg",
+  "website": "https://supabase.com/",
+  "github": "https://github.com/supabase/supabase",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "postgres",
+    "baas",
+    "auth",
+    "storage"
+  ]
+}

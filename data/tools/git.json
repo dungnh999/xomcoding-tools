@@ -1,0 +1,21 @@
+{
+  "id": "git",
+  "name": "Git",
+  "slug": "git",
+  "category": "developer",
+  "shortDescription": "Version Control",
+  "description": "Hệ thống quản lý phiên bản phân tán phổ biến nhất.",
+  "icon": "/icons/git.svg",
+  "website": "https://git-scm.com/",
+  "github": "https://github.com/git/git",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "vcs",
+    "version",
+    "collaboration"
+  ]
+}

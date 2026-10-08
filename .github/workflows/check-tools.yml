@@ -1,0 +1,44 @@
+name: Kiểm tra trạng thái công cụ
+
+on:
+  schedule:
+    # 03:00 UTC mỗi ngày
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+# Chỉ chạy theo lịch / thủ công → không tạo vòng lặp commit-push.
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Cài dependency
+        run: npm ci
+
+      - name: Kiểm tra HTTP website công cụ
+        run: npm run check-tools
+
+      - name: Tạo Pull Request nếu trạng thái thay đổi
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: data/generated/tool-status.json
+          commit-message: 'chore(status): cập nhật trạng thái công cụ'
+          branch: bot/tool-status
+          delete-branch: true
+          title: 'chore(status): cập nhật trạng thái công cụ'
+          body: |
+            Pull Request tự động từ workflow `check-tools.yml`.
+
+            - Chỉ trạng thái `active` được xác nhận khi truy cập thành công.
+            - Lỗi HTTP đơn lẻ (403/429/timeout) **không** đổi trạng thái sang `inactive`.
+            - Maintainer review trước khi merge.

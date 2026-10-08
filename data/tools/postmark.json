@@ -1,0 +1,21 @@
+{
+  "id": "postmark",
+  "name": "Postmark",
+  "slug": "postmark",
+  "category": "email",
+  "shortDescription": "Transactional Email",
+  "description": "Gửi email giao dịch với tỷ lệ vào inbox cao.",
+  "icon": "/icons/postmark.svg",
+  "website": "https://postmarkapp.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "email",
+    "transactional",
+    "api"
+  ]
+}

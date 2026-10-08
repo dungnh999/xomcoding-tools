@@ -1,0 +1,21 @@
+{
+  "id": "vite",
+  "name": "Vite",
+  "slug": "vite",
+  "category": "frontend",
+  "shortDescription": "Frontend Build Tool",
+  "description": "Dev server nhanh và công cụ build hiện đại cho frontend.",
+  "icon": "/icons/vite.svg",
+  "website": "https://vite.dev/",
+  "github": "https://github.com/vitejs/vite",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "build",
+    "dev-server",
+    "javascript"
+  ]
+}

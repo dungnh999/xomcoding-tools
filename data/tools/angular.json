@@ -1,0 +1,21 @@
+{
+  "id": "angular",
+  "name": "Angular",
+  "slug": "angular",
+  "category": "frontend",
+  "shortDescription": "Full Framework",
+  "description": "Framework toàn diện của Google cho ứng dụng một trang.",
+  "icon": "/icons/angular.svg",
+  "website": "https://angular.dev/",
+  "github": "https://github.com/angular/angular",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "framework",
+    "spa",
+    "typescript"
+  ]
+}

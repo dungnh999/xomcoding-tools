@@ -1,0 +1,21 @@
+{
+  "id": "react-router",
+  "name": "React Router",
+  "slug": "react-router",
+  "category": "frontend",
+  "shortDescription": "Routing Library",
+  "description": "Bộ định tuyến chuẩn cho React, kèm framework Fullstack.",
+  "icon": "/icons/reactrouter.svg",
+  "website": "https://reactrouter.com/",
+  "github": "https://github.com/remix-run/react-router",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "react",
+    "routing",
+    "spa"
+  ]
+}

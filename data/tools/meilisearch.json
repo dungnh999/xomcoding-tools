@@ -1,0 +1,21 @@
+{
+  "id": "meilisearch",
+  "name": "Meilisearch",
+  "slug": "meilisearch",
+  "category": "database",
+  "shortDescription": "Search Engine",
+  "description": "Máy tìm kiếm nhanh, hỗ trợ tìm gần đúng và sửa lỗi chính tả.",
+  "icon": "/icons/meilisearch.svg",
+  "website": "https://www.meilisearch.com/",
+  "github": "https://github.com/meilisearch/meilisearch",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "search",
+    "fulltext",
+    "api"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "replicate",
+  "name": "Replicate",
+  "slug": "replicate",
+  "category": "ai-ml",
+  "shortDescription": "Run Models via API",
+  "description": "Chạy mô hình AI mã nguồn mở qua API tính theo lượt dùng.",
+  "icon": "/icons/replicate.svg",
+  "website": "https://replicate.com/",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "models",
+    "api",
+    "inference"
+  ]
+}

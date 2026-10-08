@@ -1,0 +1,21 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB",
+  "slug": "mongodb",
+  "category": "database",
+  "shortDescription": "Document Database",
+  "description": "Cơ sở dữ liệu documents linh hoạt cho ứng dụng hiện đại.",
+  "icon": "/icons/mongodb.svg",
+  "website": "https://www.mongodb.com/",
+  "github": "https://github.com/mongodb/mongo",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "nosql",
+    "document",
+    "database"
+  ]
+}

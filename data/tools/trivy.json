@@ -1,0 +1,21 @@
+{
+  "id": "trivy",
+  "name": "Trivy",
+  "slug": "trivy",
+  "category": "security",
+  "shortDescription": "Vulnerability Scanner",
+  "description": "Quét lỗ hổng trong image, repository và cấu hình.",
+  "icon": "/icons/trivy.svg",
+  "website": "https://trivy.dev/",
+  "github": "https://github.com/aquasecurity/trivy",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "scanner",
+    "container",
+    "cve"
+  ]
+}

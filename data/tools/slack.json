@@ -1,0 +1,21 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "slug": "slack",
+  "category": "email",
+  "shortDescription": "Team Communication",
+  "description": "Nền tảng nhắn tin và cộng tác cho đội nhóm.",
+  "icon": "/icons/slack.svg",
+  "website": "https://slack.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "chat",
+    "team",
+    "workspace"
+  ]
+}

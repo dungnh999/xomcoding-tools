@@ -1,0 +1,21 @@
+{
+  "id": "backblaze",
+  "name": "Backblaze B2",
+  "slug": "backblaze",
+  "category": "storage",
+  "shortDescription": "Cloud Storage",
+  "description": "Lưu trữ đối tượng giá rẻ với S3-compatible API.",
+  "icon": "/icons/backblaze.svg",
+  "website": "https://www.backblaze.com/cloud-storage",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "backup",
+    "storage",
+    "s3"
+  ]
+}

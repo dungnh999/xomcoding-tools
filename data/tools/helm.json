@@ -1,0 +1,21 @@
+{
+  "id": "helm",
+  "name": "Helm",
+  "slug": "helm",
+  "category": "devops",
+  "shortDescription": "Package Manager cho Kubernetes",
+  "description": "Quản lý ứng dụng trên Kubernetes dưới dạng chart.",
+  "icon": "/icons/helm.svg",
+  "website": "https://helm.sh/",
+  "github": "https://github.com/helm/helm",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "kubernetes",
+    "packaging",
+    "charts"
+  ]
+}

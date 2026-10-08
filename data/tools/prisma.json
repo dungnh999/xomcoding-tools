@@ -1,0 +1,22 @@
+{
+  "id": "prisma",
+  "name": "Prisma",
+  "slug": "prisma",
+  "category": "database",
+  "shortDescription": "ORM cho Node.js",
+  "description": "ORM TypeScript mạnh mẽ cho Node.js và PostgreSQL.",
+  "icon": "/icons/prisma.svg",
+  "website": "https://www.prisma.io/",
+  "github": "https://github.com/prisma/prisma",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "orm",
+    "typescript",
+    "nodejs",
+    "postgresql"
+  ]
+}

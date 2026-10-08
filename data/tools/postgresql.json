@@ -1,0 +1,21 @@
+{
+  "id": "postgresql",
+  "name": "PostgreSQL",
+  "slug": "postgresql",
+  "category": "database",
+  "shortDescription": "Relational Database",
+  "description": "Hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở.",
+  "icon": "/icons/postgresql.svg",
+  "website": "https://www.postgresql.org/",
+  "github": "https://github.com/postgres/postgres",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "sql",
+    "rdbms",
+    "database"
+  ]
+}

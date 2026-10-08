@@ -1,0 +1,21 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "slug": "linear",
+  "category": "productivity",
+  "shortDescription": "Issue Tracking",
+  "description": "Quản lý issue và vòng đời phát triển sản phẩm phần mềm.",
+  "icon": "/icons/linear.svg",
+  "website": "https://linear.app/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "issues",
+    "projects",
+    "agile"
+  ]
+}

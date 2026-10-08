@@ -1,0 +1,22 @@
+{
+  "id": "firebase",
+  "name": "Firebase",
+  "slug": "firebase",
+  "category": "database",
+  "shortDescription": "Application Platform",
+  "description": "Nền tảng ứng dụng với Auth, Firestore, Realtime Database và hosting.",
+  "icon": "/icons/firebase.svg",
+  "website": "https://firebase.google.com/",
+  "github": "https://github.com/firebase",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "baas",
+    "auth",
+    "google",
+    "nosql"
+  ]
+}

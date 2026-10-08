@@ -1,0 +1,21 @@
+{
+  "id": "todoist",
+  "name": "Todoist",
+  "slug": "todoist",
+  "category": "productivity",
+  "shortDescription": "Task Manager",
+  "description": "Quản lý công việc cá nhân và nhóm trực quan.",
+  "icon": "/icons/todoist.svg",
+  "website": "https://todoist.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "tasks",
+    "todo",
+    "pim"
+  ]
+}

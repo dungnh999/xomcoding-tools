@@ -1,0 +1,21 @@
+{
+  "id": "kubernetes",
+  "name": "Kubernetes",
+  "slug": "kubernetes",
+  "category": "devops",
+  "shortDescription": "Container Orchestration",
+  "description": "Điều phối workload container ở quy mô lớn.",
+  "icon": "/icons/kubernetes.svg",
+  "website": "https://kubernetes.io/",
+  "github": "https://github.com/kubernetes/kubernetes",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "k8s",
+    "orchestration",
+    "devops"
+  ]
+}

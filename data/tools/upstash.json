@@ -1,0 +1,21 @@
+{
+  "id": "upstash",
+  "name": "Upstash",
+  "slug": "upstash",
+  "category": "database",
+  "shortDescription": "Serverless Data Platform",
+  "description": "Redis và Kafka tính theo độ dùng, tối ưu cho serverless.",
+  "icon": "/icons/upstash.svg",
+  "website": "https://upstash.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "redis",
+    "serverless",
+    "queue"
+  ]
+}

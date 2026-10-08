@@ -1,0 +1,21 @@
+{
+  "id": "ansible",
+  "name": "Ansible",
+  "slug": "ansible",
+  "category": "devops",
+  "shortDescription": "Automation",
+  "description": "Tự động hóa cấu hình và triển khai bằng playbook.",
+  "icon": "/icons/ansible.svg",
+  "website": "https://www.ansible.com/",
+  "github": "https://github.com/ansible/ansible",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "automation",
+    "iac",
+    "configuration"
+  ]
+}

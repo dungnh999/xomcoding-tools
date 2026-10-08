@@ -1,0 +1,21 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "slug": "stripe",
+  "category": "payment",
+  "shortDescription": "Payment Infrastructure",
+  "description": "Thanh toán online cho sản phẩm số, phổ biến với developer.",
+  "icon": "/icons/stripe.svg",
+  "website": "https://stripe.com/",
+  "github": "https://github.com/stripe",
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "payments",
+    "checkout",
+    "subscription"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "lmstudio",
+  "name": "LM Studio",
+  "slug": "lmstudio",
+  "category": "ai-ml",
+  "shortDescription": "Chạy LLM cục bộ",
+  "description": "Ứng dụng desktop tải và chạy mô hình AI ngay trên máy.",
+  "icon": "/icons/lmstudio.svg",
+  "website": "https://lmstudio.ai/",
+  "github": null,
+  "pricing": "free",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "local",
+    "desktop"
+  ]
+}

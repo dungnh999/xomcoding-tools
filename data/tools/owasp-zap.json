@@ -1,0 +1,21 @@
+{
+  "id": "owasp-zap",
+  "name": "OWASP ZAP",
+  "slug": "owasp-zap",
+  "category": "security",
+  "shortDescription": "Web Security Scanner",
+  "description": "Công cụ kiểm thử bảo mật ứng dụng web mã nguồn mở.",
+  "icon": "/icons/owasp.svg",
+  "website": "https://www.zaproxy.org/",
+  "github": "https://github.com/zaproxy/zaproxy",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "pentest",
+    "scanner",
+    "owasp"
+  ]
+}

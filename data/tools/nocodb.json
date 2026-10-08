@@ -1,0 +1,21 @@
+{
+  "id": "nocodb",
+  "name": "NocoDB",
+  "slug": "nocodb",
+  "category": "database",
+  "shortDescription": "Spreadsheet Database",
+  "description": "Biến cơ sở dữ liệu thành bảng tính dạng Airtable.",
+  "icon": "/icons/nocodb.svg",
+  "website": "https://nocodb.com/",
+  "github": "https://github.com/nocodb/nocodb",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "nocode",
+    "airtable",
+    "database"
+  ]
+}

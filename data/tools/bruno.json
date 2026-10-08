@@ -1,0 +1,21 @@
+{
+  "id": "bruno",
+  "name": "Bruno",
+  "slug": "bruno",
+  "category": "developer",
+  "shortDescription": "API Client",
+  "description": "API client lưu collections trực tiếp trong mã nguồn.",
+  "icon": "/icons/bruno.svg",
+  "website": "https://www.usebruno.com/",
+  "github": "https://github.com/usebruno/bruno",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "api",
+    "rest",
+    "offline"
+  ]
+}

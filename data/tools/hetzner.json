@@ -1,0 +1,21 @@
+{
+  "id": "hetzner",
+  "name": "Hetzner",
+  "slug": "hetzner",
+  "category": "cloud",
+  "shortDescription": "Cloud & Dedicated Server",
+  "description": "VPS và server chuyên dụng giá tốt, trung tâm dữ liệu tại Đức.",
+  "icon": "/icons/hetzner.svg",
+  "website": "https://www.hetzner.com/",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "vps",
+    "iaas",
+    "dedicated"
+  ]
+}

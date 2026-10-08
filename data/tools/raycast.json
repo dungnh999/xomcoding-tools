@@ -1,0 +1,21 @@
+{
+  "id": "raycast",
+  "name": "Raycast",
+  "slug": "raycast",
+  "category": "productivity",
+  "shortDescription": "Productivity Launcher",
+  "description": "Bộ khởi chạy nhanh với extension cho developer.",
+  "icon": "/icons/raycast.svg",
+  "website": "https://www.raycast.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "launcher",
+    "macos",
+    "shortcuts"
+  ]
+}

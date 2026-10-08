@@ -1,0 +1,21 @@
+{
+  "id": "dbeaver",
+  "name": "DBeaver",
+  "slug": "dbeaver",
+  "category": "developer",
+  "shortDescription": "Database GUI",
+  "description": "Công cụ GUI đa nền tảng cho nhiều loại cơ sở dữ liệu.",
+  "icon": "/icons/dbeaver.svg",
+  "website": "https://dbeaver.io/",
+  "github": "https://github.com/dbeaver/dbeaver",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "database",
+    "gui",
+    "sql"
+  ]
+}

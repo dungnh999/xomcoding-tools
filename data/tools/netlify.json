@@ -1,0 +1,21 @@
+{
+  "id": "netlify",
+  "name": "Netlify",
+  "slug": "netlify",
+  "category": "cloud",
+  "shortDescription": "Web Platform",
+  "description": "Build, deploy và host ứng dụng web với form và functions.",
+  "icon": "/icons/netlify.svg",
+  "website": "https://www.netlify.com/",
+  "github": "https://github.com/netlify/netlify",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "deploy",
+    "jamstack",
+    "serverless"
+  ]
+}

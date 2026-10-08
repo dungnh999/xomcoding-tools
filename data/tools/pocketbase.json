@@ -1,0 +1,21 @@
+{
+  "id": "pocketbase",
+  "name": "PocketBase",
+  "slug": "pocketbase",
+  "category": "database",
+  "shortDescription": "Backend trong một file",
+  "description": "Backend nhẹ gồm database, auth và storage trong một file nhị phân.",
+  "icon": "/icons/pocketbase.svg",
+  "website": "https://pocketbase.io/",
+  "github": "https://github.com/pocketbase/pocketbase",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "baas",
+    "backend",
+    "self-hosted"
+  ]
+}

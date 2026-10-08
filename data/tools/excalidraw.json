@@ -1,0 +1,21 @@
+{
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "slug": "excalidraw",
+  "category": "others",
+  "shortDescription": "Virtual Whiteboard",
+  "description": "Bảng trắng vẽ sơ đồ nhanh với phong cách tay.",
+  "icon": "/icons/excalidraw.svg",
+  "website": "https://excalidraw.com/",
+  "github": "https://github.com/excalidraw/excalidraw",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "whiteboard",
+    "diagram",
+    "sketch"
+  ]
+}

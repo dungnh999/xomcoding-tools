@@ -1,0 +1,21 @@
+{
+  "id": "prometheus",
+  "name": "Prometheus",
+  "slug": "prometheus",
+  "category": "devops",
+  "shortDescription": "Monitoring System",
+  "description": "Hệ thống giám sát và cảnh báo theo mô hình kéo (pull).",
+  "icon": "/icons/prometheus.svg",
+  "website": "https://prometheus.io/",
+  "github": "https://github.com/prometheus/prometheus",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "monitoring",
+    "metrics",
+    "alerting"
+  ]
+}

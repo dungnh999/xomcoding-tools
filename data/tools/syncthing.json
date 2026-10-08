@@ -1,0 +1,21 @@
+{
+  "id": "syncthing",
+  "name": "Syncthing",
+  "slug": "syncthing",
+  "category": "storage",
+  "shortDescription": "File Sync",
+  "description": "Đồng bộ file ngang hàng, mã hóa giữa các thiết bị.",
+  "icon": "/icons/syncthing.svg",
+  "website": "https://syncthing.net/",
+  "github": "https://github.com/syncthing/syncthing",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "sync",
+    "p2p",
+    "files"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "paddle",
+  "name": "Paddle",
+  "slug": "paddle",
+  "category": "payment",
+  "shortDescription": "Merchant of Record",
+  "description": "Thanh toán và thuế cho phần mềm, bán hàng toàn cầu.",
+  "icon": "/icons/paddle.svg",
+  "website": "https://www.paddle.com/",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "payments",
+    "tax",
+    "saas"
+  ]
+}

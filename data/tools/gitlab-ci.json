@@ -1,0 +1,21 @@
+{
+  "id": "gitlab-ci",
+  "name": "GitLab CI/CD",
+  "slug": "gitlab-ci",
+  "category": "devops",
+  "shortDescription": "CI/CD",
+  "description": "Pipeline tích hợp sẵn trong GitLab cho build và deploy.",
+  "icon": "/icons/gitlab.svg",
+  "website": "https://docs.gitlab.com/ci/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ci",
+    "cd",
+    "pipeline"
+  ]
+}

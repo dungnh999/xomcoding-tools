@@ -1,0 +1,39 @@
+name: Validate dữ liệu
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Cài dependency
+        run: npm ci
+
+      - name: Validate JSON (schema, trùng lặp, URL an toàn)
+        run: npm run validate
+
+      - name: Unit test
+        run: npm test
+
+      - name: TypeScript check
+        run: npm run typecheck

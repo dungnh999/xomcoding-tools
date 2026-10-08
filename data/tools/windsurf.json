@@ -1,0 +1,21 @@
+{
+  "id": "windsurf",
+  "name": "Windsurf",
+  "slug": "windsurf",
+  "category": "ai-coding",
+  "shortDescription": "AI Code Editor",
+  "description": "Trình soạn thảo với agent AI hỗ trợ luồng làm việc (flow).",
+  "icon": "/icons/windsurf.svg",
+  "website": "https://windsurf.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "editor",
+    "ai",
+    "ide"
+  ]
+}

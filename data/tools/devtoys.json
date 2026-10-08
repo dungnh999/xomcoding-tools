@@ -1,0 +1,21 @@
+{
+  "id": "devtoys",
+  "name": "DevToys",
+  "slug": "devtoys",
+  "category": "developer",
+  "shortDescription": "Developer Toolbox",
+  "description": "Bộ công cụ offline cho developer: JSON, Base64, regex, ảnh...",
+  "icon": "/icons/devtoys.svg",
+  "website": "https://devtoys.app/",
+  "github": "https://github.com/DevToys-app/DevToys",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "utilities",
+    "offline",
+    "json"
+  ]
+}

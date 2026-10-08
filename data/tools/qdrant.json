@@ -1,0 +1,21 @@
+{
+  "id": "qdrant",
+  "name": "Qdrant",
+  "slug": "qdrant",
+  "category": "ai-ml",
+  "shortDescription": "Vector Search Engine",
+  "description": "Engine tìm kiếm vector hiệu suất cao, dễ tự hosting.",
+  "icon": "/icons/qdrant.svg",
+  "website": "https://qdrant.tech/",
+  "github": "https://github.com/qdrant/qdrant",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "vector",
+    "search",
+    "rag"
+  ]
+}

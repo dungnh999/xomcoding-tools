@@ -1,0 +1,21 @@
+{
+  "id": "snyk",
+  "name": "Snyk",
+  "slug": "snyk",
+  "category": "security",
+  "shortDescription": "Developer Security",
+  "description": "Tìm và vá lỗ hổng trong dependency, container và IaC.",
+  "icon": "/icons/snyk.svg",
+  "website": "https://snyk.io/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "scanner",
+    "dependencies",
+    "cve"
+  ]
+}

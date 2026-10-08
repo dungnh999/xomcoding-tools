@@ -1,0 +1,21 @@
+{
+  "id": "strapi",
+  "name": "Strapi",
+  "slug": "strapi",
+  "category": "database",
+  "shortDescription": "Headless CMS",
+  "description": "CMS headless mã nguồn mở, tùy chỉnh bằng Node.js.",
+  "icon": "/icons/strapi.svg",
+  "website": "https://strapi.io/",
+  "github": "https://github.com/strapi/strapi",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "cms",
+    "headless",
+    "nodejs"
+  ]
+}

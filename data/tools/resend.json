@@ -1,0 +1,21 @@
+{
+  "id": "resend",
+  "name": "Resend",
+  "slug": "resend",
+  "category": "email",
+  "shortDescription": "Email API",
+  "description": "API gửi transactional email dành cho developer.",
+  "icon": "/icons/resend.svg",
+  "website": "https://resend.com/",
+  "github": "https://github.com/resend/resend-node",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "email",
+    "api",
+    "transactional"
+  ]
+}

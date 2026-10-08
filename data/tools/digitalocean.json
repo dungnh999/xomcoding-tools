@@ -1,0 +1,21 @@
+{
+  "id": "digitalocean",
+  "name": "DigitalOcean",
+  "slug": "digitalocean",
+  "category": "cloud",
+  "shortDescription": "Cloud Provider",
+  "description": "VPS, Kubernetes và managed database với giá minh bạch.",
+  "icon": "/icons/digitalocean.svg",
+  "website": "https://www.digitalocean.com/",
+  "github": "https://github.com/digitalocean",
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "vps",
+    "kubernetes",
+    "iaas"
+  ]
+}

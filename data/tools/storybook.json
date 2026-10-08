@@ -1,0 +1,21 @@
+{
+  "id": "storybook",
+  "name": "Storybook",
+  "slug": "storybook",
+  "category": "ui-design",
+  "shortDescription": "UI Workshop",
+  "description": "Xây dựng và kiểm thử component giao diện độc lập.",
+  "icon": "/icons/storybook.svg",
+  "website": "https://storybook.js.org/",
+  "github": "https://github.com/storybookjs/storybook",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "components",
+    "testing",
+    "frontend"
+  ]
+}

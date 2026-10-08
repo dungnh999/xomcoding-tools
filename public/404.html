@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0b0f14" />
+    <title>404 — Xóm Coding Dev Tools</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b0f14;
+        --panel: #111820;
+        --line: #26313d;
+        --text: #f5f7fa;
+        --muted: #9caab9;
+        --red: #a52a26;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+        text-align: center;
+        padding: 24px;
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 40px 32px;
+        max-width: 460px;
+      }
+      .code {
+        font-size: 56px;
+        font-weight: 800;
+        color: var(--red);
+        letter-spacing: -2px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 8px 0 6px;
+      }
+      p {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0 0 24px;
+      }
+      a {
+        display: inline-block;
+        background: var(--red);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 12px 20px;
+      }
+      a:hover {
+        filter: brightness(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="code">404</div>
+      <h1>Không tìm thấy trang</h1>
+      <p>
+        Trang bạn tìm không tồn tại hoặc đã được di chuyển. Hãy quay lại trang chủ để tiếp tục khám
+        phá công cụ.
+      </p>
+      <a id="home" href="/">← Về trang chủ Xóm Coding Dev Tools</a>
+    </div>
+    <script>
+      // Hỗ trợ cả custom domain (base "/") và GitHub Pages subpath (/<repo>/).
+      ;(function () {
+        var base = '/'
+        if (location.host.endsWith('.github.io')) {
+          var seg = location.pathname.split('/')[1]
+          if (seg) base = '/' + seg + '/'
+        }
+        document.getElementById('home').href = base
+      })()
+    </script>
+  </body>
+</html>

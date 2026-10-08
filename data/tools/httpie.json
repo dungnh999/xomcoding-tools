@@ -1,0 +1,21 @@
+{
+  "id": "httpie",
+  "name": "HTTPie",
+  "slug": "httpie",
+  "category": "developer",
+  "shortDescription": "HTTP Client",
+  "description": "Client HTTP trực quan cho dòng lệnh và web.",
+  "icon": "/icons/httpie.svg",
+  "website": "https://httpie.io/",
+  "github": "https://github.com/httpie/cli",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "http",
+    "cli",
+    "api"
+  ]
+}

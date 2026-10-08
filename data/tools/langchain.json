@@ -1,0 +1,21 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "slug": "langchain",
+  "category": "ai-ml",
+  "shortDescription": "Framework cho LLM",
+  "description": "Framework xây dựng ứng dụng với mô hình ngôn ngữ.",
+  "icon": "/icons/langchain.svg",
+  "website": "https://www.langchain.com/",
+  "github": "https://github.com/langchain-ai/langchain",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "framework",
+    "agents"
+  ]
+}

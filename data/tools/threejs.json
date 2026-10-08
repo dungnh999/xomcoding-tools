@@ -1,0 +1,21 @@
+{
+  "id": "threejs",
+  "name": "Three.js",
+  "slug": "threejs",
+  "category": "frontend",
+  "shortDescription": "3D Library",
+  "description": "Thư viện WebGL xây dựng nội dung 3D trên trình duyệt.",
+  "icon": "/icons/threedotjs.svg",
+  "website": "https://threejs.org/",
+  "github": "https://github.com/mrdoob/three.js",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "webgl",
+    "3d",
+    "graphics"
+  ]
+}

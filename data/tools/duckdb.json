@@ -1,0 +1,21 @@
+{
+  "id": "duckdb",
+  "name": "DuckDB",
+  "slug": "duckdb",
+  "category": "database",
+  "shortDescription": "In-process OLAP",
+  "description": "Cơ sở dữ liệu phân tích chạy ngay trong tiến trình ứng dụng.",
+  "icon": "/icons/duckdb.svg",
+  "website": "https://duckdb.org/",
+  "github": "https://github.com/duckdb/duckdb",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "olap",
+    "analytics",
+    "sql"
+  ]
+}

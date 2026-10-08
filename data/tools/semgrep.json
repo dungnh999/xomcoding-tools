@@ -1,0 +1,21 @@
+{
+  "id": "semgrep",
+  "name": "Semgrep",
+  "slug": "semgrep",
+  "category": "security",
+  "shortDescription": "Static Analysis",
+  "description": "Quét code tĩnh nhanh, tìm lỗ hổng bảo mật và code smell.",
+  "icon": "/icons/semgrep.svg",
+  "website": "https://semgrep.dev/",
+  "github": "https://github.com/semgrep/semgrep",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "sast",
+    "static",
+    "analysis"
+  ]
+}

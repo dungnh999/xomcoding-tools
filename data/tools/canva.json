@@ -1,0 +1,21 @@
+{
+  "id": "canva",
+  "name": "Canva",
+  "slug": "canva",
+  "category": "ui-design",
+  "shortDescription": "Graphic Design",
+  "description": "Thiết kế đồ họa nhanh với nhiều mẫu có sẵn.",
+  "icon": "/icons/canva.svg",
+  "website": "https://www.canva.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "design",
+    "graphics",
+    "templates"
+  ]
+}

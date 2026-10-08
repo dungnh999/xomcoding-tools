@@ -1,0 +1,21 @@
+{
+  "id": "argo-cd",
+  "name": "Argo CD",
+  "slug": "argo-cd",
+  "category": "devops",
+  "shortDescription": "GitOps Continuous Delivery",
+  "description": "Công cụ GitOps liên tục triển khai ứng dụng cho Kubernetes.",
+  "icon": "/icons/argo.svg",
+  "website": "https://argoproj.github.io/cd/",
+  "github": "https://github.com/argoproj/argo-cd",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "gitops",
+    "kubernetes",
+    "cd"
+  ]
+}

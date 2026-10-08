@@ -1,0 +1,21 @@
+{
+  "id": "portainer",
+  "name": "Portainer",
+  "slug": "portainer",
+  "category": "self-hosted",
+  "shortDescription": "Container Management",
+  "description": "Giao diện quản lý Docker và Kubernetes qua web.",
+  "icon": "/icons/portainer.svg",
+  "website": "https://www.portainer.io/",
+  "github": "https://github.com/portainer/portainer",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "docker",
+    "kubernetes",
+    "ui"
+  ]
+}

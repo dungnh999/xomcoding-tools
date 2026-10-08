@@ -1,0 +1,21 @@
+{
+  "id": "openhands",
+  "name": "OpenHands",
+  "slug": "openhands",
+  "category": "ai-coding",
+  "shortDescription": "Autonomous AI Agent",
+  "description": "Agent AI mã nguồn mở tự thực hiện tác vụ phát triển phần mềm.",
+  "icon": "/icons/openhands.svg",
+  "website": "https://www.all-hands.dev/",
+  "github": "https://github.com/all-hands-ai/OpenHands",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "agent",
+    "autonomous"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mariadb",
+  "name": "MariaDB",
+  "slug": "mariadb",
+  "category": "database",
+  "shortDescription": "MySQL-compatible Database",
+  "description": "Fork mã nguồn mở của MySQL, phát triển bởi cộng đồng.",
+  "icon": "/icons/mariadb.svg",
+  "website": "https://mariadb.org/",
+  "github": "https://github.com/MariaDB/server",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "sql",
+    "rdbms",
+    "database"
+  ]
+}

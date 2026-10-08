@@ -1,0 +1,22 @@
+{
+  "id": "aider",
+  "name": "Aider",
+  "slug": "aider",
+  "category": "ai-coding",
+  "shortDescription": "AI Pair Programming",
+  "description": "Trợ lý AI lập trình trong terminal, gắn liền với git.",
+  "icon": "/icons/aider.svg",
+  "website": "https://aider.chat/",
+  "github": "https://github.com/Aider-AI/aider",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "agent",
+    "terminal",
+    "git"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "slug": "openrouter",
+  "category": "ai-ml",
+  "shortDescription": "Unified LLM API",
+  "description": "Một API duy nhất truy cập hàng trăm mô hình ngôn ngữ.",
+  "icon": "/icons/openrouter.svg",
+  "website": "https://openrouter.ai/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "llm",
+    "api",
+    "models"
+  ]
+}

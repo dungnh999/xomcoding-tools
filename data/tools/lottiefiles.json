@@ -1,0 +1,21 @@
+{
+  "id": "lottiefiles",
+  "name": "LottieFiles",
+  "slug": "lottiefiles",
+  "category": "ui-design",
+  "shortDescription": "Animation Platform",
+  "description": "Thư viện và công cụ tạo animation định dạng Lottie.",
+  "icon": "/icons/lottiefiles.svg",
+  "website": "https://lottiefiles.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "animation",
+    "lottie",
+    "motion"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tailwindcss",
+  "name": "Tailwind CSS",
+  "slug": "tailwindcss",
+  "category": "frontend",
+  "shortDescription": "CSS Framework",
+  "description": "CSS utility-first để thiết kế giao diện nhanh chóng.",
+  "icon": "/icons/tailwindcss.svg",
+  "website": "https://tailwindcss.com/",
+  "github": "https://github.com/tailwindlabs/tailwindcss",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "css",
+    "design",
+    "utility"
+  ]
+}

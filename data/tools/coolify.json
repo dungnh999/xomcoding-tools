@@ -1,0 +1,21 @@
+{
+  "id": "coolify",
+  "name": "Coolify",
+  "slug": "coolify",
+  "category": "self-hosted",
+  "shortDescription": "Open Source PaaS",
+  "description": "Nền tảng tự deploy ứng dụng giống Vercel/Netlify trên server riêng.",
+  "icon": "/icons/coolify.svg",
+  "website": "https://coolify.io/",
+  "github": "https://github.com/coollabsio/coolify",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "paas",
+    "deploy",
+    "self-hosted"
+  ]
+}

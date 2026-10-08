@@ -1,0 +1,21 @@
+{
+  "id": "discord",
+  "name": "Discord",
+  "slug": "discord",
+  "category": "email",
+  "shortDescription": "Community Chat",
+  "description": "Trò chuyện cộng đồng qua text, voice và video.",
+  "icon": "/icons/discord.svg",
+  "website": "https://discord.com/",
+  "github": null,
+  "pricing": "free",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "chat",
+    "community",
+    "voice"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hoppscotch",
+  "name": "Hoppscotch",
+  "slug": "hoppscotch",
+  "category": "developer",
+  "shortDescription": "Lightweight API Client",
+  "description": "Client API nhẹ, chạy trong trình duyệt cho REST, GraphQL, SSE.",
+  "icon": "/icons/hoppscotch.svg",
+  "website": "https://hoppscotch.io/",
+  "github": "https://github.com/hoppscotch/hoppscotch",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "api",
+    "rest",
+    "graphql"
+  ]
+}

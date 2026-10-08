@@ -1,0 +1,21 @@
+{
+  "id": "redis",
+  "name": "Redis",
+  "slug": "redis",
+  "category": "database",
+  "shortDescription": "In-memory Database",
+  "description": "Kho dữ liệu hiệu suất cao cho cache, session và hàng đợi.",
+  "icon": "/icons/redis.svg",
+  "website": "https://redis.io/",
+  "github": "https://github.com/redis/redis",
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "cache",
+    "memory",
+    "queue"
+  ]
+}

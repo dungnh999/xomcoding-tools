@@ -1,0 +1,21 @@
+{
+  "id": "nextjs",
+  "name": "Next.js",
+  "slug": "nextjs",
+  "category": "frontend",
+  "shortDescription": "React Framework",
+  "description": "Framework React cho SSR, SSG và routing.",
+  "icon": "/icons/nextdotjs.svg",
+  "website": "https://nextjs.org/",
+  "github": "https://github.com/vercel/next.js",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "react",
+    "ssr",
+    "framework"
+  ]
+}

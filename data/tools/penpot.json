@@ -1,0 +1,22 @@
+{
+  "id": "penpot",
+  "name": "Penpot",
+  "slug": "penpot",
+  "category": "ui-design",
+  "shortDescription": "Open Source Design Tool",
+  "description": "Công cụ thiết kế UI/UX mã nguồn mở, thay thế Figma.",
+  "icon": "/icons/penpot.svg",
+  "website": "https://penpot.app/",
+  "github": "https://github.com/penpot/penpot",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "design",
+    "ui",
+    "ux",
+    "opensource"
+  ]
+}

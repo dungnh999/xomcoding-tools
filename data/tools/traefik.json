@@ -1,0 +1,21 @@
+{
+  "id": "traefik",
+  "name": "Traefik",
+  "slug": "traefik",
+  "category": "devops",
+  "shortDescription": "Reverse Proxy",
+  "description": "Proxy tải cân bằng tự cấu hình khi tích hợp container.",
+  "icon": "/icons/traefik.svg",
+  "website": "https://traefik.io/",
+  "github": "https://github.com/traefik/traefik",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "proxy",
+    "loadbalancer",
+    "ingress"
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "aider": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "angular": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "ansible": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "appwrite": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "argo-cd": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "astro": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "backblaze": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "bootstrap": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "brevo": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "bruno": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "burp-suite": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "canva": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 403
+  },
+  "casaos": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "chroma": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "claude-code": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "cline": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "cloudflare": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "continue": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "coolify": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "cursor": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "dbeaver": {
+    "status": "unknown",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": null
+  },
+  "devtoys": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "digitalocean": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "discord": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "docker": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "duckdb": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "excalidraw": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "figma": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "firebase": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "fly": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "framer": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "git": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "github-actions": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "github-copilot": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "github-pages": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "gitlab-ci": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "gitleaks": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "grafana": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "groq": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "helm": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "hetzner": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "homepage": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "hoppscotch": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "httpie": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "huggingface": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "immich": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "jenkins": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "kubernetes": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "langchain": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "linear": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "lmstudio": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "lottiefiles": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "mariadb": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "matomo": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "meilisearch": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "minio": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "mistral": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "mitmproxy": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "mongodb": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "mysql": {
+    "status": "unknown",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 403
+  },
+  "n8n": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "neon": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "netlify": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "nextcloud": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "nextjs": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "nocodb": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "notion": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "obsidian": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "ollama": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "openai": {
+    "status": "unknown",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 403
+  },
+  "openhands": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "openrouter": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "opentofu": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "owasp-zap": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "paddle": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "paypal": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "penpot": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "plausible": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "pocketbase": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "portainer": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "postgresql": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "posthog": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "postman": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "postmark": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "prisma": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "prometheus": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "qdrant": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "railway": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "raycast": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "react": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "react-router": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "redis": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "render": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "replicate": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "resend": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "roocode": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "scaleway": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "semgrep": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "sentry": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "shadcn-ui": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "slack": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "snyk": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "storybook": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "strapi": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "stripe": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "supabase": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "svelte": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "syncthing": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "tableplus": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "tailwindcss": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "threejs": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "todoist": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "traefik": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "trello": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "trivy": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "umami": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "upstash": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "vaultwarden": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "vercel": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "vite": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "vscode": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "vue": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "warp": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "windsurf": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  },
+  "zed": {
+    "status": "active",
+    "lastChecked": "2026-10-08T06:18:52.140Z",
+    "httpStatus": 200
+  }
+}

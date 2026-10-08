@@ -1,0 +1,21 @@
+{
+  "id": "cline",
+  "name": "Cline",
+  "slug": "cline",
+  "category": "ai-coding",
+  "shortDescription": "Autonomous Coding Agent",
+  "description": "Agent AI mã nguồn mở thực hiện tác vụ coding theo yêu cầu.",
+  "icon": "/icons/cline.svg",
+  "website": "https://cline.bot/",
+  "github": "https://github.com/cline/cline",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "agent",
+    "vscode"
+  ]
+}

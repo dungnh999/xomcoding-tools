@@ -1,0 +1,21 @@
+{
+  "id": "burp-suite",
+  "name": "Burp Suite",
+  "slug": "burp-suite",
+  "category": "security",
+  "shortDescription": "Web Security Testing",
+  "description": "Nền tảng kiểm thử bảo mật ứng dụng web chuyên sâu.",
+  "icon": "/icons/burpsuite.svg",
+  "website": "https://portswigger.net/burp",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "pentest",
+    "scanner",
+    "websecurity"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "obsidian",
+  "name": "Obsidian",
+  "slug": "obsidian",
+  "category": "productivity",
+  "shortDescription": "Knowledge Base",
+  "description": "Kho tri thức local-first với liên kết giữa các ghi chú.",
+  "icon": "/icons/obsidian.svg",
+  "website": "https://obsidian.md/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "notes",
+    "markdown",
+    "pkm"
+  ]
+}

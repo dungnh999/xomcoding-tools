@@ -1,0 +1,21 @@
+{
+  "id": "paypal",
+  "name": "PayPal",
+  "slug": "paypal",
+  "category": "payment",
+  "shortDescription": "Online Payments",
+  "description": "Thanh toán và chuyển tiền trực tuyến phổ biến toàn cầu.",
+  "icon": "/icons/paypal.svg",
+  "website": "https://www.paypal.com/",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "payments",
+    "checkout",
+    "wallet"
+  ]
+}

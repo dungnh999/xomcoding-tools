@@ -1,0 +1,21 @@
+{
+  "id": "gitleaks",
+  "name": "Gitleaks",
+  "slug": "gitleaks",
+  "category": "security",
+  "shortDescription": "Secret Scanning",
+  "description": "Quét secret bị commit nhầm trong lịch sử git.",
+  "icon": "/icons/gitleaks.svg",
+  "website": "https://gitleaks.io/",
+  "github": "https://github.com/gitleaks/gitleaks",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "secrets",
+    "git",
+    "scanner"
+  ]
+}

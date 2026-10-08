@@ -1,0 +1,21 @@
+{
+  "id": "scaleway",
+  "name": "Scaleway",
+  "slug": "scaleway",
+  "category": "cloud",
+  "shortDescription": "European Cloud",
+  "description": "Cloud châu Âu: instance, storage và dịch vụ managed.",
+  "icon": "/icons/scaleway.svg",
+  "website": "https://www.scaleway.com/",
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "iaas",
+    "cloud",
+    "europe"
+  ]
+}

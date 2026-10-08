@@ -1,0 +1,21 @@
+{
+  "id": "docker",
+  "name": "Docker",
+  "slug": "docker",
+  "category": "devops",
+  "shortDescription": "Container Platform",
+  "description": "Đóng gói và triển khai ứng dụng bằng container.",
+  "icon": "/icons/docker.svg",
+  "website": "https://www.docker.com/",
+  "github": "https://github.com/moby/moby",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "container",
+    "deployment",
+    "devops"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vaultwarden",
+  "name": "Vaultwarden",
+  "slug": "vaultwarden",
+  "category": "self-hosted",
+  "shortDescription": "Password Manager tự host",
+  "description": "Server Bitwarden tương thích, chạy nhẹ bằng Rust.",
+  "icon": "/icons/vaultwarden.svg",
+  "website": "https://github.com/dani-garcia/vaultwarden",
+  "github": "https://github.com/dani-garcia/vaultwarden",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "passwords",
+    "bitwarden",
+    "security"
+  ]
+}

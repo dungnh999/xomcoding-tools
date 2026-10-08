@@ -1,0 +1,21 @@
+{
+  "id": "github-pages",
+  "name": "GitHub Pages",
+  "slug": "github-pages",
+  "category": "cloud",
+  "shortDescription": "Static Site Hosting",
+  "description": "Host trang tĩnh ngay từ repository GitHub, miễn phí.",
+  "icon": "/icons/githubpages.svg",
+  "website": "https://pages.github.com/",
+  "github": null,
+  "pricing": "free",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "static",
+    "github"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "slug": "neon",
+  "category": "database",
+  "shortDescription": "Serverless PostgreSQL",
+  "description": "PostgreSQL serverless với nhánh (branch) cơ sở dữ liệu.",
+  "icon": "/icons/neon.svg",
+  "website": "https://neon.com/",
+  "github": "https://github.com/neondatabase/neon",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "postgres",
+    "serverless",
+    "database"
+  ]
+}

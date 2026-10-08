@@ -1,0 +1,21 @@
+{
+  "id": "render",
+  "name": "Render",
+  "slug": "render",
+  "category": "cloud",
+  "shortDescription": "Cloud Application Platform",
+  "description": "Triển khai dịch vụ web, worker và database trên cloud.",
+  "icon": "/icons/render.svg",
+  "website": "https://render.com/",
+  "github": null,
+  "pricing": "freemium",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "paas",
+    "deploy",
+    "database"
+  ]
+}

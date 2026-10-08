@@ -1,0 +1,21 @@
+{
+  "id": "continue",
+  "name": "Continue",
+  "slug": "continue",
+  "category": "ai-coding",
+  "shortDescription": "Open Source AI Assistant",
+  "description": "Trợ lý AI mã nguồn mở cho VS Code và JetBrains.",
+  "icon": "/icons/continue.svg",
+  "website": "https://www.continue.dev/",
+  "github": "https://github.com/continuedev/continue",
+  "pricing": "freemium",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "ai",
+    "assistant",
+    "open-source"
+  ]
+}

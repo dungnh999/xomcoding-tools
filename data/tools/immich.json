@@ -1,0 +1,21 @@
+{
+  "id": "immich",
+  "name": "Immich",
+  "slug": "immich",
+  "category": "storage",
+  "shortDescription": "Photo & Video Backup",
+  "description": "Sao lưu ảnh và video tự hosting, thay thế Google Photos.",
+  "icon": "/icons/immich.svg",
+  "website": "https://immich.app/",
+  "github": "https://github.com/immich-app/immich",
+  "pricing": "free",
+  "openSource": true,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "photos",
+    "backup",
+    "self-hosted"
+  ]
+}
