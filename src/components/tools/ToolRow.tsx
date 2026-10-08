@@ -30,7 +30,7 @@ export function ToolRow({ tool }: { tool: Tool }) {
   const { copied, copy } = useCopyUrl(tool.website)
 
   return (
-    <article className="group flex flex-col gap-2 border-b border-border-soft px-3 py-3.5 transition-colors hover:bg-surface-hover lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_135px_170px] lg:items-center lg:gap-4">
+    <article className="group flex flex-col gap-2 border-b border-border-soft px-3 py-3.5 transition-colors hover:bg-surface-hover lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_56px_140px] lg:items-center lg:gap-4">
       <div className="flex min-w-0 items-center gap-3">
         <ToolIcon icon={tool.icon} name={tool.name} size={34} />
         <div className="min-w-0">
@@ -59,23 +59,27 @@ export function ToolRow({ tool }: { tool: Tool }) {
         <ToolStatus status={tool.status} lastChecked={tool.lastChecked} />
       </div>
 
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+      <div className="flex items-center gap-1">
         <a
           href={tool.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 transition-colors hover:text-primary-hover"
+          title="Trang chủ"
+          aria-label={`Trang chủ ${tool.name}`}
+          className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
         >
-          <ExternalLink className="size-3.5" /> Trang chủ
+          <ExternalLink className="size-4" />
         </a>
         {tool.github && (
           <a
             href={tool.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 transition-colors hover:text-primary-hover"
+            title="GitHub"
+            aria-label={`GitHub ${tool.name}`}
+            className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
           >
-            <Github className="size-3.5" /> GitHub
+            <Github className="size-4" />
           </a>
         )}
         {tool.xomcodingUrl && (
@@ -83,19 +87,21 @@ export function ToolRow({ tool }: { tool: Tool }) {
             href={tool.xomcodingUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 font-medium text-primary-hover transition-colors hover:text-primary"
+            title="Đọc trên Xóm Coding"
+            aria-label={`Đọc trên Xóm Coding: ${tool.name}`}
+            className="rounded-md p-1.5 text-primary-hover transition-colors hover:bg-surface-hover hover:text-primary"
           >
-            <NotebookPen className="size-3.5" /> Đọc trên Xóm Coding
+            <NotebookPen className="size-4" />
           </a>
         )}
         <button
           type="button"
           onClick={copy}
-          aria-label={`Sao chép URL ${tool.name}`}
-          className="inline-flex items-center gap-1 transition-colors hover:text-primary-hover"
+          title={copied ? 'Đã sao chép' : 'Sao chép URL'}
+          aria-label={copied ? 'Đã sao chép URL' : `Sao chép URL ${tool.name}`}
+          className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
         >
-          {copied ? <Check className="size-3.5 text-active" /> : <Copy className="size-3.5" />}
-          {copied ? 'Đã sao chép' : 'Sao chép'}
+          {copied ? <Check className="size-4 text-active" /> : <Copy className="size-4" />}
         </button>
       </div>
     </article>

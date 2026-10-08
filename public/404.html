@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#0b0f14" />
     <title>404 — Xóm Coding Dev Tools</title>
     <meta name="robots" content="noindex" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link id="icon" rel="icon" type="image/png" href="/logo.png" />
     <style>
       :root {
         color-scheme: dark;
@@ -88,6 +88,7 @@
           if (seg) base = '/' + seg + '/'
         }
         document.getElementById('home').href = base
+        document.getElementById('icon').href = base + 'logo.png'
       })()
     </script>
   </body>

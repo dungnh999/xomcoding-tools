@@ -15,9 +15,13 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border-soft bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-[1320px] items-center gap-6 px-4 sm:px-6">
         <a href="#top" className="flex items-center gap-3 whitespace-nowrap" aria-label="Xóm Coding Dev Tools — trang chủ">
-          <span className="grid size-9 place-items-center rounded-lg bg-primary text-base font-bold text-white">
-            &lt;/&gt;
-          </span>
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt=""
+            width={36}
+            height={36}
+            className="size-9 rounded-lg object-contain"
+          />
           <span className="leading-tight">
             <strong className="block text-[15px] font-bold text-text">
               {site.name} <span className="text-primary-hover">•</span>{' '}

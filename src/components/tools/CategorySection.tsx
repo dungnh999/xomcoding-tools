@@ -43,7 +43,7 @@ export function CategorySection({ category, tools }: { category: Category; tools
 
       {expanded && (
         <div className="overflow-hidden rounded-xl border border-border bg-surface/70">
-          <div className="hidden border-b border-border bg-surface px-3 py-2.5 text-[11px] font-semibold tracking-wide text-muted uppercase lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_135px_170px] lg:gap-4">
+          <div className="hidden border-b border-border bg-surface px-3 py-2.5 text-[11px] font-semibold tracking-wide text-muted uppercase lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_56px_140px] lg:gap-4">
             {TABLE_HEAD.map((label) => (
               <span key={label}>{label}</span>
             ))}
