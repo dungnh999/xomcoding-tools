@@ -34,12 +34,21 @@ jobs:
       - name: Unit test
         run: npm test
 
+      - name: Xác định BASE_PATH
+        id: base
+        # Có public/CNAME (đã trỏ tên miền) → base "/".
+        # Chưa có CNAME → chạy ở subpath /<tên-repo>/ của github.io.
+        run: |
+          if [ -f public/CNAME ]; then
+            echo "base=/" >> "$GITHUB_OUTPUT"
+          else
+            echo "base=/${GITHUB_REPOSITORY#*/}/" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build
         run: npm run build
         env:
-          # Đặt biến repo BASE_PATH=/xomcoding-devtools/ nếu deploy ở subpath
-          # (chưa có custom domain). Với tools.xomcoding.me giữ mặc định "/".
-          BASE_PATH: ${{ vars.BASE_PATH || '/' }}
+          BASE_PATH: ${{ steps.base.outputs.base }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

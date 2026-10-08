@@ -27,8 +27,8 @@ export const site: SiteConfig = {
     'Khám phá những công cụ hữu ích cho lập trình viên. Miễn phí, mã nguồn mở và được cộng đồng Xóm Coding cùng nhau đóng góp.',
   website: 'https://tools.xomcoding.me',
   mainSite: 'https://xomcoding.me',
-  // TODO: điền URL repository GitHub sau khi tạo repo
-  repository: null,
+  // URL repository GitHub — đổi nếu đổi tên repo
+  repository: 'https://github.com/dungnh999/xomcoding-tools',
   links: {
     githubPersonal: null,
     facebook: null,
