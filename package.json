@@ -15,7 +15,8 @@
     "validate": "node scripts/validate-tools.ts",
     "check-tools": "node scripts/check-tools.ts",
     "sync-xomcoding": "node scripts/sync-xomcoding-articles.ts",
-    "generate-data": "node scripts/generate-data.ts"
+    "generate-data": "node scripts/generate-data.ts",
+    "update-stats": "node scripts/update-readme-stats.ts"
   },
   "dependencies": {
     "lucide-react": "^0.563.0",

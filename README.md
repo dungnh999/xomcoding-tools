@@ -16,6 +16,21 @@ A community-curated, open-source directory of developer tools — **in Vietnames
 - License: [MIT](LICENSE)
 - Slogan: Code local, Connect global.
 
+## Live stats
+
+Auto-updated from `data/` by the `check-tools` workflow:
+
+<!-- STATS:START -->
+- **125 tools** in **15 categories** · **122 tools verified active** · 0 inactive · 3 awaiting first check
+<!-- STATS:END -->
+
+[![Contributors](https://img.shields.io/github/contributors/dungnh999/xomcoding-tools?color=2ea44f&label=contributors)](https://github.com/dungnh999/xomcoding-tools/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/dungnh999/xomcoding-tools)](https://github.com/dungnh999/xomcoding-tools/stargazers)
+[![Issues](https://img.shields.io/github/issues/dungnh999/xomcoding-tools)](https://github.com/dungnh999/xomcoding-tools/issues)
+[![Last commit](https://img.shields.io/github/last-commit/dungnh999/xomcoding-tools)](https://github.com/dungnh999/xomcoding-tools/commits/main)
+
+[![Contributors](https://contrib.rocks/image?repo=dungnh999/xomcoding-tools)](https://github.com/dungnh999/xomcoding-tools/graphs/contributors)
+
 ## Why this project
 
 - **125+ tools across 15 categories** — databases, cloud, AI, DevOps, frontend, security, and more.

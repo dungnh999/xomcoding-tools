@@ -28,10 +28,15 @@ jobs:
       - name: Kiểm tra HTTP website công cụ
         run: npm run check-tools
 
+      - name: Cập nhật số liệu trong README
+        run: npm run update-stats
+
       - name: Tạo Pull Request nếu trạng thái thay đổi
         uses: peter-evans/create-pull-request@v6
         with:
-          add-paths: data/generated/tool-status.json
+          add-paths: |
+            data/generated/tool-status.json
+            README.md
           commit-message: 'chore(status): cập nhật trạng thái công cụ'
           branch: bot/tool-status
           delete-branch: true
