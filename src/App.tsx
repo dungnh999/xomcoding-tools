@@ -1,4 +1,4 @@
-import { ArrowRight, Github, GitPullRequestArrow } from 'lucide-react'
+import { ArrowRight, Coffee, Github, GitPullRequestArrow } from 'lucide-react'
 import { useMemo, useRef } from 'react'
 import { categories, categoryMap, stats, tools } from './data/load'
 import { useToolFilters } from './hooks/useToolFilters'
@@ -172,6 +172,16 @@ export default function App() {
                 className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-muted transition-colors hover:bg-surface-hover hover:text-text"
               >
                 <Github className="size-4" /> GitHub Repository
+              </a>
+            )}
+            {site.links.koFi && (
+              <a
+                href={site.links.koFi}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-lg bg-[#ff5f5f] px-4 py-2.5 text-sm font-bold text-white transition-colors hover:brightness-110"
+              >
+                <Coffee className="size-4" /> Ủng hộ trên Ko-fi
               </a>
             )}
           </div>

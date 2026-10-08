@@ -8,6 +8,7 @@ export interface SiteConfig {
   repository: string | null
   links: {
     githubPersonal: string | null
+    koFi: string | null
     facebook: string | null
     youtube: string | null
     tiktok: null | string
@@ -31,6 +32,7 @@ export const site: SiteConfig = {
   repository: 'https://github.com/dungnh999/xomcoding-tools',
   links: {
     githubPersonal: null,
+    koFi: 'https://ko-fi.com/dungnh',
     facebook: null,
     youtube: null,
     tiktok: null,

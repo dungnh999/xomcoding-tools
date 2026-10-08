@@ -13,6 +13,7 @@ export function Footer() {
     { label: 'xomcoding.me', href: site.mainSite },
     ...(repo ? [{ label: 'GitHub Repository', href: repo }] : []),
     ...(site.links.githubPersonal ? [{ label: 'GitHub cá nhân', href: site.links.githubPersonal }] : []),
+    ...(site.links.koFi ? [{ label: 'Ko-fi', href: site.links.koFi }] : []),
     ...(site.links.facebook ? [{ label: 'Facebook', href: site.links.facebook }] : []),
     ...(site.links.youtube ? [{ label: 'YouTube', href: site.links.youtube }] : []),
     ...(site.links.tiktok ? [{ label: 'TikTok', href: site.links.tiktok }] : []),

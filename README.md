@@ -4,6 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Deploy GitHub Pages](https://github.com/dungnh999/xomcoding-tools/actions/workflows/deploy.yml/badge.svg)](https://github.com/dungnh999/xomcoding-tools/actions/workflows/deploy.yml)
 [![Tools](https://img.shields.io/badge/tools-125-blue.svg)](https://tools.xomcoding.me)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/dungnh)
 
 A community-curated, open-source directory of developer tools — **in Vietnamese** — for the
 [Xóm Coding](https://xomcoding.me) community and Vietnamese developers everywhere.
@@ -139,6 +140,11 @@ Add these **topics** to the repository (Settings → Topics) so people can disco
 search: `developer-tools` · `devtools` · `awesome-list` · `awesome` · `open-source` ·
 `vietnamese` · `resources` · `directory` · `free-tools` · `ai-tools` · `devops` · `react` ·
 `typescript` · `vite` · `tailwindcss` · `github-pages` · `static-site` · `hacktoberfest`
+
+## Support
+
+If this project helps you, you can support it on [Ko-fi](https://ko-fi.com/dungnh) — every
+coffee keeps the directory maintained and free for everyone.
 
 ## License
 
