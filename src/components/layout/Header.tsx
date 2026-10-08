@@ -7,7 +7,7 @@ const navItems = [
   { label: 'Đóng góp', href: '#contribute' },
 ]
 
-export function Header() {
+export function Header({ onCreate }: { onCreate?: () => void }) {
   const [open, setOpen] = useState(false)
   const repo = site.repository?.replace(/\/$/, '') ?? null
 
@@ -56,7 +56,15 @@ export function Header() {
           </a>
         </nav>
 
-        {repo ? (
+        {onCreate ? (
+          <button
+            type="button"
+            onClick={onCreate}
+            className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
+          >
+            <Plus className="size-4" /> Tạo Pull Request
+          </button>
+        ) : repo ? (
           <a
             href={`${repo}/compare`}
             target="_blank"
@@ -116,14 +124,27 @@ export function Header() {
             >
               xomcoding.me
             </a>
-            <a
-              href={repo ? `${repo}/compare` : '#contribute'}
-              {...(repo ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-              onClick={() => setOpen(false)}
-              className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
-            >
-              <Plus className="size-4" /> {repo ? 'Tạo Pull Request' : 'Đóng góp công cụ'}
-            </a>
+            {onCreate ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setOpen(false)
+                  onCreate()
+                }}
+                className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
+              >
+                <Plus className="size-4" /> Tạo Pull Request
+              </button>
+            ) : (
+              <a
+                href={repo ? `${repo}/compare` : '#contribute'}
+                {...(repo ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                onClick={() => setOpen(false)}
+                className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
+              >
+                <Plus className="size-4" /> {repo ? 'Tạo Pull Request' : 'Đóng góp công cụ'}
+              </a>
+            )}
           </div>
         </nav>
       )}

@@ -42,7 +42,12 @@ Auto-updated from `data/` by the `check-tools` workflow:
 ## Share a tool
 
 Anyone can contribute. There is no admin panel and no sign-up form — **everything happens through
-a GitHub Pull Request**:
+a GitHub Pull Request**.
+
+**Easiest way — use the web form:** on the site, click **“Tạo nhanh trên web”** (in the
+*Đóng góp* section, or the **+ Tạo Pull Request** button in the header). Fill in the tool
+details, and the form prefills `data/tools/<id>.json` on GitHub — you just commit and open the
+PR. The manual flow below works too:
 
 1. **Fork** this repository.
 2. **Create** `data/tools/<your-tool-id>.json`:

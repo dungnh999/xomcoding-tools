@@ -1,10 +1,11 @@
-import { ArrowRight, Coffee, Github, GitPullRequestArrow } from 'lucide-react'
-import { useMemo, useRef } from 'react'
+import { ArrowRight, Coffee, Github, GitPullRequestArrow, Plus } from 'lucide-react'
+import { useMemo, useRef, useState } from 'react'
 import { categories, categoryMap, stats, tools } from './data/load'
 import { useToolFilters } from './hooks/useToolFilters'
 import { Footer } from './components/layout/Footer'
 import { Header } from './components/layout/Header'
 import { MobileCategories, Sidebar } from './components/layout/Sidebar'
+import { ToolCreatorModal } from './components/contribute/ToolCreatorModal'
 import { ToolFilters } from './components/tools/ToolFilters'
 import { ToolList } from './components/tools/ToolList'
 import { StatsBar } from './components/tools/StatsBar'
@@ -14,6 +15,7 @@ import { countByCategory, filterTools } from './utils/filters'
 
 export default function App() {
   const searchRef = useRef<HTMLInputElement>(null)
+  const [creatorOpen, setCreatorOpen] = useState(false)
   const {
     filters,
     setSearch,
@@ -35,7 +37,7 @@ export default function App() {
 
   return (
     <div id="top" className="min-h-screen">
-      <Header />
+      <Header onCreate={() => setCreatorOpen(true)} />
 
       <main>
         <section className="border-b border-border-soft bg-surface/40 px-4 pt-12 pb-8 sm:px-6">
@@ -145,21 +147,29 @@ export default function App() {
           </div>
 
           <div className="mx-auto mt-8 flex max-w-[1320px] flex-wrap gap-3">
-            {repo ? (
+            <button
+              type="button"
+              onClick={() => setCreatorOpen(true)}
+              className="inline-flex items-center gap-2 rounded-lg bg-[#1f883d] px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-[#1a7f37]"
+            >
+              <Plus className="size-4" /> Tạo nhanh trên web
+            </button>
+            {repo && (
               <a
                 href={`${repo}/compare`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-primary-hover"
+                className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-muted transition-colors hover:bg-surface-hover hover:text-text"
               >
-                <GitPullRequestArrow className="size-4" /> + Đóng góp công cụ
+                <GitPullRequestArrow className="size-4" /> Tạo Pull Request thủ công
               </a>
-            ) : (
+            )}
+            {!repo && (
               <a
                 href={site.mainSite}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-primary-hover"
+                className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-4 py-2.5 text-sm font-medium text-muted transition-colors hover:bg-surface-hover hover:text-text"
               >
                 <GitPullRequestArrow className="size-4" /> Hướng dẫn đóng góp
               </a>
@@ -189,6 +199,8 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {creatorOpen && <ToolCreatorModal onClose={() => setCreatorOpen(false)} />}
     </div>
   )
 }
