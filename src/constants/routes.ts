@@ -1,0 +1,1 @@
+export const CREATOR_PAGE_HASH = '#/tao-tool'

@@ -83,6 +83,12 @@ describe('buildToolJson', () => {
     expect(parsed.icon).toBe('/icons/my-tool.svg')
     expect(json.endsWith('\n')).toBe(true)
   })
+
+  it('tạo JSON đẹp nhiều dòng (2 khoảng trắng, mỗi field một dòng)', () => {
+    const json = buildToolJson(validDraft())
+    expect(json).toContain('{\n  "id": "my-tool",\n  "name": "My Tool",\n  "slug": "my-tool",')
+    expect(json).toContain('\n  "tags": [') 
+  })
 })
 
 describe('githubNewFileUrl', () => {
@@ -98,6 +104,7 @@ describe('githubNewFileUrl', () => {
     )
     expect(parsed.searchParams.get('filename')).toBe('data/tools/my-tool.json')
     expect(parsed.searchParams.get('value')).toBe('{\n  "id": "my-tool"\n}\n')
+    expect(url).not.toContain('+')
   })
 })
 

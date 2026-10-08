@@ -1,13 +1,14 @@
 import { ExternalLink, Github, Menu, Plus, X } from 'lucide-react'
 import { useState } from 'react'
 import { site } from '../../config/site'
+import { CREATOR_PAGE_HASH } from '../../constants/routes'
 
 const navItems = [
   { label: 'Công cụ', href: '#tools' },
   { label: 'Đóng góp', href: '#contribute' },
 ]
 
-export function Header({ onCreate }: { onCreate?: () => void }) {
+export function Header() {
   const [open, setOpen] = useState(false)
   const repo = site.repository?.replace(/\/$/, '') ?? null
 
@@ -56,31 +57,12 @@ export function Header({ onCreate }: { onCreate?: () => void }) {
           </a>
         </nav>
 
-        {onCreate ? (
-          <button
-            type="button"
-            onClick={onCreate}
-            className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
-          >
-            <Plus className="size-4" /> Tạo Pull Request
-          </button>
-        ) : repo ? (
-          <a
-            href={`${repo}/compare`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
-          >
-            <Plus className="size-4" /> Tạo Pull Request
-          </a>
-        ) : (
-          <a
-            href="#contribute"
-            className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
-          >
-            <Plus className="size-4" /> Đóng góp công cụ
-          </a>
-        )}
+        <a
+          href={CREATOR_PAGE_HASH}
+          className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
+        >
+          <Plus className="size-4" /> Tạo Pull Request
+        </a>
 
         <button
           type="button"
@@ -124,27 +106,13 @@ export function Header({ onCreate }: { onCreate?: () => void }) {
             >
               xomcoding.me
             </a>
-            {onCreate ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setOpen(false)
-                  onCreate()
-                }}
-                className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
-              >
-                <Plus className="size-4" /> Tạo Pull Request
-              </button>
-            ) : (
-              <a
-                href={repo ? `${repo}/compare` : '#contribute'}
-                {...(repo ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                onClick={() => setOpen(false)}
-                className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
-              >
-                <Plus className="size-4" /> {repo ? 'Tạo Pull Request' : 'Đóng góp công cụ'}
-              </a>
-            )}
+            <a
+              href={CREATOR_PAGE_HASH}
+              onClick={() => setOpen(false)}
+              className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
+            >
+              <Plus className="size-4" /> Tạo Pull Request
+            </a>
           </div>
         </nav>
       )}

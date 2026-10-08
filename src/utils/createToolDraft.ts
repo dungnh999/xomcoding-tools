@@ -127,11 +127,10 @@ export function validateDraft(
   return errors
 }
 
-/** URL trang "tạo file mới" của GitHub với nội dung đã điền sẵn. */
+/** URL trang "tạo file mới" của GitHub với nội dung đã điền sẵn — giữ nguyên khoảng trắng/newline. */
 export function githubNewFileUrl(repo: string, filePath: string, content: string): string {
   const base = repo.replace(/\/$/, '')
-  const params = new URLSearchParams({ filename: filePath, value: content })
-  return `${base}/new/main?${params.toString()}`
+  return `${base}/new/main?filename=${encodeURIComponent(filePath)}&value=${encodeURIComponent(content)}`
 }
 
 /** SVG icon chữ cái tạm thời — commit cùng PR thay vì để thiếu file icon. */
