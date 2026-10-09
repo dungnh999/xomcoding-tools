@@ -29,3 +29,14 @@ export function OpenSourceBadge() {
     </span>
   )
 }
+
+export function AffiliateBadge() {
+  return (
+    <span
+      title="This link may support Xóm Coding at no extra cost to you."
+      className="inline-flex items-center rounded-md border border-rose-500/30 bg-rose-500/15 px-2 py-0.5 text-xs font-medium whitespace-nowrap text-rose-300"
+    >
+      Affiliate
+    </span>
+  )
+}

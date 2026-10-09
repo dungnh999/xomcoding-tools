@@ -1,0 +1,30 @@
+{
+  "id": "mat-bao",
+  "name": "Mắt Bão",
+  "nameEn": "Mat Bao",
+  "nameVi": "Mắt Bão",
+  "slug": "mat-bao",
+  "category": "cloud",
+  "shortDescription": "Domain & Hosting",
+  "shortDescriptionEn": "Domain & Hosting",
+  "shortDescriptionVi": "Tên miền & Hosting",
+  "description": "Vietnamese provider for domains, hosting, email, cloud servers, and business internet services.",
+  "descriptionEn": "Vietnamese provider for domains, hosting, email, cloud servers, and business internet services.",
+  "descriptionVi": "Nhà cung cấp tên miền, hosting, email, cloud server và dịch vụ internet doanh nghiệp tại Việt Nam.",
+  "icon": "/icons/mat-bao.svg",
+  "website": "https://www.matbao.net/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "domain",
+    "email",
+    "cloud",
+    "vietnam"
+  ]
+}

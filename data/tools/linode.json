@@ -1,0 +1,30 @@
+{
+  "id": "linode",
+  "name": "Linode",
+  "nameEn": "Linode",
+  "nameVi": "Linode",
+  "slug": "linode",
+  "category": "cloud",
+  "shortDescription": "Cloud Computing",
+  "shortDescriptionEn": "Cloud Computing",
+  "shortDescriptionVi": "Cloud Computing",
+  "description": "Cloud computing platform from Akamai for virtual machines, Kubernetes, storage, and networking.",
+  "descriptionEn": "Cloud computing platform from Akamai for virtual machines, Kubernetes, storage, and networking.",
+  "descriptionVi": "Nền tảng cloud computing của Akamai cho máy ảo, Kubernetes, storage và networking.",
+  "icon": "/icons/linode.svg",
+  "website": "https://www.linode.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "cloud",
+    "vps",
+    "kubernetes",
+    "storage",
+    "hosting"
+  ]
+}

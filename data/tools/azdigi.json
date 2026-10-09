@@ -1,0 +1,30 @@
+{
+  "id": "azdigi",
+  "name": "AZDIGI",
+  "nameEn": "AZDIGI",
+  "nameVi": "AZDIGI",
+  "slug": "azdigi",
+  "category": "cloud",
+  "shortDescription": "Vietnam Web Hosting",
+  "shortDescriptionEn": "Vietnam Web Hosting",
+  "shortDescriptionVi": "Hosting Việt Nam",
+  "description": "Vietnamese hosting provider for web hosting, VPS, servers, domains, and SSL services.",
+  "descriptionEn": "Vietnamese hosting provider for web hosting, VPS, servers, domains, and SSL services.",
+  "descriptionVi": "Nhà cung cấp hosting Việt Nam cho hosting, VPS, máy chủ, tên miền và SSL.",
+  "icon": "/icons/azdigi.svg",
+  "website": "https://azdigi.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "vps",
+    "cloud",
+    "vietnam",
+    "domain"
+  ]
+}

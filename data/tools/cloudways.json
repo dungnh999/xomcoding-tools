@@ -1,0 +1,30 @@
+{
+  "id": "cloudways",
+  "name": "Cloudways",
+  "nameEn": "Cloudways",
+  "nameVi": "Cloudways",
+  "slug": "cloudways",
+  "category": "cloud",
+  "shortDescription": "Managed Cloud Hosting",
+  "shortDescriptionEn": "Managed Cloud Hosting",
+  "shortDescriptionVi": "Managed Cloud Hosting",
+  "description": "Managed cloud hosting platform for running applications on major cloud infrastructure providers.",
+  "descriptionEn": "Managed cloud hosting platform for running applications on major cloud infrastructure providers.",
+  "descriptionVi": "Nền tảng managed cloud hosting để chạy ứng dụng trên các hạ tầng cloud lớn.",
+  "icon": "/icons/cloudways.svg",
+  "website": "https://www.cloudways.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "managed hosting",
+    "cloud",
+    "wordpress",
+    "php",
+    "hosting"
+  ]
+}

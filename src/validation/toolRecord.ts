@@ -18,6 +18,7 @@ export interface ToolRecord {
   descriptionVi?: string
   icon: string
   website: string
+  affiliateUrl?: string | null
   github: string | null
   pricing: string
   openSource: boolean
@@ -79,6 +80,7 @@ export function containsMarkup(value: string): boolean {
 }
 
 function checkUrl(url: unknown, field: string, id: string, errors: string[]): void {
+  if (url === undefined) return
   if (url === null) return
   if (typeof url !== 'string') {
     errors.push(`${id}: trường "${field}" phải là chuỗi URL hoặc null`)
@@ -182,6 +184,7 @@ export function validateToolRecord(
   }
 
   checkUrl(record.website, 'website', id, errors)
+  checkUrl(record.affiliateUrl, 'affiliateUrl', id, errors)
   checkUrl(record.github, 'github', id, errors)
   checkUrl(record.xomcodingUrl, 'xomcodingUrl', id, errors)
 

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Linode">
+  <rect width="64" height="64" rx="14" fill="#00a95c"/>
+  <path d="M19 17h8v22h18v8H19V17Z" fill="#ffffff"/>
+  <path d="M34 17h11v8H34v-8Zm0 11h8v8h-8v-8Z" fill="#d1fae5"/>
+</svg>

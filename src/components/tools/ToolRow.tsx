@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import type { Language } from '../../i18n'
 import type { Tool } from '../../types/tool'
 import { getToolDescription, getToolName, getToolShortDescription } from '../../utils/localize'
-import { OpenSourceBadge, PricingBadge } from '../ui/Badge'
+import { AffiliateBadge, OpenSourceBadge, PricingBadge } from '../ui/Badge'
 import { ToolIcon } from '../ui/ToolIcon'
 import { ToolStatus } from './ToolStatus'
 
@@ -33,6 +33,8 @@ export function ToolRow({ tool, lang }: { tool: Tool; lang: Language }) {
   const name = getToolName(tool, lang)
   const shortDescription = getToolShortDescription(tool, lang)
   const description = getToolDescription(tool, lang)
+  const outboundUrl = tool.affiliateUrl || tool.website
+  const outboundRel = tool.affiliateUrl ? 'sponsored nofollow noopener noreferrer' : 'noopener noreferrer'
 
   return (
     <article className="group flex flex-col gap-2 border-b border-border-soft px-3 py-3.5 transition-colors hover:bg-surface-hover lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_56px_140px] lg:items-center lg:gap-4">
@@ -40,9 +42,9 @@ export function ToolRow({ tool, lang }: { tool: Tool; lang: Language }) {
         <ToolIcon icon={tool.icon} name={name} size={34} />
         <div className="min-w-0">
           <a
-            href={tool.website}
+            href={outboundUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel={outboundRel}
             className="block truncate text-sm font-semibold text-text transition-colors group-hover:text-primary-hover"
           >
             {name}
@@ -57,6 +59,7 @@ export function ToolRow({ tool, lang }: { tool: Tool; lang: Language }) {
 
       <div className="flex flex-wrap items-center gap-1.5">
         <PricingBadge pricing={tool.pricing} />
+        {tool.affiliateUrl && <AffiliateBadge />}
         {tool.openSource && <OpenSourceBadge />}
       </div>
 
@@ -66,11 +69,11 @@ export function ToolRow({ tool, lang }: { tool: Tool; lang: Language }) {
 
       <div className="flex items-center gap-1">
         <a
-          href={tool.website}
+          href={outboundUrl}
           target="_blank"
-          rel="noopener noreferrer"
-          title="Trang chủ"
-          aria-label={`Trang chủ ${name}`}
+          rel={outboundRel}
+          title={tool.affiliateUrl ? 'Affiliate website' : 'Website'}
+          aria-label={`${tool.affiliateUrl ? 'Affiliate website' : 'Website'} ${name}`}
           className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
         >
           <ExternalLink className="size-4" />

@@ -1,0 +1,30 @@
+{
+  "id": "pa-vietnam",
+  "name": "PA Việt Nam",
+  "nameEn": "PA Vietnam",
+  "nameVi": "PA Việt Nam",
+  "slug": "pa-vietnam",
+  "category": "cloud",
+  "shortDescription": "Domain & Hosting",
+  "shortDescriptionEn": "Domain & Hosting",
+  "shortDescriptionVi": "Tên miền & Hosting",
+  "description": "Vietnamese provider for domain registration, hosting, VPS, email, SSL, and server services.",
+  "descriptionEn": "Vietnamese provider for domain registration, hosting, VPS, email, SSL, and server services.",
+  "descriptionVi": "Nhà cung cấp tên miền, hosting, VPS, email, SSL và máy chủ tại Việt Nam.",
+  "icon": "/icons/pa-vietnam.svg",
+  "website": "https://www.pavietnam.vn/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "domain",
+    "vps",
+    "email",
+    "vietnam"
+  ]
+}

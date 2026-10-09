@@ -1,0 +1,30 @@
+{
+  "id": "hostinger",
+  "name": "Hostinger",
+  "nameEn": "Hostinger",
+  "nameVi": "Hostinger",
+  "slug": "hostinger",
+  "category": "cloud",
+  "shortDescription": "Web Hosting Provider",
+  "shortDescriptionEn": "Web Hosting Provider",
+  "shortDescriptionVi": "Nhà cung cấp hosting",
+  "description": "Global hosting provider for web hosting, VPS, domains, email, and website building tools.",
+  "descriptionEn": "Global hosting provider for web hosting, VPS, domains, email, and website building tools.",
+  "descriptionVi": "Nhà cung cấp hosting quốc tế cho web hosting, VPS, tên miền, email và công cụ tạo website.",
+  "icon": "/icons/hostinger.svg",
+  "website": "https://www.hostinger.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "vps",
+    "domain",
+    "website",
+    "cloud"
+  ]
+}

@@ -43,6 +43,7 @@ function validDraft(overrides: Partial<ToolDraft> = {}): ToolDraft {
     shortDescription: 'Công cụ thử nghiệm',
     description: 'Mô tả chi tiết về công cụ thử nghiệm.',
     website: 'https://mytool.dev/',
+    affiliateUrl: '',
     github: '',
     pricing: 'free',
     openSource: false,
@@ -80,6 +81,7 @@ describe('buildToolJson', () => {
     expect(parsed.lastChecked).toBeNull()
     expect(parsed.tags).toEqual(['test', '工具'])
     expect(parsed.github).toBeNull()
+    expect(parsed.affiliateUrl).toBeNull()
     expect(parsed.icon).toBe('/icons/my-tool.svg')
     expect(json.endsWith('\n')).toBe(true)
   })

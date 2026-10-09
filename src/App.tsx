@@ -39,7 +39,7 @@ export default function App() {
   const manualPrUrl = repo ? `${repo}/compare` : null
 
   return (
-    <div id="top" className="min-h-screen pb-20">
+    <div id="top" className="min-h-screen">
       <Header lang={lang} onLanguageChange={setLang} labels={t} />
 
       <main>

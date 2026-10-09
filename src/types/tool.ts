@@ -17,6 +17,7 @@ export interface Tool {
   descriptionVi?: string
   icon: string
   website: string
+  affiliateUrl?: string | null
   github: string | null
   pricing: Pricing
   openSource: boolean

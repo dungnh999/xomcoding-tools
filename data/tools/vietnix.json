@@ -1,0 +1,30 @@
+{
+  "id": "vietnix",
+  "name": "Vietnix",
+  "nameEn": "Vietnix",
+  "nameVi": "Vietnix",
+  "slug": "vietnix",
+  "category": "cloud",
+  "shortDescription": "Vietnam Hosting Provider",
+  "shortDescriptionEn": "Vietnam Hosting Provider",
+  "shortDescriptionVi": "Nhà cung cấp hosting Việt Nam",
+  "description": "Vietnam-based hosting provider offering web hosting, VPS, servers, and domain services.",
+  "descriptionEn": "Vietnam-based hosting provider offering web hosting, VPS, servers, and domain services.",
+  "descriptionVi": "Nhà cung cấp hosting tại Việt Nam với hosting, VPS, máy chủ và tên miền.",
+  "icon": "/icons/vietnix.svg",
+  "website": "https://vietnix.vn/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "vps",
+    "cloud",
+    "vietnam",
+    "domain"
+  ]
+}

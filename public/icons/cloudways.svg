@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cloudways">
+  <rect width="64" height="64" rx="14" fill="#0ea5e9"/>
+  <path d="M21 43h24a9 9 0 0 0 1-18 13 13 0 0 0-25-2 10 10 0 0 0 0 20Z" fill="#ffffff"/>
+  <path d="M23 34h8l3-7 3 14 3-7h5" fill="none" stroke="#0284c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

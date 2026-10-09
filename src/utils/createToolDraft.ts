@@ -12,6 +12,7 @@ export interface ToolDraft {
   shortDescription: string
   description: string
   website: string
+  affiliateUrl: string
   github: string
   pricing: Pricing
   openSource: boolean
@@ -28,6 +29,7 @@ export function emptyDraft(): ToolDraft {
     shortDescription: '',
     description: '',
     website: '',
+    affiliateUrl: '',
     github: '',
     pricing: 'free',
     openSource: false,
@@ -67,6 +69,7 @@ function toRecord(draft: ToolDraft) {
     description: draft.description.trim(),
     icon: draft.icon.trim() || `/icons/${draft.id.trim()}.svg`,
     website: draft.website.trim(),
+    affiliateUrl: draft.affiliateUrl.trim() || null,
     github: draft.github.trim() || null,
     pricing: draft.pricing,
     openSource: draft.openSource,

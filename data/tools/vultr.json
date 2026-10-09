@@ -1,0 +1,30 @@
+{
+  "id": "vultr",
+  "name": "Vultr",
+  "nameEn": "Vultr",
+  "nameVi": "Vultr",
+  "slug": "vultr",
+  "category": "cloud",
+  "shortDescription": "Cloud Compute",
+  "shortDescriptionEn": "Cloud Compute",
+  "shortDescriptionVi": "Cloud Compute",
+  "description": "Global cloud platform for compute instances, bare metal, Kubernetes, storage, and managed databases.",
+  "descriptionEn": "Global cloud platform for compute instances, bare metal, Kubernetes, storage, and managed databases.",
+  "descriptionVi": "Nền tảng cloud quốc tế cho compute instance, bare metal, Kubernetes, storage và managed database.",
+  "icon": "/icons/vultr.svg",
+  "website": "https://www.vultr.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "cloud",
+    "vps",
+    "kubernetes",
+    "database",
+    "hosting"
+  ]
+}

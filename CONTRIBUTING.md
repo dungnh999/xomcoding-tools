@@ -25,9 +25,12 @@ Tạo file `data/tools/<id>.json` — **tên file phải trùng với trường 
   "slug": "docker",
   "category": "devops",
   "shortDescription": "Container Platform",
-  "description": "Đóng gói và triển khai ứng dụng bằng container.",
+  "shortDescriptionVi": "Nền tảng container",
+  "description": "Package and deploy applications with containers.",
+  "descriptionVi": "Đóng gói và triển khai ứng dụng bằng container.",
   "icon": "/icons/docker.svg",
   "website": "https://www.docker.com/",
+  "affiliateUrl": null,
   "github": "https://github.com/moby/moby",
   "pricing": "freemium",
   "openSource": true,
@@ -46,10 +49,15 @@ Tạo file `data/tools/<id>.json` — **tên file phải trùng với trường 
 | `name` | Có | Tên công cụ, tối đa 60 ký tự. |
 | `slug` | Có | Bắt buộc trùng `id`. |
 | `category` | Có | Phải tồn tại trong `data/categories.json`. |
-| `shortDescription` | Có | Tối đa 140 ký tự, tiếng Việt. |
-| `description` | Có | Tối đa 300 ký tự, tiếng Việt, không HTML. |
+| `shortDescription` | Có | Tối đa 140 ký tự, tiếng Anh mặc định. |
+| `shortDescriptionEn` | Không | Bản tiếng Anh rõ ràng hơn nếu cần. |
+| `shortDescriptionVi` | Không | Bản tiếng Việt hiển thị khi chọn VI. |
+| `description` | Có | Tối đa 300 ký tự, tiếng Anh mặc định, không HTML. |
+| `descriptionEn` | Không | Bản tiếng Anh rõ ràng hơn nếu cần. |
+| `descriptionVi` | Không | Bản tiếng Việt hiển thị khi chọn VI. |
 | `icon` | Có | Đường dẫn `/icons/<tên>.svg`, không chứa `..`. |
 | `website` | Có | URL `https://` chính thức. |
+| `affiliateUrl` | Không | Link affiliate/referral nếu có. Dùng `null` nếu không có. Link này sẽ hiện badge `Affiliate` và dùng `rel="sponsored nofollow"`. |
 | `github` | Không | `null` nếu không có repository chính thức. |
 | `pricing` | Có | `free` \| `freemium` \| `paid` — **khác** `openSource`. |
 | `openSource` | Có | `true`/`false` — công cụ có mã nguồn mở không. |
@@ -84,7 +92,7 @@ npm test
 
 - **Không trùng lặp**: kiểm tra `id`, `slug`, `website` trước khi thêm.
 - **Không spam**: mỗi PR nên tập trung một nhóm công cụ liên quan.
-- **Không chèn link quảng cáo, mã độc, URL `javascript:`/`data:`/`file:`.**
+- **Không chèn link quảng cáo ẩn, mã độc, URL `javascript:`/`data:`/`file:`.** Link kiếm tiền phải đặt trong `affiliateUrl` và để UI hiện badge minh bạch.
 - **Không tự nhận công cụ ngừng hoạt động** — để `status: unknown`, workflow tự kiểm tra.
 - **Không bịa bài viết Xóm Coding** — để `xomcodingUrl: null` nếu chưa có bài.
 - **Không hardcode số liệu** hoặc status `active` chỉ để PR đẹp hơn.

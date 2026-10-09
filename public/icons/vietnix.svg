@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+    <title>VIETNIX Logo</title>
+    <rect width="1080" height="1080" fill="#fff"/>
+
+    <!-- Outer circle -->
+    <circle cx="540" cy="540" r="533"
+            fill="none" stroke="#3699E5" stroke-width="10"/>
+
+    <!-- Server stack: top -->
+    <g stroke-linejoin="round">
+        <path d="M361 301 L474 235 Q520 211 555 232
+             L664 295 L546 371 Q518 390 487 377
+             L361 315 Z"
+              fill="#fff" stroke="#B0E4F8" stroke-width="14"/>
+
+        <!-- Server layers -->
+        <path d="M356 341 L480 407 Q505 421 522 425
+             L522 458 Q501 454 479 440 L356 375 Z"
+              fill="#3699F5"/>
+
+        <path d="M356 401 L480 466 Q505 480 522 485
+             L522 518 Q501 514 479 500 L356 435 Z"
+              fill="#3699F5"/>
+
+        <path d="M356 462 L480 527 Q505 541 522 545
+             L522 579 Q500 575 479 561 L356 497 Z"
+              fill="#3699F5"/>
+
+        <!-- Connection lines -->
+        <g fill="none" stroke="#B0E4F8" stroke-width="12">
+            <path d="M537 449 L680 368"/>
+            <path d="M537 510 L680 428"/>
+            <path d="M537 571 L680 489"/>
+        </g>
+
+        <!-- Connection terminals -->
+        <g fill="#fff" stroke="#3699E5" stroke-width="8">
+            <circle cx="680" cy="368" r="9"/>
+            <circle cx="680" cy="428" r="9"/>
+            <circle cx="680" cy="489" r="9"/>
+        </g>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="540" y="772"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="177"
+          font-weight="700"
+          textLength="945"
+          lengthAdjust="spacingAndGlyphs"
+          fill="#3699F5">VIETNIX</text>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "id": "tinohost",
+  "name": "TinoHost",
+  "nameEn": "TinoHost",
+  "nameVi": "TinoHost",
+  "slug": "tinohost",
+  "category": "cloud",
+  "shortDescription": "Hosting & VPS",
+  "shortDescriptionEn": "Hosting & VPS",
+  "shortDescriptionVi": "Hosting & VPS",
+  "description": "Vietnamese hosting service for websites, VPS, email hosting, SSL, and domain names.",
+  "descriptionEn": "Vietnamese hosting service for websites, VPS, email hosting, SSL, and domain names.",
+  "descriptionVi": "Dịch vụ hosting Việt Nam cho website, VPS, email hosting, SSL và tên miền.",
+  "icon": "/icons/tinohost.svg",
+  "website": "https://tinohost.com/",
+  "affiliateUrl": null,
+  "github": null,
+  "pricing": "paid",
+  "openSource": false,
+  "status": "unknown",
+  "lastChecked": null,
+  "xomcodingUrl": null,
+  "tags": [
+    "hosting",
+    "vps",
+    "email",
+    "vietnam",
+    "domain"
+  ]
+}
