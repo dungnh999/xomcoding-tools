@@ -4,7 +4,7 @@
   "slug": "portainer",
   "category": "self-hosted",
   "shortDescription": "Container Management",
-  "description": "Giao diện quản lý Docker và Kubernetes qua web.",
+  "description": "A web interface for managing Docker and Kubernetes.",
   "icon": "/icons/portainer.svg",
   "website": "https://www.portainer.io/",
   "github": "https://github.com/portainer/portainer",
@@ -17,5 +17,11 @@
     "docker",
     "kubernetes",
     "ui"
-  ]
+  ],
+  "nameEn": "Portainer",
+  "nameVi": "Portainer",
+  "shortDescriptionVi": "Container Management",
+  "descriptionVi": "Giao diện quản lý Docker và Kubernetes qua web.",
+  "shortDescriptionEn": "Container Management",
+  "descriptionEn": "A web interface for managing Docker and Kubernetes."
 }

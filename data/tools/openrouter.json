@@ -4,7 +4,7 @@
   "slug": "openrouter",
   "category": "ai-ml",
   "shortDescription": "Unified LLM API",
-  "description": "Một API duy nhất truy cập hàng trăm mô hình ngôn ngữ.",
+  "description": "One API for accessing hundreds of language models.",
   "icon": "/icons/openrouter.svg",
   "website": "https://openrouter.ai/",
   "github": null,
@@ -17,5 +17,11 @@
     "llm",
     "api",
     "models"
-  ]
+  ],
+  "nameEn": "OpenRouter",
+  "nameVi": "OpenRouter",
+  "shortDescriptionVi": "Unified LLM API",
+  "descriptionVi": "Một API duy nhất truy cập hàng trăm mô hình ngôn ngữ.",
+  "shortDescriptionEn": "Unified LLM API",
+  "descriptionEn": "One API for accessing hundreds of language models."
 }

@@ -4,7 +4,7 @@
   "slug": "canva",
   "category": "ui-design",
   "shortDescription": "Graphic Design",
-  "description": "Thiết kế đồ họa nhanh với nhiều mẫu có sẵn.",
+  "description": "Create graphics quickly with a large library of ready-made templates.",
   "icon": "/icons/canva.svg",
   "website": "https://www.canva.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "design",
     "graphics",
     "templates"
-  ]
+  ],
+  "nameEn": "Canva",
+  "nameVi": "Canva",
+  "shortDescriptionVi": "Graphic Design",
+  "descriptionVi": "Thiết kế đồ họa nhanh với nhiều mẫu có sẵn.",
+  "shortDescriptionEn": "Graphic Design",
+  "descriptionEn": "Create graphics quickly with a large library of ready-made templates."
 }

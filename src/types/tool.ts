@@ -5,10 +5,16 @@ export type Status = 'active' | 'inactive' | 'unknown'
 export interface Tool {
   id: string
   name: string
+  nameEn?: string
+  nameVi?: string
   slug: string
   category: string
   shortDescription: string
+  shortDescriptionEn?: string
+  shortDescriptionVi?: string
   description: string
+  descriptionEn?: string
+  descriptionVi?: string
   icon: string
   website: string
   github: string | null
@@ -23,6 +29,8 @@ export interface Tool {
 export interface Category {
   id: string
   name: string
+  nameEn?: string
+  nameVi?: string
   icon: string
   order: number
 }

@@ -4,7 +4,7 @@
   "slug": "storybook",
   "category": "ui-design",
   "shortDescription": "UI Workshop",
-  "description": "Xây dựng và kiểm thử component giao diện độc lập.",
+  "description": "Build and test UI components in isolation.",
   "icon": "/icons/storybook.svg",
   "website": "https://storybook.js.org/",
   "github": "https://github.com/storybookjs/storybook",
@@ -17,5 +17,11 @@
     "components",
     "testing",
     "frontend"
-  ]
+  ],
+  "nameEn": "Storybook",
+  "nameVi": "Storybook",
+  "shortDescriptionVi": "UI Workshop",
+  "descriptionVi": "Xây dựng và kiểm thử component giao diện độc lập.",
+  "shortDescriptionEn": "UI Workshop",
+  "descriptionEn": "Build and test UI components in isolation."
 }

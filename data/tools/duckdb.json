@@ -4,7 +4,7 @@
   "slug": "duckdb",
   "category": "database",
   "shortDescription": "In-process OLAP",
-  "description": "Cơ sở dữ liệu phân tích chạy ngay trong tiến trình ứng dụng.",
+  "description": "An analytical database that runs directly inside your application process.",
   "icon": "/icons/duckdb.svg",
   "website": "https://duckdb.org/",
   "github": "https://github.com/duckdb/duckdb",
@@ -17,5 +17,11 @@
     "olap",
     "analytics",
     "sql"
-  ]
+  ],
+  "nameEn": "DuckDB",
+  "nameVi": "DuckDB",
+  "shortDescriptionVi": "In-process OLAP",
+  "descriptionVi": "Cơ sở dữ liệu phân tích chạy ngay trong tiến trình ứng dụng.",
+  "shortDescriptionEn": "In-process OLAP",
+  "descriptionEn": "An analytical database that runs directly inside your application process."
 }

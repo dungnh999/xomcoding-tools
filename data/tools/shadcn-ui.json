@@ -4,7 +4,7 @@
   "slug": "shadcn-ui",
   "category": "frontend",
   "shortDescription": "Component Collection",
-  "description": "Bộ component sao chép-paste trên nền Radix và Tailwind.",
+  "description": "Copy-and-paste components built on Radix and Tailwind.",
   "icon": "/icons/shadcnui.svg",
   "website": "https://ui.shadcn.com/",
   "github": "https://github.com/shadcn-ui/ui",
@@ -17,5 +17,11 @@
     "components",
     "tailwind",
     "react"
-  ]
+  ],
+  "nameEn": "shadcn/ui",
+  "nameVi": "shadcn/ui",
+  "shortDescriptionVi": "Component Collection",
+  "descriptionVi": "Bộ component sao chép-paste trên nền Radix và Tailwind.",
+  "shortDescriptionEn": "Component Collection",
+  "descriptionEn": "Copy-and-paste components built on Radix and Tailwind."
 }

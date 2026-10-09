@@ -4,7 +4,7 @@
   "slug": "cloudflare",
   "category": "cloud",
   "shortDescription": "CDN & Security",
-  "description": "CDN, DNS, bảo mật và nền tảng tính toán biên (edge).",
+  "description": "CDN, DNS, security, and edge computing platform.",
   "icon": "/icons/cloudflare.svg",
   "website": "https://www.cloudflare.com/",
   "github": "https://github.com/cloudflare",
@@ -18,5 +18,11 @@
     "dns",
     "wasm",
     "edge"
-  ]
+  ],
+  "nameEn": "Cloudflare",
+  "nameVi": "Cloudflare",
+  "shortDescriptionVi": "CDN & Security",
+  "descriptionVi": "CDN, DNS, bảo mật và nền tảng tính toán biên (edge).",
+  "shortDescriptionEn": "CDN & Security",
+  "descriptionEn": "CDN, DNS, security, and edge computing platform."
 }

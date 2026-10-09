@@ -4,7 +4,7 @@
   "slug": "gitleaks",
   "category": "security",
   "shortDescription": "Secret Scanning",
-  "description": "Quét secret bị commit nhầm trong lịch sử git.",
+  "description": "Scan git history for secrets that were accidentally committed.",
   "icon": "/icons/gitleaks.svg",
   "website": "https://gitleaks.io/",
   "github": "https://github.com/gitleaks/gitleaks",
@@ -17,5 +17,11 @@
     "secrets",
     "git",
     "scanner"
-  ]
+  ],
+  "nameEn": "Gitleaks",
+  "nameVi": "Gitleaks",
+  "shortDescriptionVi": "Secret Scanning",
+  "descriptionVi": "Quét secret bị commit nhầm trong lịch sử git.",
+  "shortDescriptionEn": "Secret Scanning",
+  "descriptionEn": "Scan git history for secrets that were accidentally committed."
 }

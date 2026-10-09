@@ -17,7 +17,9 @@ import {
   Zap,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
+import type { Language } from '../../i18n'
 import type { Category } from '../../types/tool'
+import { getCategoryName } from '../../utils/localize'
 
 const ICONS: Record<string, LucideIcon> = {
   database: Database,
@@ -53,9 +55,10 @@ interface SidebarProps {
     all: string
     categoriesLabel: string
   }
+  lang: Language
 }
 
-export function Sidebar({ categories, counts, total, selected, onSelect, labels }: SidebarProps) {
+export function Sidebar({ categories, counts, total, selected, onSelect, labels, lang }: SidebarProps) {
   return (
     <aside className="hidden w-56 shrink-0 lg:block" aria-label={labels.categoriesLabel}>
       <nav className="sticky top-20 flex flex-col gap-1">
@@ -88,7 +91,7 @@ export function Sidebar({ categories, counts, total, selected, onSelect, labels 
               aria-current={active ? 'true' : undefined}
             >
               <CategoryIcon name={category.icon} className="size-4 shrink-0" />
-              <span className="flex-1 truncate">{category.name}</span>
+              <span className="flex-1 truncate">{getCategoryName(category, lang)}</span>
               <span className="text-xs text-muted">{counts.get(category.id) ?? 0}</span>
             </button>
           )
@@ -102,10 +105,10 @@ interface MobileCategoriesProps extends Omit<SidebarProps, 'total'> {
   total: number
 }
 
-export function MobileCategories({ categories, counts, total, selected, onSelect, labels }: MobileCategoriesProps) {
+export function MobileCategories({ categories, counts, total, selected, onSelect, labels, lang }: MobileCategoriesProps) {
   const items = [{ id: 'all', name: labels.all, count: total }, ...categories.map((c) => ({
     id: c.id,
-    name: c.name,
+    name: getCategoryName(c, lang),
     count: counts.get(c.id) ?? 0,
   }))]
 

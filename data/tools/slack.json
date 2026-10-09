@@ -4,7 +4,7 @@
   "slug": "slack",
   "category": "email",
   "shortDescription": "Team Communication",
-  "description": "Nền tảng nhắn tin và cộng tác cho đội nhóm.",
+  "description": "A messaging and collaboration platform for teams.",
   "icon": "/icons/slack.svg",
   "website": "https://slack.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "chat",
     "team",
     "workspace"
-  ]
+  ],
+  "nameEn": "Slack",
+  "nameVi": "Slack",
+  "shortDescriptionVi": "Team Communication",
+  "descriptionVi": "Nền tảng nhắn tin và cộng tác cho đội nhóm.",
+  "shortDescriptionEn": "Team Communication",
+  "descriptionEn": "A messaging and collaboration platform for teams."
 }

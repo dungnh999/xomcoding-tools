@@ -103,6 +103,7 @@ export default function App() {
                 total={stats.total}
                 selected={filters.category}
                 onSelect={setCategory}
+                lang={lang}
                 labels={t}
               />
 
@@ -114,6 +115,7 @@ export default function App() {
                     total={stats.total}
                     selected={filters.category}
                     onSelect={setCategory}
+                    lang={lang}
                     labels={t}
                   />
                 </div>
@@ -124,6 +126,7 @@ export default function App() {
                   total={stats.total}
                   isFiltering={isFiltering}
                   onReset={reset}
+                  lang={lang}
                   labels={t}
                 />
               </div>

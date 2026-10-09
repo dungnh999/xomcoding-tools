@@ -4,7 +4,7 @@
   "slug": "neon",
   "category": "database",
   "shortDescription": "Serverless PostgreSQL",
-  "description": "PostgreSQL serverless với nhánh (branch) cơ sở dữ liệu.",
+  "description": "Serverless PostgreSQL with database branching.",
   "icon": "/icons/neon.svg",
   "website": "https://neon.com/",
   "github": "https://github.com/neondatabase/neon",
@@ -17,5 +17,11 @@
     "postgres",
     "serverless",
     "database"
-  ]
+  ],
+  "nameEn": "Neon",
+  "nameVi": "Neon",
+  "shortDescriptionVi": "Serverless PostgreSQL",
+  "descriptionVi": "PostgreSQL serverless với nhánh (branch) cơ sở dữ liệu.",
+  "shortDescriptionEn": "Serverless PostgreSQL",
+  "descriptionEn": "Serverless PostgreSQL with database branching."
 }

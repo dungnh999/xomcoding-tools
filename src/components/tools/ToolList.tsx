@@ -1,4 +1,5 @@
 import { SearchX } from 'lucide-react'
+import type { Language } from '../../i18n'
 import type { Category, Tool } from '../../types/tool'
 import { CategorySection } from './CategorySection'
 
@@ -8,6 +9,7 @@ interface ToolListProps {
   total: number
   isFiltering: boolean
   onReset: () => void
+  lang: Language
   labels: {
     showing: string
     statsTools: string
@@ -24,7 +26,7 @@ interface ToolListProps {
   }
 }
 
-export function ToolList({ categories, tools, total, isFiltering, onReset, labels }: ToolListProps) {
+export function ToolList({ categories, tools, total, isFiltering, onReset, lang, labels }: ToolListProps) {
   if (tools.length === 0) {
     return (
       <div className="grid place-items-center rounded-xl border border-dashed border-border bg-surface/50 px-6 py-16 text-center">
@@ -57,7 +59,7 @@ export function ToolList({ categories, tools, total, isFiltering, onReset, label
         {labels.showing} <strong className="text-text">{tools.length}</strong> / {total} {labels.statsTools}
       </p>
       {grouped.map((group) => (
-        <CategorySection key={group.category.id} category={group.category} tools={group.tools} labels={labels} />
+        <CategorySection key={group.category.id} category={group.category} tools={group.tools} lang={lang} labels={labels} />
       ))}
     </div>
   )

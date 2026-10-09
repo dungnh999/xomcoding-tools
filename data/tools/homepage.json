@@ -4,7 +4,7 @@
   "slug": "homepage",
   "category": "self-hosted",
   "shortDescription": "Service Dashboard",
-  "description": "Bảng điều khiển cho các dịch vụ tự hosting trong gia đình.",
+  "description": "A dashboard for self-hosted services in your home lab.",
   "icon": "/icons/homepage.svg",
   "website": "https://gethomepage.dev/",
   "github": "https://github.com/gethomepage/homepage",
@@ -17,5 +17,11 @@
     "dashboard",
     "homelab",
     "startpage"
-  ]
+  ],
+  "nameEn": "Homepage",
+  "nameVi": "Homepage",
+  "shortDescriptionVi": "Service Dashboard",
+  "descriptionVi": "Bảng điều khiển cho các dịch vụ tự hosting trong gia đình.",
+  "shortDescriptionEn": "Service Dashboard",
+  "descriptionEn": "A dashboard for self-hosted services in your home lab."
 }

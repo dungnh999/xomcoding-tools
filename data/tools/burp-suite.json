@@ -4,7 +4,7 @@
   "slug": "burp-suite",
   "category": "security",
   "shortDescription": "Web Security Testing",
-  "description": "Nền tảng kiểm thử bảo mật ứng dụng web chuyên sâu.",
+  "description": "A professional platform for deep web application security testing.",
   "icon": "/icons/burpsuite.svg",
   "website": "https://portswigger.net/burp",
   "github": null,
@@ -17,5 +17,11 @@
     "pentest",
     "scanner",
     "websecurity"
-  ]
+  ],
+  "nameEn": "Burp Suite",
+  "nameVi": "Burp Suite",
+  "shortDescriptionVi": "Web Security Testing",
+  "descriptionVi": "Nền tảng kiểm thử bảo mật ứng dụng web chuyên sâu.",
+  "shortDescriptionEn": "Web Security Testing",
+  "descriptionEn": "A professional platform for deep web application security testing."
 }

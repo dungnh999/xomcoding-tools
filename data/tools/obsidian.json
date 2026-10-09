@@ -4,7 +4,7 @@
   "slug": "obsidian",
   "category": "productivity",
   "shortDescription": "Knowledge Base",
-  "description": "Kho tri thức local-first với liên kết giữa các ghi chú.",
+  "description": "A local-first knowledge base with links between notes.",
   "icon": "/icons/obsidian.svg",
   "website": "https://obsidian.md/",
   "github": null,
@@ -17,5 +17,11 @@
     "notes",
     "markdown",
     "pkm"
-  ]
+  ],
+  "nameEn": "Obsidian",
+  "nameVi": "Obsidian",
+  "shortDescriptionVi": "Knowledge Base",
+  "descriptionVi": "Kho tri thức local-first với liên kết giữa các ghi chú.",
+  "shortDescriptionEn": "Knowledge Base",
+  "descriptionEn": "A local-first knowledge base with links between notes."
 }

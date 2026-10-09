@@ -4,7 +4,7 @@
   "slug": "claude-code",
   "category": "ai-coding",
   "shortDescription": "Coding Agent",
-  "description": "Trợ lý lập trình dạng agent chạy trong terminal và IDE.",
+  "description": "An agent-style coding assistant that runs in the terminal and IDE.",
   "icon": "/icons/anthropic.svg",
   "website": "https://www.anthropic.com/claude-code",
   "github": null,
@@ -17,5 +17,11 @@
     "ai",
     "agent",
     "terminal"
-  ]
+  ],
+  "nameEn": "Claude Code",
+  "nameVi": "Claude Code",
+  "shortDescriptionVi": "Coding Agent",
+  "descriptionVi": "Trợ lý lập trình dạng agent chạy trong terminal và IDE.",
+  "shortDescriptionEn": "Coding Agent",
+  "descriptionEn": "An agent-style coding assistant that runs in the terminal and IDE."
 }

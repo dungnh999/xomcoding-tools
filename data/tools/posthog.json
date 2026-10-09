@@ -4,7 +4,7 @@
   "slug": "posthog",
   "category": "others",
   "shortDescription": "Product Analytics",
-  "description": "Phân tích sản phẩm, session recording và feature flags.",
+  "description": "Product analytics, session recording, and feature flags.",
   "icon": "/icons/posthog.svg",
   "website": "https://posthog.com/",
   "github": "https://github.com/PostHog/posthog",
@@ -17,5 +17,11 @@
     "analytics",
     "tracking",
     "features"
-  ]
+  ],
+  "nameEn": "Posthog",
+  "nameVi": "Posthog",
+  "shortDescriptionVi": "Product Analytics",
+  "descriptionVi": "Phân tích sản phẩm, session recording và feature flags.",
+  "shortDescriptionEn": "Product Analytics",
+  "descriptionEn": "Product analytics, session recording, and feature flags."
 }

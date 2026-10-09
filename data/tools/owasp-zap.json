@@ -4,7 +4,7 @@
   "slug": "owasp-zap",
   "category": "security",
   "shortDescription": "Web Security Scanner",
-  "description": "Công cụ kiểm thử bảo mật ứng dụng web mã nguồn mở.",
+  "description": "An open source web application security testing tool.",
   "icon": "/icons/owasp.svg",
   "website": "https://www.zaproxy.org/",
   "github": "https://github.com/zaproxy/zaproxy",
@@ -17,5 +17,11 @@
     "pentest",
     "scanner",
     "owasp"
-  ]
+  ],
+  "nameEn": "OWASP ZAP",
+  "nameVi": "OWASP ZAP",
+  "shortDescriptionVi": "Web Security Scanner",
+  "descriptionVi": "Công cụ kiểm thử bảo mật ứng dụng web mã nguồn mở.",
+  "shortDescriptionEn": "Web Security Scanner",
+  "descriptionEn": "An open source web application security testing tool."
 }

@@ -4,7 +4,7 @@
   "slug": "sentry",
   "category": "others",
   "shortDescription": "Error Tracking",
-  "description": "Theo dõi lỗi và hiệu năng ứng dụng theo thời gian thực.",
+  "description": "Track application errors and performance in real time.",
   "icon": "/icons/sentry.svg",
   "website": "https://sentry.io/",
   "github": "https://github.com/getsentry/sentry",
@@ -17,5 +17,11 @@
     "errors",
     "monitoring",
     "performance"
-  ]
+  ],
+  "nameEn": "Sentry",
+  "nameVi": "Sentry",
+  "shortDescriptionVi": "Error Tracking",
+  "descriptionVi": "Theo dõi lỗi và hiệu năng ứng dụng theo thời gian thực.",
+  "shortDescriptionEn": "Error Tracking",
+  "descriptionEn": "Track application errors and performance in real time."
 }

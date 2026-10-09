@@ -4,7 +4,7 @@
   "slug": "github-actions",
   "category": "devops",
   "shortDescription": "CI/CD",
-  "description": "Tự động hóa build, kiểm thử và triển khai ngay trên GitHub.",
+  "description": "Automate builds, tests, and deployments directly on GitHub.",
   "icon": "/icons/githubactions.svg",
   "website": "https://github.com/features/actions",
   "github": "https://github.com/actions",
@@ -17,5 +17,11 @@
     "ci",
     "cd",
     "automation"
-  ]
+  ],
+  "nameEn": "GitHub Actions",
+  "nameVi": "GitHub Actions",
+  "shortDescriptionVi": "CI/CD",
+  "descriptionVi": "Tự động hóa build, kiểm thử và triển khai ngay trên GitHub.",
+  "shortDescriptionEn": "CI/CD",
+  "descriptionEn": "Automate builds, tests, and deployments directly on GitHub."
 }

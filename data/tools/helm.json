@@ -3,8 +3,8 @@
   "name": "Helm",
   "slug": "helm",
   "category": "devops",
-  "shortDescription": "Package Manager cho Kubernetes",
-  "description": "Quản lý ứng dụng trên Kubernetes dưới dạng chart.",
+  "shortDescription": "Kubernetes Package Manager",
+  "description": "Manage Kubernetes applications as reusable charts.",
   "icon": "/icons/helm.svg",
   "website": "https://helm.sh/",
   "github": "https://github.com/helm/helm",
@@ -17,5 +17,11 @@
     "kubernetes",
     "packaging",
     "charts"
-  ]
+  ],
+  "nameEn": "Helm",
+  "nameVi": "Helm",
+  "shortDescriptionVi": "Package Manager cho Kubernetes",
+  "descriptionVi": "Quản lý ứng dụng trên Kubernetes dưới dạng chart.",
+  "shortDescriptionEn": "Kubernetes Package Manager",
+  "descriptionEn": "Manage Kubernetes applications as reusable charts."
 }

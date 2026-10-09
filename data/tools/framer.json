@@ -4,7 +4,7 @@
   "slug": "framer",
   "category": "ui-design",
   "shortDescription": "Design & Publish",
-  "description": "Thiết kế và xuất bản website tương tác không cần code.",
+  "description": "Design and publish interactive websites without writing code.",
   "icon": "/icons/framer.svg",
   "website": "https://www.framer.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "design",
     "website",
     "nocode"
-  ]
+  ],
+  "nameEn": "Framer",
+  "nameVi": "Framer",
+  "shortDescriptionVi": "Design & Publish",
+  "descriptionVi": "Thiết kế và xuất bản website tương tác không cần code.",
+  "shortDescriptionEn": "Design & Publish",
+  "descriptionEn": "Design and publish interactive websites without writing code."
 }

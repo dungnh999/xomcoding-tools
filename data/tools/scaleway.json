@@ -4,7 +4,7 @@
   "slug": "scaleway",
   "category": "cloud",
   "shortDescription": "European Cloud",
-  "description": "Cloud châu Âu: instance, storage và dịch vụ managed.",
+  "description": "European cloud services for instances, storage, and managed infrastructure.",
   "icon": "/icons/scaleway.svg",
   "website": "https://www.scaleway.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "iaas",
     "cloud",
     "europe"
-  ]
+  ],
+  "nameEn": "Scaleway",
+  "nameVi": "Scaleway",
+  "shortDescriptionVi": "European Cloud",
+  "descriptionVi": "Cloud châu Âu: instance, storage và dịch vụ managed.",
+  "shortDescriptionEn": "European Cloud",
+  "descriptionEn": "European cloud services for instances, storage, and managed infrastructure."
 }

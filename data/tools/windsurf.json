@@ -4,7 +4,7 @@
   "slug": "windsurf",
   "category": "ai-coding",
   "shortDescription": "AI Code Editor",
-  "description": "Trình soạn thảo với agent AI hỗ trợ luồng làm việc (flow).",
+  "description": "A code editor with AI agents for flow-based development.",
   "icon": "/icons/windsurf.svg",
   "website": "https://windsurf.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "editor",
     "ai",
     "ide"
-  ]
+  ],
+  "nameEn": "Windsurf",
+  "nameVi": "Windsurf",
+  "shortDescriptionVi": "AI Code Editor",
+  "descriptionVi": "Trình soạn thảo với agent AI hỗ trợ luồng làm việc (flow).",
+  "shortDescriptionEn": "AI Code Editor",
+  "descriptionEn": "A code editor with AI agents for flow-based development."
 }

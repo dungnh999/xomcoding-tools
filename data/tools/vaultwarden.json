@@ -3,8 +3,8 @@
   "name": "Vaultwarden",
   "slug": "vaultwarden",
   "category": "self-hosted",
-  "shortDescription": "Password Manager tự host",
-  "description": "Server Bitwarden tương thích, chạy nhẹ bằng Rust.",
+  "shortDescription": "Self-hosted Password Manager",
+  "description": "A lightweight Rust server compatible with Bitwarden.",
   "icon": "/icons/vaultwarden.svg",
   "website": "https://github.com/dani-garcia/vaultwarden",
   "github": "https://github.com/dani-garcia/vaultwarden",
@@ -17,5 +17,11 @@
     "passwords",
     "bitwarden",
     "security"
-  ]
+  ],
+  "nameEn": "Vaultwarden",
+  "nameVi": "Vaultwarden",
+  "shortDescriptionVi": "Password Manager tự host",
+  "descriptionVi": "Server Bitwarden tương thích, chạy nhẹ bằng Rust.",
+  "shortDescriptionEn": "Self-hosted Password Manager",
+  "descriptionEn": "A lightweight Rust server compatible with Bitwarden."
 }

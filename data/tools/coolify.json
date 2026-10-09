@@ -4,7 +4,7 @@
   "slug": "coolify",
   "category": "self-hosted",
   "shortDescription": "Open Source PaaS",
-  "description": "Nền tảng tự deploy ứng dụng giống Vercel/Netlify trên server riêng.",
+  "description": "Self-host apps on your own server with a Vercel/Netlify-like experience.",
   "icon": "/icons/coolify.svg",
   "website": "https://coolify.io/",
   "github": "https://github.com/coollabsio/coolify",
@@ -17,5 +17,11 @@
     "paas",
     "deploy",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "Coolify",
+  "nameVi": "Coolify",
+  "shortDescriptionVi": "Open Source PaaS",
+  "descriptionVi": "Nền tảng tự deploy ứng dụng giống Vercel/Netlify trên server riêng.",
+  "shortDescriptionEn": "Open Source PaaS",
+  "descriptionEn": "Self-host apps on your own server with a Vercel/Netlify-like experience."
 }

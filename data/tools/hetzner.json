@@ -4,7 +4,7 @@
   "slug": "hetzner",
   "category": "cloud",
   "shortDescription": "Cloud & Dedicated Server",
-  "description": "VPS và server chuyên dụng giá tốt, trung tâm dữ liệu tại Đức.",
+  "description": "Affordable VPS and dedicated servers from German data centers.",
   "icon": "/icons/hetzner.svg",
   "website": "https://www.hetzner.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "vps",
     "iaas",
     "dedicated"
-  ]
+  ],
+  "nameEn": "Hetzner",
+  "nameVi": "Hetzner",
+  "shortDescriptionVi": "Cloud & Dedicated Server",
+  "descriptionVi": "VPS và server chuyên dụng giá tốt, trung tâm dữ liệu tại Đức.",
+  "shortDescriptionEn": "Cloud & Dedicated Server",
+  "descriptionEn": "Affordable VPS and dedicated servers from German data centers."
 }

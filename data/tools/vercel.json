@@ -4,7 +4,7 @@
   "slug": "vercel",
   "category": "cloud",
   "shortDescription": "Frontend Hosting",
-  "description": "Triển khai website và ứng dụng frontend với preview tự động.",
+  "description": "Deploy frontend websites and apps with automatic preview environments.",
   "icon": "/icons/vercel.svg",
   "website": "https://vercel.com/",
   "github": "https://github.com/vercel/vercel",
@@ -17,5 +17,11 @@
     "deploy",
     "frontend",
     "serverless"
-  ]
+  ],
+  "nameEn": "Vercel",
+  "nameVi": "Vercel",
+  "shortDescriptionVi": "Frontend Hosting",
+  "descriptionVi": "Triển khai website và ứng dụng frontend với preview tự động.",
+  "shortDescriptionEn": "Frontend Hosting",
+  "descriptionEn": "Deploy frontend websites and apps with automatic preview environments."
 }

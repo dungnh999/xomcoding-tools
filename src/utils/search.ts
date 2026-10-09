@@ -13,7 +13,23 @@ export function normalize(text: string): string {
 
 export function buildSearchText(tool: Tool, category?: Category): string {
   return normalize(
-    [tool.name, tool.shortDescription, tool.description, category?.name ?? '', ...tool.tags].join(' '),
+    [
+      tool.name,
+      tool.nameEn,
+      tool.nameVi,
+      tool.shortDescription,
+      tool.shortDescriptionEn,
+      tool.shortDescriptionVi,
+      tool.description,
+      tool.descriptionEn,
+      tool.descriptionVi,
+      category?.name,
+      category?.nameEn,
+      category?.nameVi,
+      ...tool.tags,
+    ]
+      .filter(Boolean)
+      .join(' '),
   )
 }
 

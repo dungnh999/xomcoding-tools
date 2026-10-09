@@ -4,7 +4,7 @@
   "slug": "git",
   "category": "developer",
   "shortDescription": "Version Control",
-  "description": "Hệ thống quản lý phiên bản phân tán phổ biến nhất.",
+  "description": "The most popular distributed version control system.",
   "icon": "/icons/git.svg",
   "website": "https://git-scm.com/",
   "github": "https://github.com/git/git",
@@ -17,5 +17,11 @@
     "vcs",
     "version",
     "collaboration"
-  ]
+  ],
+  "nameEn": "Git",
+  "nameVi": "Git",
+  "shortDescriptionVi": "Version Control",
+  "descriptionVi": "Hệ thống quản lý phiên bản phân tán phổ biến nhất.",
+  "shortDescriptionEn": "Version Control",
+  "descriptionEn": "The most popular distributed version control system."
 }

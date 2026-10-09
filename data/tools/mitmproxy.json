@@ -4,7 +4,7 @@
   "slug": "mitmproxy",
   "category": "security",
   "shortDescription": "HTTP Proxy",
-  "description": "Proxy HTTP tương tác để gỡ lỗi và kiểm thử lưu lượng.",
+  "description": "An interactive HTTP proxy for debugging and testing traffic.",
   "icon": "/icons/mitmproxy.svg",
   "website": "https://mitmproxy.org/",
   "github": "https://github.com/mitmproxy/mitmproxy",
@@ -17,5 +17,11 @@
     "proxy",
     "debugging",
     "http"
-  ]
+  ],
+  "nameEn": "mitmproxy",
+  "nameVi": "mitmproxy",
+  "shortDescriptionVi": "HTTP Proxy",
+  "descriptionVi": "Proxy HTTP tương tác để gỡ lỗi và kiểm thử lưu lượng.",
+  "shortDescriptionEn": "HTTP Proxy",
+  "descriptionEn": "An interactive HTTP proxy for debugging and testing traffic."
 }

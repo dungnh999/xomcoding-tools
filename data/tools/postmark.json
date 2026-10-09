@@ -4,7 +4,7 @@
   "slug": "postmark",
   "category": "email",
   "shortDescription": "Transactional Email",
-  "description": "Gửi email giao dịch với tỷ lệ vào inbox cao.",
+  "description": "Send transactional email with strong inbox placement.",
   "icon": "/icons/postmark.svg",
   "website": "https://postmarkapp.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "email",
     "transactional",
     "api"
-  ]
+  ],
+  "nameEn": "Postmark",
+  "nameVi": "Postmark",
+  "shortDescriptionVi": "Transactional Email",
+  "descriptionVi": "Gửi email giao dịch với tỷ lệ vào inbox cao.",
+  "shortDescriptionEn": "Transactional Email",
+  "descriptionEn": "Send transactional email with strong inbox placement."
 }

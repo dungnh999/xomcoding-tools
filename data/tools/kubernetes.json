@@ -4,7 +4,7 @@
   "slug": "kubernetes",
   "category": "devops",
   "shortDescription": "Container Orchestration",
-  "description": "Điều phối workload container ở quy mô lớn.",
+  "description": "Orchestrate container workloads at scale.",
   "icon": "/icons/kubernetes.svg",
   "website": "https://kubernetes.io/",
   "github": "https://github.com/kubernetes/kubernetes",
@@ -17,5 +17,11 @@
     "k8s",
     "orchestration",
     "devops"
-  ]
+  ],
+  "nameEn": "Kubernetes",
+  "nameVi": "Kubernetes",
+  "shortDescriptionVi": "Container Orchestration",
+  "descriptionVi": "Điều phối workload container ở quy mô lớn.",
+  "shortDescriptionEn": "Container Orchestration",
+  "descriptionEn": "Orchestrate container workloads at scale."
 }

@@ -4,7 +4,7 @@
   "slug": "meilisearch",
   "category": "database",
   "shortDescription": "Search Engine",
-  "description": "Máy tìm kiếm nhanh, hỗ trợ tìm gần đúng và sửa lỗi chính tả.",
+  "description": "A fast search engine with typo tolerance and fuzzy matching.",
   "icon": "/icons/meilisearch.svg",
   "website": "https://www.meilisearch.com/",
   "github": "https://github.com/meilisearch/meilisearch",
@@ -17,5 +17,11 @@
     "search",
     "fulltext",
     "api"
-  ]
+  ],
+  "nameEn": "Meilisearch",
+  "nameVi": "Meilisearch",
+  "shortDescriptionVi": "Search Engine",
+  "descriptionVi": "Máy tìm kiếm nhanh, hỗ trợ tìm gần đúng và sửa lỗi chính tả.",
+  "shortDescriptionEn": "Search Engine",
+  "descriptionEn": "A fast search engine with typo tolerance and fuzzy matching."
 }

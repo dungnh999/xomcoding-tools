@@ -4,7 +4,7 @@
   "slug": "vscode",
   "category": "developer",
   "shortDescription": "Code Editor",
-  "description": "Trình soạn thảo code linh hoạt, đa nền tảng, nhiều extension.",
+  "description": "A flexible, cross-platform code editor with a large extension ecosystem.",
   "icon": "/icons/visualstudiocode.svg",
   "website": "https://code.visualstudio.com/",
   "github": "https://github.com/microsoft/vscode",
@@ -17,5 +17,11 @@
     "editor",
     "ide",
     "microsoft"
-  ]
+  ],
+  "nameEn": "Visual Studio Code",
+  "nameVi": "Visual Studio Code",
+  "shortDescriptionVi": "Code Editor",
+  "descriptionVi": "Trình soạn thảo code linh hoạt, đa nền tảng, nhiều extension.",
+  "shortDescriptionEn": "Code Editor",
+  "descriptionEn": "A flexible, cross-platform code editor with a large extension ecosystem."
 }

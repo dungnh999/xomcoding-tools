@@ -3,8 +3,8 @@
   "name": "OpenAI",
   "slug": "openai",
   "category": "ai-ml",
-  "shortDescription": "Nền tảng AI",
-  "description": "API mô hình ngôn ngữ và đa phương thức GPT.",
+  "shortDescription": "AI Platform",
+  "description": "APIs for GPT language and multimodal models.",
   "icon": "/icons/openai.svg",
   "website": "https://openai.com/",
   "github": "https://github.com/openai",
@@ -17,5 +17,11 @@
     "llm",
     "api",
     "gpt"
-  ]
+  ],
+  "nameEn": "OpenAI",
+  "nameVi": "OpenAI",
+  "shortDescriptionVi": "Nền tảng AI",
+  "descriptionVi": "API mô hình ngôn ngữ và đa phương thức GPT.",
+  "shortDescriptionEn": "AI Platform",
+  "descriptionEn": "APIs for GPT language and multimodal models."
 }

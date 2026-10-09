@@ -4,7 +4,7 @@
   "slug": "nocodb",
   "category": "database",
   "shortDescription": "Spreadsheet Database",
-  "description": "Biến cơ sở dữ liệu thành bảng tính dạng Airtable.",
+  "description": "Turn databases into Airtable-like spreadsheets.",
   "icon": "/icons/nocodb.svg",
   "website": "https://nocodb.com/",
   "github": "https://github.com/nocodb/nocodb",
@@ -17,5 +17,11 @@
     "nocode",
     "airtable",
     "database"
-  ]
+  ],
+  "nameEn": "NocoDB",
+  "nameVi": "NocoDB",
+  "shortDescriptionVi": "Spreadsheet Database",
+  "descriptionVi": "Biến cơ sở dữ liệu thành bảng tính dạng Airtable.",
+  "shortDescriptionEn": "Spreadsheet Database",
+  "descriptionEn": "Turn databases into Airtable-like spreadsheets."
 }

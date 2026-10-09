@@ -4,7 +4,7 @@
   "slug": "aider",
   "category": "ai-coding",
   "shortDescription": "AI Pair Programming",
-  "description": "Trợ lý AI lập trình trong terminal, gắn liền với git.",
+  "description": "An AI coding assistant that works in the terminal and stays tightly integrated with git.",
   "icon": "/icons/aider.svg",
   "website": "https://aider.chat/",
   "github": "https://github.com/Aider-AI/aider",
@@ -18,5 +18,11 @@
     "agent",
     "terminal",
     "git"
-  ]
+  ],
+  "nameEn": "Aider",
+  "nameVi": "Aider",
+  "shortDescriptionVi": "AI Pair Programming",
+  "descriptionVi": "Trợ lý AI lập trình trong terminal, gắn liền với git.",
+  "shortDescriptionEn": "AI Pair Programming",
+  "descriptionEn": "An AI coding assistant that works in the terminal and stays tightly integrated with git."
 }

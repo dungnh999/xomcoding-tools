@@ -3,8 +3,8 @@
   "name": "Prisma",
   "slug": "prisma",
   "category": "database",
-  "shortDescription": "ORM cho Node.js",
-  "description": "ORM TypeScript mạnh mẽ cho Node.js và PostgreSQL.",
+  "shortDescription": "Node.js ORM",
+  "description": "A powerful TypeScript ORM for Node.js and PostgreSQL.",
   "icon": "/icons/prisma.svg",
   "website": "https://www.prisma.io/",
   "github": "https://github.com/prisma/prisma",
@@ -18,5 +18,11 @@
     "typescript",
     "nodejs",
     "postgresql"
-  ]
+  ],
+  "nameEn": "Prisma",
+  "nameVi": "Prisma",
+  "shortDescriptionVi": "ORM cho Node.js",
+  "descriptionVi": "ORM TypeScript mạnh mẽ cho Node.js và PostgreSQL.",
+  "shortDescriptionEn": "Node.js ORM",
+  "descriptionEn": "A powerful TypeScript ORM for Node.js and PostgreSQL."
 }

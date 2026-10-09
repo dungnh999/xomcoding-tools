@@ -4,7 +4,7 @@
   "slug": "resend",
   "category": "email",
   "shortDescription": "Email API",
-  "description": "API gửi transactional email dành cho developer.",
+  "description": "A transactional email API built for developers.",
   "icon": "/icons/resend.svg",
   "website": "https://resend.com/",
   "github": "https://github.com/resend/resend-node",
@@ -17,5 +17,11 @@
     "email",
     "api",
     "transactional"
-  ]
+  ],
+  "nameEn": "Resend",
+  "nameVi": "Resend",
+  "shortDescriptionVi": "Email API",
+  "descriptionVi": "API gửi transactional email dành cho developer.",
+  "shortDescriptionEn": "Email API",
+  "descriptionEn": "A transactional email API built for developers."
 }

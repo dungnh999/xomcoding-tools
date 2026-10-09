@@ -4,7 +4,7 @@
   "slug": "bootstrap",
   "category": "frontend",
   "shortDescription": "CSS Framework",
-  "description": "Framework HTML/CSS/JS lâu đời với hệ thống lưới mạnh.",
+  "description": "A long-standing HTML, CSS, and JavaScript framework with a powerful grid system.",
   "icon": "/icons/bootstrap.svg",
   "website": "https://getbootstrap.com/",
   "github": "https://github.com/twbs/bootstrap",
@@ -17,5 +17,11 @@
     "css",
     "framework",
     "responsive"
-  ]
+  ],
+  "nameEn": "Bootstrap",
+  "nameVi": "Bootstrap",
+  "shortDescriptionVi": "CSS Framework",
+  "descriptionVi": "Framework HTML/CSS/JS lâu đời với hệ thống lưới mạnh.",
+  "shortDescriptionEn": "CSS Framework",
+  "descriptionEn": "A long-standing HTML, CSS, and JavaScript framework with a powerful grid system."
 }

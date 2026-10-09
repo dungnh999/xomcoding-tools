@@ -4,7 +4,7 @@
   "slug": "cline",
   "category": "ai-coding",
   "shortDescription": "Autonomous Coding Agent",
-  "description": "Agent AI mã nguồn mở thực hiện tác vụ coding theo yêu cầu.",
+  "description": "An open source AI agent that performs coding tasks on request.",
   "icon": "/icons/cline.svg",
   "website": "https://cline.bot/",
   "github": "https://github.com/cline/cline",
@@ -17,5 +17,11 @@
     "ai",
     "agent",
     "vscode"
-  ]
+  ],
+  "nameEn": "Cline",
+  "nameVi": "Cline",
+  "shortDescriptionVi": "Autonomous Coding Agent",
+  "descriptionVi": "Agent AI mã nguồn mở thực hiện tác vụ coding theo yêu cầu.",
+  "shortDescriptionEn": "Autonomous Coding Agent",
+  "descriptionEn": "An open source AI agent that performs coding tasks on request."
 }

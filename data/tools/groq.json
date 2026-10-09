@@ -4,7 +4,7 @@
   "slug": "groq",
   "category": "ai-ml",
   "shortDescription": "Fast LLM Inference",
-  "description": "Inference mô hình ngôn ngữ cực nhanh trên phần cứng LPU.",
+  "description": "Ultra-fast language model inference powered by LPU hardware.",
   "icon": "/icons/groq.svg",
   "website": "https://groq.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "llm",
     "inference",
     "api"
-  ]
+  ],
+  "nameEn": "Groq",
+  "nameVi": "Groq",
+  "shortDescriptionVi": "Fast LLM Inference",
+  "descriptionVi": "Inference mô hình ngôn ngữ cực nhanh trên phần cứng LPU.",
+  "shortDescriptionEn": "Fast LLM Inference",
+  "descriptionEn": "Ultra-fast language model inference powered by LPU hardware."
 }

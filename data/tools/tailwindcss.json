@@ -4,7 +4,7 @@
   "slug": "tailwindcss",
   "category": "frontend",
   "shortDescription": "CSS Framework",
-  "description": "CSS utility-first để thiết kế giao diện nhanh chóng.",
+  "description": "A utility-first CSS framework for quickly designing interfaces.",
   "icon": "/icons/tailwindcss.svg",
   "website": "https://tailwindcss.com/",
   "github": "https://github.com/tailwindlabs/tailwindcss",
@@ -17,5 +17,11 @@
     "css",
     "design",
     "utility"
-  ]
+  ],
+  "nameEn": "Tailwind CSS",
+  "nameVi": "Tailwind CSS",
+  "shortDescriptionVi": "CSS Framework",
+  "descriptionVi": "CSS utility-first để thiết kế giao diện nhanh chóng.",
+  "shortDescriptionEn": "CSS Framework",
+  "descriptionEn": "A utility-first CSS framework for quickly designing interfaces."
 }

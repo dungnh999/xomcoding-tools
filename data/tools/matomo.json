@@ -4,7 +4,7 @@
   "slug": "matomo",
   "category": "others",
   "shortDescription": "Web Analytics",
-  "description": "Phân tích web tự hosting, tôn trọng quyền riêng tư người dùng.",
+  "description": "Self-hosted web analytics that respects user privacy.",
   "icon": "/icons/matomo.svg",
   "website": "https://matomo.org/",
   "github": "https://github.com/matomo-org/matomo",
@@ -17,5 +17,11 @@
     "analytics",
     "privacy",
     "tracking"
-  ]
+  ],
+  "nameEn": "Matomo",
+  "nameVi": "Matomo",
+  "shortDescriptionVi": "Web Analytics",
+  "descriptionVi": "Phân tích web tự hosting, tôn trọng quyền riêng tư người dùng.",
+  "shortDescriptionEn": "Web Analytics",
+  "descriptionEn": "Self-hosted web analytics that respects user privacy."
 }

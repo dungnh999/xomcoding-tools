@@ -4,7 +4,7 @@
   "slug": "linear",
   "category": "productivity",
   "shortDescription": "Issue Tracking",
-  "description": "Quản lý issue và vòng đời phát triển sản phẩm phần mềm.",
+  "description": "Manage issues and the software product development lifecycle.",
   "icon": "/icons/linear.svg",
   "website": "https://linear.app/",
   "github": null,
@@ -17,5 +17,11 @@
     "issues",
     "projects",
     "agile"
-  ]
+  ],
+  "nameEn": "Linear",
+  "nameVi": "Linear",
+  "shortDescriptionVi": "Issue Tracking",
+  "descriptionVi": "Quản lý issue và vòng đời phát triển sản phẩm phần mềm.",
+  "shortDescriptionEn": "Issue Tracking",
+  "descriptionEn": "Manage issues and the software product development lifecycle."
 }

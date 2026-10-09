@@ -3,8 +3,8 @@
   "name": "PocketBase",
   "slug": "pocketbase",
   "category": "database",
-  "shortDescription": "Backend trong một file",
-  "description": "Backend nhẹ gồm database, auth và storage trong một file nhị phân.",
+  "shortDescription": "Backend in One File",
+  "description": "A lightweight backend with database, auth, and storage in one binary.",
   "icon": "/icons/pocketbase.svg",
   "website": "https://pocketbase.io/",
   "github": "https://github.com/pocketbase/pocketbase",
@@ -17,5 +17,11 @@
     "baas",
     "backend",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "PocketBase",
+  "nameVi": "PocketBase",
+  "shortDescriptionVi": "Backend trong một file",
+  "descriptionVi": "Backend nhẹ gồm database, auth và storage trong một file nhị phân.",
+  "shortDescriptionEn": "Backend in One File",
+  "descriptionEn": "A lightweight backend with database, auth, and storage in one binary."
 }

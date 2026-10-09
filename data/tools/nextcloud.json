@@ -4,7 +4,7 @@
   "slug": "nextcloud",
   "category": "storage",
   "shortDescription": "Self-hosted Cloud",
-  "description": "Cloud lưu trữ, chia sẻ file và cộng tác tự hosting.",
+  "description": "Self-hosted cloud storage, file sharing, and collaboration.",
   "icon": "/icons/nextcloud.svg",
   "website": "https://nextcloud.com/",
   "github": "https://github.com/nextcloud/server",
@@ -17,5 +17,11 @@
     "storage",
     "sync",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "Nextcloud",
+  "nameVi": "Nextcloud",
+  "shortDescriptionVi": "Self-hosted Cloud",
+  "descriptionVi": "Cloud lưu trữ, chia sẻ file và cộng tác tự hosting.",
+  "shortDescriptionEn": "Self-hosted Cloud",
+  "descriptionEn": "Self-hosted cloud storage, file sharing, and collaboration."
 }

@@ -4,7 +4,7 @@
   "slug": "syncthing",
   "category": "storage",
   "shortDescription": "File Sync",
-  "description": "Đồng bộ file ngang hàng, mã hóa giữa các thiết bị.",
+  "description": "Peer-to-peer encrypted file synchronization across devices.",
   "icon": "/icons/syncthing.svg",
   "website": "https://syncthing.net/",
   "github": "https://github.com/syncthing/syncthing",
@@ -17,5 +17,11 @@
     "sync",
     "p2p",
     "files"
-  ]
+  ],
+  "nameEn": "Syncthing",
+  "nameVi": "Syncthing",
+  "shortDescriptionVi": "File Sync",
+  "descriptionVi": "Đồng bộ file ngang hàng, mã hóa giữa các thiết bị.",
+  "shortDescriptionEn": "File Sync",
+  "descriptionEn": "Peer-to-peer encrypted file synchronization across devices."
 }

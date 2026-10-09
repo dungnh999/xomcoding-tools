@@ -4,7 +4,7 @@
   "slug": "grafana",
   "category": "devops",
   "shortDescription": "Observability Platform",
-  "description": "Biểu đồ hóa và giám sát metrics, logs, traces.",
+  "description": "Visualize and monitor metrics, logs, and traces.",
   "icon": "/icons/grafana.svg",
   "website": "https://grafana.com/",
   "github": "https://github.com/grafana/grafana",
@@ -17,5 +17,11 @@
     "monitoring",
     "metrics",
     "dashboards"
-  ]
+  ],
+  "nameEn": "Grafana",
+  "nameVi": "Grafana",
+  "shortDescriptionVi": "Observability Platform",
+  "descriptionVi": "Biểu đồ hóa và giám sát metrics, logs, traces.",
+  "shortDescriptionEn": "Observability Platform",
+  "descriptionEn": "Visualize and monitor metrics, logs, and traces."
 }

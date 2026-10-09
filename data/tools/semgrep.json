@@ -4,7 +4,7 @@
   "slug": "semgrep",
   "category": "security",
   "shortDescription": "Static Analysis",
-  "description": "Quét code tĩnh nhanh, tìm lỗ hổng bảo mật và code smell.",
+  "description": "Fast static code scanning for vulnerabilities and code smells.",
   "icon": "/icons/semgrep.svg",
   "website": "https://semgrep.dev/",
   "github": "https://github.com/semgrep/semgrep",
@@ -17,5 +17,11 @@
     "sast",
     "static",
     "analysis"
-  ]
+  ],
+  "nameEn": "Semgrep",
+  "nameVi": "Semgrep",
+  "shortDescriptionVi": "Static Analysis",
+  "descriptionVi": "Quét code tĩnh nhanh, tìm lỗ hổng bảo mật và code smell.",
+  "shortDescriptionEn": "Static Analysis",
+  "descriptionEn": "Fast static code scanning for vulnerabilities and code smells."
 }

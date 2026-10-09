@@ -4,7 +4,7 @@
   "slug": "postgresql",
   "category": "database",
   "shortDescription": "Relational Database",
-  "description": "Hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở.",
+  "description": "An open source relational database management system.",
   "icon": "/icons/postgresql.svg",
   "website": "https://www.postgresql.org/",
   "github": "https://github.com/postgres/postgres",
@@ -17,5 +17,11 @@
     "sql",
     "rdbms",
     "database"
-  ]
+  ],
+  "nameEn": "PostgreSQL",
+  "nameVi": "PostgreSQL",
+  "shortDescriptionVi": "Relational Database",
+  "descriptionVi": "Hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở.",
+  "shortDescriptionEn": "Relational Database",
+  "descriptionEn": "An open source relational database management system."
 }

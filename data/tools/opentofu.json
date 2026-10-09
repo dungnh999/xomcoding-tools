@@ -4,7 +4,7 @@
   "slug": "opentofu",
   "category": "devops",
   "shortDescription": "Infrastructure as Code",
-  "description": "Công cụ IaC mã nguồn mở tương thích Terraform.",
+  "description": "An open source IaC tool compatible with Terraform.",
   "icon": "/icons/opentofu.svg",
   "website": "https://opentofu.org/",
   "github": "https://github.com/opentofu/opentofu",
@@ -17,5 +17,11 @@
     "iac",
     "terraform",
     "infrastructure"
-  ]
+  ],
+  "nameEn": "OpenTofu",
+  "nameVi": "OpenTofu",
+  "shortDescriptionVi": "Infrastructure as Code",
+  "descriptionVi": "Công cụ IaC mã nguồn mở tương thích Terraform.",
+  "shortDescriptionEn": "Infrastructure as Code",
+  "descriptionEn": "An open source IaC tool compatible with Terraform."
 }

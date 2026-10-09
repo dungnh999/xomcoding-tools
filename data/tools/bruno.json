@@ -4,7 +4,7 @@
   "slug": "bruno",
   "category": "developer",
   "shortDescription": "API Client",
-  "description": "API client lưu collections trực tiếp trong mã nguồn.",
+  "description": "An API client that stores collections directly in your source code.",
   "icon": "/icons/bruno.svg",
   "website": "https://www.usebruno.com/",
   "github": "https://github.com/usebruno/bruno",
@@ -17,5 +17,11 @@
     "api",
     "rest",
     "offline"
-  ]
+  ],
+  "nameEn": "Bruno",
+  "nameVi": "Bruno",
+  "shortDescriptionVi": "API Client",
+  "descriptionVi": "API client lưu collections trực tiếp trong mã nguồn.",
+  "shortDescriptionEn": "API Client",
+  "descriptionEn": "An API client that stores collections directly in your source code."
 }

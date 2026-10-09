@@ -4,7 +4,7 @@
   "slug": "render",
   "category": "cloud",
   "shortDescription": "Cloud Application Platform",
-  "description": "Triển khai dịch vụ web, worker và database trên cloud.",
+  "description": "Deploy web services, workers, and databases in the cloud.",
   "icon": "/icons/render.svg",
   "website": "https://render.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "paas",
     "deploy",
     "database"
-  ]
+  ],
+  "nameEn": "Render",
+  "nameVi": "Render",
+  "shortDescriptionVi": "Cloud Application Platform",
+  "descriptionVi": "Triển khai dịch vụ web, worker và database trên cloud.",
+  "shortDescriptionEn": "Cloud Application Platform",
+  "descriptionEn": "Deploy web services, workers, and databases in the cloud."
 }

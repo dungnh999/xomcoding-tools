@@ -3,8 +3,8 @@
   "name": "Ollama",
   "slug": "ollama",
   "category": "ai-ml",
-  "shortDescription": "Chạy LLM cục bộ",
-  "description": "Chạy mô hình ngôn ngữ lớn cục bộ trên máy của bạn.",
+  "shortDescription": "Local LLM Runner",
+  "description": "Run large language models locally on your machine.",
   "icon": "/icons/ollama.svg",
   "website": "https://ollama.com/",
   "github": "https://github.com/ollama/ollama",
@@ -17,5 +17,11 @@
     "llm",
     "local",
     "ai"
-  ]
+  ],
+  "nameEn": "Ollama",
+  "nameVi": "Ollama",
+  "shortDescriptionVi": "Chạy LLM cục bộ",
+  "descriptionVi": "Chạy mô hình ngôn ngữ lớn cục bộ trên máy của bạn.",
+  "shortDescriptionEn": "Local LLM Runner",
+  "descriptionEn": "Run large language models locally on your machine."
 }

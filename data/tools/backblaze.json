@@ -4,7 +4,7 @@
   "slug": "backblaze",
   "category": "storage",
   "shortDescription": "Cloud Storage",
-  "description": "Lưu trữ đối tượng giá rẻ với S3-compatible API.",
+  "description": "Low-cost object storage with an S3-compatible API.",
   "icon": "/icons/backblaze.svg",
   "website": "https://www.backblaze.com/cloud-storage",
   "github": null,
@@ -17,5 +17,11 @@
     "backup",
     "storage",
     "s3"
-  ]
+  ],
+  "nameEn": "Backblaze B2",
+  "nameVi": "Backblaze B2",
+  "shortDescriptionVi": "Cloud Storage",
+  "descriptionVi": "Lưu trữ đối tượng giá rẻ với S3-compatible API.",
+  "shortDescriptionEn": "Cloud Storage",
+  "descriptionEn": "Low-cost object storage with an S3-compatible API."
 }

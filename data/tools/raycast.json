@@ -4,7 +4,7 @@
   "slug": "raycast",
   "category": "productivity",
   "shortDescription": "Productivity Launcher",
-  "description": "Bộ khởi chạy nhanh với extension cho developer.",
+  "description": "A fast launcher with extensions for developers.",
   "icon": "/icons/raycast.svg",
   "website": "https://www.raycast.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "launcher",
     "macos",
     "shortcuts"
-  ]
+  ],
+  "nameEn": "Raycast",
+  "nameVi": "Raycast",
+  "shortDescriptionVi": "Productivity Launcher",
+  "descriptionVi": "Bộ khởi chạy nhanh với extension cho developer.",
+  "shortDescriptionEn": "Productivity Launcher",
+  "descriptionEn": "A fast launcher with extensions for developers."
 }

@@ -4,7 +4,7 @@
   "slug": "threejs",
   "category": "frontend",
   "shortDescription": "3D Library",
-  "description": "Thư viện WebGL xây dựng nội dung 3D trên trình duyệt.",
+  "description": "A WebGL library for building 3D content in the browser.",
   "icon": "/icons/threedotjs.svg",
   "website": "https://threejs.org/",
   "github": "https://github.com/mrdoob/three.js",
@@ -17,5 +17,11 @@
     "webgl",
     "3d",
     "graphics"
-  ]
+  ],
+  "nameEn": "Three.js",
+  "nameVi": "Three.js",
+  "shortDescriptionVi": "3D Library",
+  "descriptionVi": "Thư viện WebGL xây dựng nội dung 3D trên trình duyệt.",
+  "shortDescriptionEn": "3D Library",
+  "descriptionEn": "A WebGL library for building 3D content in the browser."
 }

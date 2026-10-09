@@ -4,7 +4,7 @@
   "slug": "github-pages",
   "category": "cloud",
   "shortDescription": "Static Site Hosting",
-  "description": "Host trang tĩnh ngay từ repository GitHub, miễn phí.",
+  "description": "Host static sites directly from a GitHub repository for free.",
   "icon": "/icons/githubpages.svg",
   "website": "https://pages.github.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "hosting",
     "static",
     "github"
-  ]
+  ],
+  "nameEn": "GitHub Pages",
+  "nameVi": "GitHub Pages",
+  "shortDescriptionVi": "Static Site Hosting",
+  "descriptionVi": "Host trang tĩnh ngay từ repository GitHub, miễn phí.",
+  "shortDescriptionEn": "Static Site Hosting",
+  "descriptionEn": "Host static sites directly from a GitHub repository for free."
 }

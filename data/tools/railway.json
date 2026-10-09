@@ -4,7 +4,7 @@
   "slug": "railway",
   "category": "cloud",
   "shortDescription": "Instant Deploy",
-  "description": "Deploy ứng dụng từ repo với môi trường và database tự động.",
+  "description": "Deploy apps from repositories with automatic environments and databases.",
   "icon": "/icons/railway.svg",
   "website": "https://railway.app/",
   "github": null,
@@ -17,5 +17,11 @@
     "paas",
     "deploy",
     "database"
-  ]
+  ],
+  "nameEn": "Railway",
+  "nameVi": "Railway",
+  "shortDescriptionVi": "Instant Deploy",
+  "descriptionVi": "Deploy ứng dụng từ repo với môi trường và database tự động.",
+  "shortDescriptionEn": "Instant Deploy",
+  "descriptionEn": "Deploy apps from repositories with automatic environments and databases."
 }

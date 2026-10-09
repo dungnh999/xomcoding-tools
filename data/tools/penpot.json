@@ -4,7 +4,7 @@
   "slug": "penpot",
   "category": "ui-design",
   "shortDescription": "Open Source Design Tool",
-  "description": "Công cụ thiết kế UI/UX mã nguồn mở, thay thế Figma.",
+  "description": "An open source UI/UX design tool and Figma alternative.",
   "icon": "/icons/penpot.svg",
   "website": "https://penpot.app/",
   "github": "https://github.com/penpot/penpot",
@@ -18,5 +18,11 @@
     "ui",
     "ux",
     "opensource"
-  ]
+  ],
+  "nameEn": "Penpot",
+  "nameVi": "Penpot",
+  "shortDescriptionVi": "Open Source Design Tool",
+  "descriptionVi": "Công cụ thiết kế UI/UX mã nguồn mở, thay thế Figma.",
+  "shortDescriptionEn": "Open Source Design Tool",
+  "descriptionEn": "An open source UI/UX design tool and Figma alternative."
 }

@@ -4,7 +4,7 @@
   "slug": "snyk",
   "category": "security",
   "shortDescription": "Developer Security",
-  "description": "Tìm và vá lỗ hổng trong dependency, container và IaC.",
+  "description": "Find and fix vulnerabilities in dependencies, containers, and IaC.",
   "icon": "/icons/snyk.svg",
   "website": "https://snyk.io/",
   "github": null,
@@ -17,5 +17,11 @@
     "scanner",
     "dependencies",
     "cve"
-  ]
+  ],
+  "nameEn": "Snyk",
+  "nameVi": "Snyk",
+  "shortDescriptionVi": "Developer Security",
+  "descriptionVi": "Tìm và vá lỗ hổng trong dependency, container và IaC.",
+  "shortDescriptionEn": "Developer Security",
+  "descriptionEn": "Find and fix vulnerabilities in dependencies, containers, and IaC."
 }

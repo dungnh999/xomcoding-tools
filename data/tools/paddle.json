@@ -4,7 +4,7 @@
   "slug": "paddle",
   "category": "payment",
   "shortDescription": "Merchant of Record",
-  "description": "Thanh toán và thuế cho phần mềm, bán hàng toàn cầu.",
+  "description": "Payments and tax handling for software sold globally.",
   "icon": "/icons/paddle.svg",
   "website": "https://www.paddle.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "payments",
     "tax",
     "saas"
-  ]
+  ],
+  "nameEn": "Paddle",
+  "nameVi": "Paddle",
+  "shortDescriptionVi": "Merchant of Record",
+  "descriptionVi": "Thanh toán và thuế cho phần mềm, bán hàng toàn cầu.",
+  "shortDescriptionEn": "Merchant of Record",
+  "descriptionEn": "Payments and tax handling for software sold globally."
 }

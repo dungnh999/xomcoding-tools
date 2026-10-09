@@ -1,6 +1,8 @@
 import { Check, Copy, ExternalLink, Github, NotebookPen } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import type { Language } from '../../i18n'
 import type { Tool } from '../../types/tool'
+import { getToolDescription, getToolName, getToolShortDescription } from '../../utils/localize'
 import { OpenSourceBadge, PricingBadge } from '../ui/Badge'
 import { ToolIcon } from '../ui/ToolIcon'
 import { ToolStatus } from './ToolStatus'
@@ -26,13 +28,16 @@ function useCopyUrl(url: string) {
   return { copied, copy }
 }
 
-export function ToolRow({ tool }: { tool: Tool }) {
+export function ToolRow({ tool, lang }: { tool: Tool; lang: Language }) {
   const { copied, copy } = useCopyUrl(tool.website)
+  const name = getToolName(tool, lang)
+  const shortDescription = getToolShortDescription(tool, lang)
+  const description = getToolDescription(tool, lang)
 
   return (
     <article className="group flex flex-col gap-2 border-b border-border-soft px-3 py-3.5 transition-colors hover:bg-surface-hover lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_56px_140px] lg:items-center lg:gap-4">
       <div className="flex min-w-0 items-center gap-3">
-        <ToolIcon icon={tool.icon} name={tool.name} size={34} />
+        <ToolIcon icon={tool.icon} name={name} size={34} />
         <div className="min-w-0">
           <a
             href={tool.website}
@@ -40,14 +45,14 @@ export function ToolRow({ tool }: { tool: Tool }) {
             rel="noopener noreferrer"
             className="block truncate text-sm font-semibold text-text transition-colors group-hover:text-primary-hover"
           >
-            {tool.name}
+            {name}
           </a>
-          <p className="truncate text-xs text-muted">{tool.shortDescription}</p>
+          <p className="truncate text-xs text-muted">{shortDescription}</p>
         </div>
       </div>
 
-      <p className="line-clamp-2 text-[13px] leading-relaxed text-muted" title={tool.description}>
-        {tool.description}
+      <p className="line-clamp-2 text-[13px] leading-relaxed text-muted" title={description}>
+        {description}
       </p>
 
       <div className="flex flex-wrap items-center gap-1.5">
@@ -65,7 +70,7 @@ export function ToolRow({ tool }: { tool: Tool }) {
           target="_blank"
           rel="noopener noreferrer"
           title="Trang chủ"
-          aria-label={`Trang chủ ${tool.name}`}
+          aria-label={`Trang chủ ${name}`}
           className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
         >
           <ExternalLink className="size-4" />
@@ -76,7 +81,7 @@ export function ToolRow({ tool }: { tool: Tool }) {
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"
-            aria-label={`GitHub ${tool.name}`}
+            aria-label={`GitHub ${name}`}
             className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
           >
             <Github className="size-4" />
@@ -88,7 +93,7 @@ export function ToolRow({ tool }: { tool: Tool }) {
             target="_blank"
             rel="noopener noreferrer"
             title="Đọc trên Xóm Coding"
-            aria-label={`Đọc trên Xóm Coding: ${tool.name}`}
+            aria-label={`Đọc trên Xóm Coding: ${name}`}
             className="rounded-md p-1.5 text-primary-hover transition-colors hover:bg-surface-hover hover:text-primary"
           >
             <NotebookPen className="size-4" />
@@ -98,7 +103,7 @@ export function ToolRow({ tool }: { tool: Tool }) {
           type="button"
           onClick={copy}
           title={copied ? 'Đã sao chép' : 'Sao chép URL'}
-          aria-label={copied ? 'Đã sao chép URL' : `Sao chép URL ${tool.name}`}
+          aria-label={copied ? 'Đã sao chép URL' : `Sao chép URL ${name}`}
           className="rounded-md p-1.5 transition-colors hover:bg-surface-hover hover:text-primary-hover"
         >
           {copied ? <Check className="size-4 text-active" /> : <Copy className="size-4" />}

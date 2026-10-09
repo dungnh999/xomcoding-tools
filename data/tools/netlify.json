@@ -4,7 +4,7 @@
   "slug": "netlify",
   "category": "cloud",
   "shortDescription": "Web Platform",
-  "description": "Build, deploy và host ứng dụng web với form và functions.",
+  "description": "Build, deploy, and host web apps with forms and functions.",
   "icon": "/icons/netlify.svg",
   "website": "https://www.netlify.com/",
   "github": "https://github.com/netlify/netlify",
@@ -17,5 +17,11 @@
     "deploy",
     "jamstack",
     "serverless"
-  ]
+  ],
+  "nameEn": "Netlify",
+  "nameVi": "Netlify",
+  "shortDescriptionVi": "Web Platform",
+  "descriptionVi": "Build, deploy và host ứng dụng web với form và functions.",
+  "shortDescriptionEn": "Web Platform",
+  "descriptionEn": "Build, deploy, and host web apps with forms and functions."
 }

@@ -4,7 +4,7 @@
   "slug": "mongodb",
   "category": "database",
   "shortDescription": "Document Database",
-  "description": "Cơ sở dữ liệu documents linh hoạt cho ứng dụng hiện đại.",
+  "description": "A flexible document database for modern applications.",
   "icon": "/icons/mongodb.svg",
   "website": "https://www.mongodb.com/",
   "github": "https://github.com/mongodb/mongo",
@@ -17,5 +17,11 @@
     "nosql",
     "document",
     "database"
-  ]
+  ],
+  "nameEn": "MongoDB",
+  "nameVi": "MongoDB",
+  "shortDescriptionVi": "Document Database",
+  "descriptionVi": "Cơ sở dữ liệu documents linh hoạt cho ứng dụng hiện đại.",
+  "shortDescriptionEn": "Document Database",
+  "descriptionEn": "A flexible document database for modern applications."
 }

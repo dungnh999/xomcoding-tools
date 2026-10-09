@@ -4,7 +4,7 @@
   "slug": "plausible",
   "category": "others",
   "shortDescription": "Lightweight Analytics",
-  "description": "Phân tích web đơn giản, không cookie, mã nguồn mở.",
+  "description": "Simple, cookie-free, open source web analytics.",
   "icon": "/icons/plausible.svg",
   "website": "https://plausible.io/",
   "github": "https://github.com/plausible/analytics",
@@ -17,5 +17,11 @@
     "analytics",
     "privacy",
     "lightweight"
-  ]
+  ],
+  "nameEn": "Plausible",
+  "nameVi": "Plausible",
+  "shortDescriptionVi": "Lightweight Analytics",
+  "descriptionVi": "Phân tích web đơn giản, không cookie, mã nguồn mở.",
+  "shortDescriptionEn": "Lightweight Analytics",
+  "descriptionEn": "Simple, cookie-free, open source web analytics."
 }

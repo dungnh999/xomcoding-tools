@@ -4,7 +4,7 @@
   "slug": "casaos",
   "category": "self-hosted",
   "shortDescription": "Home Server OS",
-  "description": "Hệ điều hành máy chủ gia đình, cài ứng dụng bằng một click.",
+  "description": "A home server operating system with one-click app installation.",
   "icon": "/icons/casaos.svg",
   "website": "https://casaos.io/",
   "github": "https://github.com/IceWhaleTech/casaos",
@@ -17,5 +17,11 @@
     "homelab",
     "dashboard",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "CasaOS",
+  "nameVi": "CasaOS",
+  "shortDescriptionVi": "Home Server OS",
+  "descriptionVi": "Hệ điều hành máy chủ gia đình, cài ứng dụng bằng một click.",
+  "shortDescriptionEn": "Home Server OS",
+  "descriptionEn": "A home server operating system with one-click app installation."
 }

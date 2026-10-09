@@ -4,7 +4,7 @@
   "slug": "trello",
   "category": "productivity",
   "shortDescription": "Kanban Board",
-  "description": "Bảng kanban kéo thả để theo dõi tiến độ công việc.",
+  "description": "Drag-and-drop Kanban boards for tracking work progress.",
   "icon": "/icons/trello.svg",
   "website": "https://trello.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "kanban",
     "boards",
     "projects"
-  ]
+  ],
+  "nameEn": "Trello",
+  "nameVi": "Trello",
+  "shortDescriptionVi": "Kanban Board",
+  "descriptionVi": "Bảng kanban kéo thả để theo dõi tiến độ công việc.",
+  "shortDescriptionEn": "Kanban Board",
+  "descriptionEn": "Drag-and-drop Kanban boards for tracking work progress."
 }

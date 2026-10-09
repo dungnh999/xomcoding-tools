@@ -4,7 +4,7 @@
   "slug": "excalidraw",
   "category": "others",
   "shortDescription": "Virtual Whiteboard",
-  "description": "Bảng trắng vẽ sơ đồ nhanh với phong cách tay.",
+  "description": "A fast virtual whiteboard for hand-drawn style diagrams.",
   "icon": "/icons/excalidraw.svg",
   "website": "https://excalidraw.com/",
   "github": "https://github.com/excalidraw/excalidraw",
@@ -17,5 +17,11 @@
     "whiteboard",
     "diagram",
     "sketch"
-  ]
+  ],
+  "nameEn": "Excalidraw",
+  "nameVi": "Excalidraw",
+  "shortDescriptionVi": "Virtual Whiteboard",
+  "descriptionVi": "Bảng trắng vẽ sơ đồ nhanh với phong cách tay.",
+  "shortDescriptionEn": "Virtual Whiteboard",
+  "descriptionEn": "A fast virtual whiteboard for hand-drawn style diagrams."
 }

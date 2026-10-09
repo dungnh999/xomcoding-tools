@@ -4,7 +4,7 @@
   "slug": "nextjs",
   "category": "frontend",
   "shortDescription": "React Framework",
-  "description": "Framework React cho SSR, SSG và routing.",
+  "description": "A React framework for SSR, SSG, and routing.",
   "icon": "/icons/nextdotjs.svg",
   "website": "https://nextjs.org/",
   "github": "https://github.com/vercel/next.js",
@@ -17,5 +17,11 @@
     "react",
     "ssr",
     "framework"
-  ]
+  ],
+  "nameEn": "Next.js",
+  "nameVi": "Next.js",
+  "shortDescriptionVi": "React Framework",
+  "descriptionVi": "Framework React cho SSR, SSG và routing.",
+  "shortDescriptionEn": "React Framework",
+  "descriptionEn": "A React framework for SSR, SSG, and routing."
 }

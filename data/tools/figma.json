@@ -4,7 +4,7 @@
   "slug": "figma",
   "category": "ui-design",
   "shortDescription": "Design Tool",
-  "description": "Công cụ thiết kế giao diện và prototype cộng tác.",
+  "description": "A collaborative tool for interface design and prototyping.",
   "icon": "/icons/figma.svg",
   "website": "https://www.figma.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "design",
     "ui",
     "prototype"
-  ]
+  ],
+  "nameEn": "Figma",
+  "nameVi": "Figma",
+  "shortDescriptionVi": "Design Tool",
+  "descriptionVi": "Công cụ thiết kế giao diện và prototype cộng tác.",
+  "shortDescriptionEn": "Design Tool",
+  "descriptionEn": "A collaborative tool for interface design and prototyping."
 }

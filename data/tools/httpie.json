@@ -4,7 +4,7 @@
   "slug": "httpie",
   "category": "developer",
   "shortDescription": "HTTP Client",
-  "description": "Client HTTP trực quan cho dòng lệnh và web.",
+  "description": "A friendly HTTP client for the command line and web.",
   "icon": "/icons/httpie.svg",
   "website": "https://httpie.io/",
   "github": "https://github.com/httpie/cli",
@@ -17,5 +17,11 @@
     "http",
     "cli",
     "api"
-  ]
+  ],
+  "nameEn": "HTTPie",
+  "nameVi": "HTTPie",
+  "shortDescriptionVi": "HTTP Client",
+  "descriptionVi": "Client HTTP trực quan cho dòng lệnh và web.",
+  "shortDescriptionEn": "HTTP Client",
+  "descriptionEn": "A friendly HTTP client for the command line and web."
 }

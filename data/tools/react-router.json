@@ -4,7 +4,7 @@
   "slug": "react-router",
   "category": "frontend",
   "shortDescription": "Routing Library",
-  "description": "Bộ định tuyến chuẩn cho React, kèm framework Fullstack.",
+  "description": "The standard routing library for React, with a full-stack framework.",
   "icon": "/icons/reactrouter.svg",
   "website": "https://reactrouter.com/",
   "github": "https://github.com/remix-run/react-router",
@@ -17,5 +17,11 @@
     "react",
     "routing",
     "spa"
-  ]
+  ],
+  "nameEn": "React Router",
+  "nameVi": "React Router",
+  "shortDescriptionVi": "Routing Library",
+  "descriptionVi": "Bộ định tuyến chuẩn cho React, kèm framework Fullstack.",
+  "shortDescriptionEn": "Routing Library",
+  "descriptionEn": "The standard routing library for React, with a full-stack framework."
 }

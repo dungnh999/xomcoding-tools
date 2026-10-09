@@ -4,7 +4,7 @@
   "slug": "todoist",
   "category": "productivity",
   "shortDescription": "Task Manager",
-  "description": "Quản lý công việc cá nhân và nhóm trực quan.",
+  "description": "A visual task manager for individuals and teams.",
   "icon": "/icons/todoist.svg",
   "website": "https://todoist.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "tasks",
     "todo",
     "pim"
-  ]
+  ],
+  "nameEn": "Todoist",
+  "nameVi": "Todoist",
+  "shortDescriptionVi": "Task Manager",
+  "descriptionVi": "Quản lý công việc cá nhân và nhóm trực quan.",
+  "shortDescriptionEn": "Task Manager",
+  "descriptionEn": "A visual task manager for individuals and teams."
 }

@@ -4,7 +4,7 @@
   "slug": "qdrant",
   "category": "ai-ml",
   "shortDescription": "Vector Search Engine",
-  "description": "Engine tìm kiếm vector hiệu suất cao, dễ tự hosting.",
+  "description": "A high-performance vector search engine that is easy to self-host.",
   "icon": "/icons/qdrant.svg",
   "website": "https://qdrant.tech/",
   "github": "https://github.com/qdrant/qdrant",
@@ -17,5 +17,11 @@
     "vector",
     "search",
     "rag"
-  ]
+  ],
+  "nameEn": "Qdrant",
+  "nameVi": "Qdrant",
+  "shortDescriptionVi": "Vector Search Engine",
+  "descriptionVi": "Engine tìm kiếm vector hiệu suất cao, dễ tự hosting.",
+  "shortDescriptionEn": "Vector Search Engine",
+  "descriptionEn": "A high-performance vector search engine that is easy to self-host."
 }

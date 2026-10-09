@@ -6,10 +6,16 @@
 export interface ToolRecord {
   id: string
   name: string
+  nameEn?: string
+  nameVi?: string
   slug: string
   category: string
   shortDescription: string
+  shortDescriptionEn?: string
+  shortDescriptionVi?: string
   description: string
+  descriptionEn?: string
+  descriptionVi?: string
   icon: string
   website: string
   github: string | null
@@ -24,6 +30,8 @@ export interface ToolRecord {
 export interface CategoryRecord {
   id: string
   name: string
+  nameEn?: string
+  nameVi?: string
   icon: string
   order: number
 }
@@ -37,6 +45,15 @@ export const MAX_TEXT = {
   shortDescription: 140,
   description: 300,
 } as const
+
+const LOCALIZED_TEXT_FIELDS = [
+  ['nameEn', 'name'],
+  ['nameVi', 'name'],
+  ['shortDescriptionEn', 'shortDescription'],
+  ['shortDescriptionVi', 'shortDescription'],
+  ['descriptionEn', 'description'],
+  ['descriptionVi', 'description'],
+] as const
 
 const REQUIRED_FIELDS = [
   'id',
@@ -119,6 +136,21 @@ export function validateToolRecord(
     }
   }
 
+  for (const [field, limitKey] of LOCALIZED_TEXT_FIELDS) {
+    const value = record[field]
+    if (value === undefined) continue
+    if (typeof value !== 'string' || value.trim() === '') {
+      errors.push(`${id}: trường "${field}" phải là chuỗi không rỗng nếu được khai báo`)
+      continue
+    }
+    if (value.length > MAX_TEXT[limitKey]) {
+      errors.push(`${id}: trường "${field}" vượt quá ${MAX_TEXT[limitKey]} ký tự`)
+    }
+    if (containsMarkup(value)) {
+      errors.push(`${id}: trường "${field}" không được chứa HTML/script`)
+    }
+  }
+
   if (typeof record.id !== 'string' || !ID_PATTERN.test(record.id)) {
     errors.push(`${id}: "id" phải là chuỗi lowercase với dấu gạch nối (vd: github-actions)`)
   }
@@ -180,6 +212,15 @@ export function validateTools(tools: ToolRecord[], categories: CategoryRecord[])
     }
     if (typeof category.order !== 'number') {
       errors.push(`categories.json: "${category.id}" phải có "order" là số`)
+    }
+    for (const field of ['name', 'nameEn', 'nameVi'] as const) {
+      const value = category[field]
+      if (value === undefined) continue
+      if (typeof value !== 'string' || value.trim() === '') {
+        errors.push(`categories.json: "${category.id}" có "${field}" không hợp lệ`)
+      } else if (value.length > MAX_TEXT.name || containsMarkup(value)) {
+        errors.push(`categories.json: "${category.id}" có "${field}" không hợp lệ`)
+      }
     }
   }
 

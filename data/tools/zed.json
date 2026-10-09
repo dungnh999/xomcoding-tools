@@ -4,7 +4,7 @@
   "slug": "zed",
   "category": "developer",
   "shortDescription": "High-performance Editor",
-  "description": "Trình soạn thảo code nhanh, viết bằng Rust.",
+  "description": "A fast code editor written in Rust.",
   "icon": "/icons/zed.svg",
   "website": "https://zed.dev/",
   "github": "https://github.com/zed-industries/zed",
@@ -17,5 +17,11 @@
     "editor",
     "ide",
     "rust"
-  ]
+  ],
+  "nameEn": "Zed",
+  "nameVi": "Zed",
+  "shortDescriptionVi": "High-performance Editor",
+  "descriptionVi": "Trình soạn thảo code nhanh, viết bằng Rust.",
+  "shortDescriptionEn": "High-performance Editor",
+  "descriptionEn": "A fast code editor written in Rust."
 }

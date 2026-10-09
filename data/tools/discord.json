@@ -4,7 +4,7 @@
   "slug": "discord",
   "category": "email",
   "shortDescription": "Community Chat",
-  "description": "Trò chuyện cộng đồng qua text, voice và video.",
+  "description": "Community chat with text, voice, and video channels.",
   "icon": "/icons/discord.svg",
   "website": "https://discord.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "chat",
     "community",
     "voice"
-  ]
+  ],
+  "nameEn": "Discord",
+  "nameVi": "Discord",
+  "shortDescriptionVi": "Community Chat",
+  "descriptionVi": "Trò chuyện cộng đồng qua text, voice và video.",
+  "shortDescriptionEn": "Community Chat",
+  "descriptionEn": "Community chat with text, voice, and video channels."
 }

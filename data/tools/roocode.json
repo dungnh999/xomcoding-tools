@@ -4,7 +4,7 @@
   "slug": "roocode",
   "category": "ai-coding",
   "shortDescription": "AI Coding Agent",
-  "description": "Mở rộng của Cline cho VS Code với nhiều chế độ làm việc.",
+  "description": "A Cline extension for VS Code with multiple working modes.",
   "icon": "/icons/roocode.svg",
   "website": "https://roocode.com/",
   "github": "https://github.com/RooCodeInc/Roo-Code",
@@ -17,5 +17,11 @@
     "ai",
     "agent",
     "vscode"
-  ]
+  ],
+  "nameEn": "Roo Code",
+  "nameVi": "Roo Code",
+  "shortDescriptionVi": "AI Coding Agent",
+  "descriptionVi": "Mở rộng của Cline cho VS Code với nhiều chế độ làm việc.",
+  "shortDescriptionEn": "AI Coding Agent",
+  "descriptionEn": "A Cline extension for VS Code with multiple working modes."
 }

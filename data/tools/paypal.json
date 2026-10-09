@@ -4,7 +4,7 @@
   "slug": "paypal",
   "category": "payment",
   "shortDescription": "Online Payments",
-  "description": "Thanh toán và chuyển tiền trực tuyến phổ biến toàn cầu.",
+  "description": "A widely used platform for online payments and money transfers.",
   "icon": "/icons/paypal.svg",
   "website": "https://www.paypal.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "payments",
     "checkout",
     "wallet"
-  ]
+  ],
+  "nameEn": "PayPal",
+  "nameVi": "PayPal",
+  "shortDescriptionVi": "Online Payments",
+  "descriptionVi": "Thanh toán và chuyển tiền trực tuyến phổ biến toàn cầu.",
+  "shortDescriptionEn": "Online Payments",
+  "descriptionEn": "A widely used platform for online payments and money transfers."
 }

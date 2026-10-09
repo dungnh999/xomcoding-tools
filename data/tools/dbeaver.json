@@ -4,7 +4,7 @@
   "slug": "dbeaver",
   "category": "developer",
   "shortDescription": "Database GUI",
-  "description": "Công cụ GUI đa nền tảng cho nhiều loại cơ sở dữ liệu.",
+  "description": "A cross-platform GUI for working with many types of databases.",
   "icon": "/icons/dbeaver.svg",
   "website": "https://dbeaver.io/",
   "github": "https://github.com/dbeaver/dbeaver",
@@ -17,5 +17,11 @@
     "database",
     "gui",
     "sql"
-  ]
+  ],
+  "nameEn": "DBeaver",
+  "nameVi": "DBeaver",
+  "shortDescriptionVi": "Database GUI",
+  "descriptionVi": "Công cụ GUI đa nền tảng cho nhiều loại cơ sở dữ liệu.",
+  "shortDescriptionEn": "Database GUI",
+  "descriptionEn": "A cross-platform GUI for working with many types of databases."
 }

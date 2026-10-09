@@ -4,7 +4,7 @@
   "slug": "supabase",
   "category": "database",
   "shortDescription": "Backend as a Service",
-  "description": "Postgres, Authentication, Storage và Realtime trong một nền tảng.",
+  "description": "Postgres, Authentication, Storage, and Realtime in one platform.",
   "icon": "/icons/supabase.svg",
   "website": "https://supabase.com/",
   "github": "https://github.com/supabase/supabase",
@@ -18,5 +18,11 @@
     "baas",
     "auth",
     "storage"
-  ]
+  ],
+  "nameEn": "Supabase",
+  "nameVi": "Supabase",
+  "shortDescriptionVi": "Backend as a Service",
+  "descriptionVi": "Postgres, Authentication, Storage và Realtime trong một nền tảng.",
+  "shortDescriptionEn": "Backend as a Service",
+  "descriptionEn": "Postgres, Authentication, Storage, and Realtime in one platform."
 }

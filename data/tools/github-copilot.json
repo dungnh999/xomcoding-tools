@@ -4,7 +4,7 @@
   "slug": "github-copilot",
   "category": "ai-coding",
   "shortDescription": "AI Coding Assistant",
-  "description": "AI hỗ trợ hoàn thành, giải thích và tạo mã nguồn.",
+  "description": "AI assistance for code completion, explanation, and generation.",
   "icon": "/icons/githubcopilot.svg",
   "website": "https://github.com/features/copilot",
   "github": null,
@@ -17,5 +17,11 @@
     "ai",
     "assistant",
     "github"
-  ]
+  ],
+  "nameEn": "GitHub Copilot",
+  "nameVi": "GitHub Copilot",
+  "shortDescriptionVi": "AI Coding Assistant",
+  "descriptionVi": "AI hỗ trợ hoàn thành, giải thích và tạo mã nguồn.",
+  "shortDescriptionEn": "AI Coding Assistant",
+  "descriptionEn": "AI assistance for code completion, explanation, and generation."
 }

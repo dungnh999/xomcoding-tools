@@ -3,8 +3,8 @@
   "name": "LM Studio",
   "slug": "lmstudio",
   "category": "ai-ml",
-  "shortDescription": "Chạy LLM cục bộ",
-  "description": "Ứng dụng desktop tải và chạy mô hình AI ngay trên máy.",
+  "shortDescription": "Local LLM Runner",
+  "description": "A desktop app for downloading and running AI models locally.",
   "icon": "/icons/lmstudio.svg",
   "website": "https://lmstudio.ai/",
   "github": null,
@@ -17,5 +17,11 @@
     "llm",
     "local",
     "desktop"
-  ]
+  ],
+  "nameEn": "LM Studio",
+  "nameVi": "LM Studio",
+  "shortDescriptionVi": "Chạy LLM cục bộ",
+  "descriptionVi": "Ứng dụng desktop tải và chạy mô hình AI ngay trên máy.",
+  "shortDescriptionEn": "Local LLM Runner",
+  "descriptionEn": "A desktop app for downloading and running AI models locally."
 }

@@ -1,6 +1,8 @@
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { useState } from 'react'
+import type { Language } from '../../i18n'
 import type { Category, Tool } from '../../types/tool'
+import { getCategoryName } from '../../utils/localize'
 import { CategoryIcon } from '../layout/Sidebar'
 import { ToolRow } from './ToolRow'
 
@@ -14,8 +16,19 @@ interface CategorySectionLabels {
   expand: string
 }
 
-export function CategorySection({ category, tools, labels }: { category: Category; tools: Tool[]; labels: CategorySectionLabels }) {
+export function CategorySection({
+  category,
+  tools,
+  labels,
+  lang,
+}: {
+  category: Category
+  tools: Tool[]
+  labels: CategorySectionLabels
+  lang: Language
+}) {
   const [expanded, setExpanded] = useState(true)
+  const categoryName = getCategoryName(category, lang)
   const tableHead = [labels.tableTool, labels.tableUseCase, labels.tablePricing, labels.tableStatus, labels.tableLinks]
 
   if (tools.length === 0) return null
@@ -27,7 +40,7 @@ export function CategorySection({ category, tools, labels }: { category: Categor
           <CategoryIcon name={category.icon} className="size-4" />
         </span>
         <h2 id={`category-${category.id}`} className="text-[15px] font-bold text-text">
-          {category.name}
+          {categoryName}
         </h2>
         <span className="rounded-full border border-border bg-surface px-2 py-0.5 text-xs text-muted">
           {tools.length}
@@ -58,7 +71,7 @@ export function CategorySection({ category, tools, labels }: { category: Categor
             ))}
           </div>
           {tools.map((tool) => (
-            <ToolRow key={tool.id} tool={tool} />
+            <ToolRow key={tool.id} tool={tool} lang={lang} />
           ))}
         </div>
       )}

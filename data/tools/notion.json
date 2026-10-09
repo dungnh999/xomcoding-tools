@@ -4,7 +4,7 @@
   "slug": "notion",
   "category": "productivity",
   "shortDescription": "All-in-one Workspace",
-  "description": "Ghi chú, database và quản lý dự án trong một nơi.",
+  "description": "Notes, databases, and project management in one workspace.",
   "icon": "/icons/notion.svg",
   "website": "https://www.notion.so/",
   "github": null,
@@ -17,5 +17,11 @@
     "notes",
     "wiki",
     "projects"
-  ]
+  ],
+  "nameEn": "Notion",
+  "nameVi": "Notion",
+  "shortDescriptionVi": "All-in-one Workspace",
+  "descriptionVi": "Ghi chú, database và quản lý dự án trong một nơi.",
+  "shortDescriptionEn": "All-in-one Workspace",
+  "descriptionEn": "Notes, databases, and project management in one workspace."
 }

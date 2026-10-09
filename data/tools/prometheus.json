@@ -4,7 +4,7 @@
   "slug": "prometheus",
   "category": "devops",
   "shortDescription": "Monitoring System",
-  "description": "Hệ thống giám sát và cảnh báo theo mô hình kéo (pull).",
+  "description": "A pull-based monitoring and alerting system.",
   "icon": "/icons/prometheus.svg",
   "website": "https://prometheus.io/",
   "github": "https://github.com/prometheus/prometheus",
@@ -17,5 +17,11 @@
     "monitoring",
     "metrics",
     "alerting"
-  ]
+  ],
+  "nameEn": "Prometheus",
+  "nameVi": "Prometheus",
+  "shortDescriptionVi": "Monitoring System",
+  "descriptionVi": "Hệ thống giám sát và cảnh báo theo mô hình kéo (pull).",
+  "shortDescriptionEn": "Monitoring System",
+  "descriptionEn": "A pull-based monitoring and alerting system."
 }

@@ -4,7 +4,7 @@
   "slug": "brevo",
   "category": "email",
   "shortDescription": "Marketing & Email",
-  "description": "Email marketing, SMS và automation tất cả trong một.",
+  "description": "All-in-one email marketing, SMS, and automation platform.",
   "icon": "/icons/brevo.svg",
   "website": "https://www.brevo.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "email",
     "marketing",
     "sms"
-  ]
+  ],
+  "nameEn": "Brevo",
+  "nameVi": "Brevo",
+  "shortDescriptionVi": "Marketing & Email",
+  "descriptionVi": "Email marketing, SMS và automation tất cả trong một.",
+  "shortDescriptionEn": "Marketing & Email",
+  "descriptionEn": "All-in-one email marketing, SMS, and automation platform."
 }

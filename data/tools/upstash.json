@@ -4,7 +4,7 @@
   "slug": "upstash",
   "category": "database",
   "shortDescription": "Serverless Data Platform",
-  "description": "Redis và Kafka tính theo độ dùng, tối ưu cho serverless.",
+  "description": "Usage-based Redis and Kafka optimized for serverless apps.",
   "icon": "/icons/upstash.svg",
   "website": "https://upstash.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "redis",
     "serverless",
     "queue"
-  ]
+  ],
+  "nameEn": "Upstash",
+  "nameVi": "Upstash",
+  "shortDescriptionVi": "Serverless Data Platform",
+  "descriptionVi": "Redis và Kafka tính theo độ dùng, tối ưu cho serverless.",
+  "shortDescriptionEn": "Serverless Data Platform",
+  "descriptionEn": "Usage-based Redis and Kafka optimized for serverless apps."
 }

@@ -4,7 +4,7 @@
   "slug": "vite",
   "category": "frontend",
   "shortDescription": "Frontend Build Tool",
-  "description": "Dev server nhanh và công cụ build hiện đại cho frontend.",
+  "description": "A fast dev server and modern build tool for frontend projects.",
   "icon": "/icons/vite.svg",
   "website": "https://vite.dev/",
   "github": "https://github.com/vitejs/vite",
@@ -17,5 +17,11 @@
     "build",
     "dev-server",
     "javascript"
-  ]
+  ],
+  "nameEn": "Vite",
+  "nameVi": "Vite",
+  "shortDescriptionVi": "Frontend Build Tool",
+  "descriptionVi": "Dev server nhanh và công cụ build hiện đại cho frontend.",
+  "shortDescriptionEn": "Frontend Build Tool",
+  "descriptionEn": "A fast dev server and modern build tool for frontend projects."
 }

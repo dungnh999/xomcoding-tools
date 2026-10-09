@@ -4,7 +4,7 @@
   "slug": "openhands",
   "category": "ai-coding",
   "shortDescription": "Autonomous AI Agent",
-  "description": "Agent AI mã nguồn mở tự thực hiện tác vụ phát triển phần mềm.",
+  "description": "An open source AI agent for performing software development tasks.",
   "icon": "/icons/openhands.svg",
   "website": "https://www.all-hands.dev/",
   "github": "https://github.com/all-hands-ai/OpenHands",
@@ -17,5 +17,11 @@
     "ai",
     "agent",
     "autonomous"
-  ]
+  ],
+  "nameEn": "OpenHands",
+  "nameVi": "OpenHands",
+  "shortDescriptionVi": "Autonomous AI Agent",
+  "descriptionVi": "Agent AI mã nguồn mở tự thực hiện tác vụ phát triển phần mềm.",
+  "shortDescriptionEn": "Autonomous AI Agent",
+  "descriptionEn": "An open source AI agent for performing software development tasks."
 }

@@ -4,7 +4,7 @@
   "slug": "postman",
   "category": "developer",
   "shortDescription": "API Platform",
-  "description": "Thiết kế, kiểm thử và cộng tác với API.",
+  "description": "Design, test, and collaborate on APIs.",
   "icon": "/icons/postman.svg",
   "website": "https://www.postman.com/",
   "github": "https://github.com/postmanlabs",
@@ -17,5 +17,11 @@
     "api",
     "testing",
     "rest"
-  ]
+  ],
+  "nameEn": "Postman",
+  "nameVi": "Postman",
+  "shortDescriptionVi": "API Platform",
+  "descriptionVi": "Thiết kế, kiểm thử và cộng tác với API.",
+  "shortDescriptionEn": "API Platform",
+  "descriptionEn": "Design, test, and collaborate on APIs."
 }

@@ -4,7 +4,7 @@
   "slug": "ansible",
   "category": "devops",
   "shortDescription": "Automation",
-  "description": "Tự động hóa cấu hình và triển khai bằng playbook.",
+  "description": "Automate configuration management and deployment with playbooks.",
   "icon": "/icons/ansible.svg",
   "website": "https://www.ansible.com/",
   "github": "https://github.com/ansible/ansible",
@@ -17,5 +17,11 @@
     "automation",
     "iac",
     "configuration"
-  ]
+  ],
+  "nameEn": "Ansible",
+  "nameVi": "Ansible",
+  "shortDescriptionVi": "Automation",
+  "descriptionVi": "Tự động hóa cấu hình và triển khai bằng playbook.",
+  "shortDescriptionEn": "Automation",
+  "descriptionEn": "Automate configuration management and deployment with playbooks."
 }

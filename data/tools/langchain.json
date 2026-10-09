@@ -3,8 +3,8 @@
   "name": "LangChain",
   "slug": "langchain",
   "category": "ai-ml",
-  "shortDescription": "Framework cho LLM",
-  "description": "Framework xây dựng ứng dụng với mô hình ngôn ngữ.",
+  "shortDescription": "LLM Framework",
+  "description": "A framework for building applications with language models.",
   "icon": "/icons/langchain.svg",
   "website": "https://www.langchain.com/",
   "github": "https://github.com/langchain-ai/langchain",
@@ -17,5 +17,11 @@
     "llm",
     "framework",
     "agents"
-  ]
+  ],
+  "nameEn": "LangChain",
+  "nameVi": "LangChain",
+  "shortDescriptionVi": "Framework cho LLM",
+  "descriptionVi": "Framework xây dựng ứng dụng với mô hình ngôn ngữ.",
+  "shortDescriptionEn": "LLM Framework",
+  "descriptionEn": "A framework for building applications with language models."
 }

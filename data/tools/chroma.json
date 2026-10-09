@@ -4,7 +4,7 @@
   "slug": "chroma",
   "category": "ai-ml",
   "shortDescription": "Vector Database",
-  "description": "Cơ sở dữ liệu vector cho ứng dụng RAG và AI.",
+  "description": "A vector database for RAG and AI applications.",
   "icon": "/icons/chroma.svg",
   "website": "https://www.trychroma.com/",
   "github": "https://github.com/chroma-core/chroma",
@@ -17,5 +17,11 @@
     "vector",
     "rag",
     "embeddings"
-  ]
+  ],
+  "nameEn": "Chroma",
+  "nameVi": "Chroma",
+  "shortDescriptionVi": "Vector Database",
+  "descriptionVi": "Cơ sở dữ liệu vector cho ứng dụng RAG và AI.",
+  "shortDescriptionEn": "Vector Database",
+  "descriptionEn": "A vector database for RAG and AI applications."
 }

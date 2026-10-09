@@ -4,7 +4,7 @@
   "slug": "continue",
   "category": "ai-coding",
   "shortDescription": "Open Source AI Assistant",
-  "description": "Trợ lý AI mã nguồn mở cho VS Code và JetBrains.",
+  "description": "An open source AI assistant for VS Code and JetBrains IDEs.",
   "icon": "/icons/continue.svg",
   "website": "https://www.continue.dev/",
   "github": "https://github.com/continuedev/continue",
@@ -17,5 +17,11 @@
     "ai",
     "assistant",
     "open-source"
-  ]
+  ],
+  "nameEn": "Continue",
+  "nameVi": "Continue",
+  "shortDescriptionVi": "Open Source AI Assistant",
+  "descriptionVi": "Trợ lý AI mã nguồn mở cho VS Code và JetBrains.",
+  "shortDescriptionEn": "Open Source AI Assistant",
+  "descriptionEn": "An open source AI assistant for VS Code and JetBrains IDEs."
 }

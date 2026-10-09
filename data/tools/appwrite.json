@@ -4,7 +4,7 @@
   "slug": "appwrite",
   "category": "database",
   "shortDescription": "Open Source BaaS",
-  "description": "Backend-as-a-Service mã nguồn mở: auth, database, storage, functions.",
+  "description": "An open source Backend-as-a-Service for auth, databases, storage, and functions.",
   "icon": "/icons/appwrite.svg",
   "website": "https://appwrite.io/",
   "github": "https://github.com/appwrite/appwrite",
@@ -17,5 +17,11 @@
     "baas",
     "self-hosted",
     "auth"
-  ]
+  ],
+  "nameEn": "Appwrite",
+  "nameVi": "Appwrite",
+  "shortDescriptionVi": "Open Source BaaS",
+  "descriptionVi": "Backend-as-a-Service mã nguồn mở: auth, database, storage, functions.",
+  "shortDescriptionEn": "Open Source BaaS",
+  "descriptionEn": "An open source Backend-as-a-Service for auth, databases, storage, and functions."
 }

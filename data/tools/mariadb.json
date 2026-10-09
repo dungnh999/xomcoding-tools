@@ -4,7 +4,7 @@
   "slug": "mariadb",
   "category": "database",
   "shortDescription": "MySQL-compatible Database",
-  "description": "Fork mã nguồn mở của MySQL, phát triển bởi cộng đồng.",
+  "description": "An open source MySQL fork developed by the community.",
   "icon": "/icons/mariadb.svg",
   "website": "https://mariadb.org/",
   "github": "https://github.com/MariaDB/server",
@@ -17,5 +17,11 @@
     "sql",
     "rdbms",
     "database"
-  ]
+  ],
+  "nameEn": "MariaDB",
+  "nameVi": "MariaDB",
+  "shortDescriptionVi": "MySQL-compatible Database",
+  "descriptionVi": "Fork mã nguồn mở của MySQL, phát triển bởi cộng đồng.",
+  "shortDescriptionEn": "MySQL-compatible Database",
+  "descriptionEn": "An open source MySQL fork developed by the community."
 }

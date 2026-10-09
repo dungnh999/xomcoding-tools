@@ -4,7 +4,7 @@
   "slug": "n8n",
   "category": "self-hosted",
   "shortDescription": "Workflow Automation",
-  "description": "Nền tảng tự động hóa quy trình mã nguồn mở, tự hosting.",
+  "description": "An open source, self-hostable workflow automation platform.",
   "icon": "/icons/n8n.svg",
   "website": "https://n8n.io/",
   "github": "https://github.com/n8n-io/n8n",
@@ -17,5 +17,11 @@
     "automation",
     "workflow",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "n8n",
+  "nameVi": "n8n",
+  "shortDescriptionVi": "Workflow Automation",
+  "descriptionVi": "Nền tảng tự động hóa quy trình mã nguồn mở, tự hosting.",
+  "shortDescriptionEn": "Workflow Automation",
+  "descriptionEn": "An open source, self-hostable workflow automation platform."
 }

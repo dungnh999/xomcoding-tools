@@ -4,7 +4,7 @@
   "slug": "tableplus",
   "category": "developer",
   "shortDescription": "Native Database GUI",
-  "description": "GUI database gọn gàng, native cho macOS và Windows.",
+  "description": "A clean native database GUI for macOS and Windows.",
   "icon": "/icons/tableplus.svg",
   "website": "https://tableplus.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "database",
     "gui",
     "native"
-  ]
+  ],
+  "nameEn": "TablePlus",
+  "nameVi": "TablePlus",
+  "shortDescriptionVi": "Native Database GUI",
+  "descriptionVi": "GUI database gọn gàng, native cho macOS và Windows.",
+  "shortDescriptionEn": "Native Database GUI",
+  "descriptionEn": "A clean native database GUI for macOS and Windows."
 }

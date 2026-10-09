@@ -4,7 +4,7 @@
   "slug": "lottiefiles",
   "category": "ui-design",
   "shortDescription": "Animation Platform",
-  "description": "Thư viện và công cụ tạo animation định dạng Lottie.",
+  "description": "A library and toolset for creating animations in the Lottie format.",
   "icon": "/icons/lottiefiles.svg",
   "website": "https://lottiefiles.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "animation",
     "lottie",
     "motion"
-  ]
+  ],
+  "nameEn": "LottieFiles",
+  "nameVi": "LottieFiles",
+  "shortDescriptionVi": "Animation Platform",
+  "descriptionVi": "Thư viện và công cụ tạo animation định dạng Lottie.",
+  "shortDescriptionEn": "Animation Platform",
+  "descriptionEn": "A library and toolset for creating animations in the Lottie format."
 }

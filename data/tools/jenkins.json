@@ -4,7 +4,7 @@
   "slug": "jenkins",
   "category": "devops",
   "shortDescription": "Automation Server",
-  "description": "Máy chủ tự động hóa build và CI/CD mã nguồn mở.",
+  "description": "An open source automation server for builds and CI/CD.",
   "icon": "/icons/jenkins.svg",
   "website": "https://www.jenkins.io/",
   "github": "https://github.com/jenkinsci/jenkins",
@@ -17,5 +17,11 @@
     "ci",
     "cd",
     "automation"
-  ]
+  ],
+  "nameEn": "Jenkins",
+  "nameVi": "Jenkins",
+  "shortDescriptionVi": "Automation Server",
+  "descriptionVi": "Máy chủ tự động hóa build và CI/CD mã nguồn mở.",
+  "shortDescriptionEn": "Automation Server",
+  "descriptionEn": "An open source automation server for builds and CI/CD."
 }

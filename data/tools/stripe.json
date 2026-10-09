@@ -4,7 +4,7 @@
   "slug": "stripe",
   "category": "payment",
   "shortDescription": "Payment Infrastructure",
-  "description": "Thanh toán online cho sản phẩm số, phổ biến với developer.",
+  "description": "Online payments for digital products, popular with developers.",
   "icon": "/icons/stripe.svg",
   "website": "https://stripe.com/",
   "github": "https://github.com/stripe",
@@ -17,5 +17,11 @@
     "payments",
     "checkout",
     "subscription"
-  ]
+  ],
+  "nameEn": "Stripe",
+  "nameVi": "Stripe",
+  "shortDescriptionVi": "Payment Infrastructure",
+  "descriptionVi": "Thanh toán online cho sản phẩm số, phổ biến với developer.",
+  "shortDescriptionEn": "Payment Infrastructure",
+  "descriptionEn": "Online payments for digital products, popular with developers."
 }

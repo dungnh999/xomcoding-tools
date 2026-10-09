@@ -4,7 +4,7 @@
   "slug": "mysql",
   "category": "database",
   "shortDescription": "Relational Database",
-  "description": "Hệ quản trị cơ sở dữ liệu quan hệ phổ biến nhất thế giới.",
+  "description": "One of the world's most popular relational database systems.",
   "icon": "/icons/mysql.svg",
   "website": "https://www.mysql.com/",
   "github": "https://github.com/mysql/mysql-server",
@@ -17,5 +17,11 @@
     "sql",
     "rdbms",
     "database"
-  ]
+  ],
+  "nameEn": "MySQL",
+  "nameVi": "MySQL",
+  "shortDescriptionVi": "Relational Database",
+  "descriptionVi": "Hệ quản trị cơ sở dữ liệu quan hệ phổ biến nhất thế giới.",
+  "shortDescriptionEn": "Relational Database",
+  "descriptionEn": "One of the world's most popular relational database systems."
 }

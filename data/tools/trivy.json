@@ -4,7 +4,7 @@
   "slug": "trivy",
   "category": "security",
   "shortDescription": "Vulnerability Scanner",
-  "description": "Quét lỗ hổng trong image, repository và cấu hình.",
+  "description": "Scan vulnerabilities in images, repositories, and configuration.",
   "icon": "/icons/trivy.svg",
   "website": "https://trivy.dev/",
   "github": "https://github.com/aquasecurity/trivy",
@@ -17,5 +17,11 @@
     "scanner",
     "container",
     "cve"
-  ]
+  ],
+  "nameEn": "Trivy",
+  "nameVi": "Trivy",
+  "shortDescriptionVi": "Vulnerability Scanner",
+  "descriptionVi": "Quét lỗ hổng trong image, repository và cấu hình.",
+  "shortDescriptionEn": "Vulnerability Scanner",
+  "descriptionEn": "Scan vulnerabilities in images, repositories, and configuration."
 }

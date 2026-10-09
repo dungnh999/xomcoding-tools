@@ -4,7 +4,7 @@
   "slug": "gitlab-ci",
   "category": "devops",
   "shortDescription": "CI/CD",
-  "description": "Pipeline tích hợp sẵn trong GitLab cho build và deploy.",
+  "description": "Built-in GitLab pipelines for building and deploying software.",
   "icon": "/icons/gitlab.svg",
   "website": "https://docs.gitlab.com/ci/",
   "github": null,
@@ -17,5 +17,11 @@
     "ci",
     "cd",
     "pipeline"
-  ]
+  ],
+  "nameEn": "GitLab CI/CD",
+  "nameVi": "GitLab CI/CD",
+  "shortDescriptionVi": "CI/CD",
+  "descriptionVi": "Pipeline tích hợp sẵn trong GitLab cho build và deploy.",
+  "shortDescriptionEn": "CI/CD",
+  "descriptionEn": "Built-in GitLab pipelines for building and deploying software."
 }

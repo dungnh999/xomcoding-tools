@@ -4,7 +4,7 @@
   "slug": "fly",
   "category": "cloud",
   "shortDescription": "Run Apps Globally",
-  "description": "Chạy ứng dụng gần người dùng trên hạ tầng phân tán toàn cầu.",
+  "description": "Run applications close to users on a globally distributed infrastructure.",
   "icon": "/icons/fly.svg",
   "website": "https://fly.io/",
   "github": "https://github.com/superfly/flyctl",
@@ -17,5 +17,11 @@
     "deploy",
     "containers",
     "edge"
-  ]
+  ],
+  "nameEn": "Fly.io",
+  "nameVi": "Fly.io",
+  "shortDescriptionVi": "Run Apps Globally",
+  "descriptionVi": "Chạy ứng dụng gần người dùng trên hạ tầng phân tán toàn cầu.",
+  "shortDescriptionEn": "Run Apps Globally",
+  "descriptionEn": "Run applications close to users on a globally distributed infrastructure."
 }

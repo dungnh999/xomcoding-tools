@@ -4,7 +4,7 @@
   "slug": "huggingface",
   "category": "ai-ml",
   "shortDescription": "AI Model Hub",
-  "description": "Kho mô hình, dataset và demo AI mở.",
+  "description": "A hub for open AI models, datasets, and demos.",
   "icon": "/icons/huggingface.svg",
   "website": "https://huggingface.co/",
   "github": "https://github.com/huggingface",
@@ -17,5 +17,11 @@
     "models",
     "dataset",
     "ml"
-  ]
+  ],
+  "nameEn": "Hugging Face",
+  "nameVi": "Hugging Face",
+  "shortDescriptionVi": "AI Model Hub",
+  "descriptionVi": "Kho mô hình, dataset và demo AI mở.",
+  "shortDescriptionEn": "AI Model Hub",
+  "descriptionEn": "A hub for open AI models, datasets, and demos."
 }

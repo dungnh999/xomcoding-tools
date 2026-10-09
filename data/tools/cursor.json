@@ -4,7 +4,7 @@
   "slug": "cursor",
   "category": "ai-coding",
   "shortDescription": "AI Code Editor",
-  "description": "Trình soạn thảo code tích hợp AI, hỗ trợ edit đa file.",
+  "description": "An AI-powered code editor with multi-file editing support.",
   "icon": "/icons/cursor.svg",
   "website": "https://cursor.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "editor",
     "ai",
     "ide"
-  ]
+  ],
+  "nameEn": "Cursor",
+  "nameVi": "Cursor",
+  "shortDescriptionVi": "AI Code Editor",
+  "descriptionVi": "Trình soạn thảo code tích hợp AI, hỗ trợ edit đa file.",
+  "shortDescriptionEn": "AI Code Editor",
+  "descriptionEn": "An AI-powered code editor with multi-file editing support."
 }

@@ -4,7 +4,7 @@
   "slug": "hoppscotch",
   "category": "developer",
   "shortDescription": "Lightweight API Client",
-  "description": "Client API nhẹ, chạy trong trình duyệt cho REST, GraphQL, SSE.",
+  "description": "A lightweight browser-based API client for REST, GraphQL, and SSE.",
   "icon": "/icons/hoppscotch.svg",
   "website": "https://hoppscotch.io/",
   "github": "https://github.com/hoppscotch/hoppscotch",
@@ -17,5 +17,11 @@
     "api",
     "rest",
     "graphql"
-  ]
+  ],
+  "nameEn": "Hoppscotch",
+  "nameVi": "Hoppscotch",
+  "shortDescriptionVi": "Lightweight API Client",
+  "descriptionVi": "Client API nhẹ, chạy trong trình duyệt cho REST, GraphQL, SSE.",
+  "shortDescriptionEn": "Lightweight API Client",
+  "descriptionEn": "A lightweight browser-based API client for REST, GraphQL, and SSE."
 }

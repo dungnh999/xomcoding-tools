@@ -4,7 +4,7 @@
   "slug": "firebase",
   "category": "database",
   "shortDescription": "Application Platform",
-  "description": "Nền tảng ứng dụng với Auth, Firestore, Realtime Database và hosting.",
+  "description": "An app platform with Auth, Firestore, Realtime Database, and hosting.",
   "icon": "/icons/firebase.svg",
   "website": "https://firebase.google.com/",
   "github": "https://github.com/firebase",
@@ -18,5 +18,11 @@
     "auth",
     "google",
     "nosql"
-  ]
+  ],
+  "nameEn": "Firebase",
+  "nameVi": "Firebase",
+  "shortDescriptionVi": "Application Platform",
+  "descriptionVi": "Nền tảng ứng dụng với Auth, Firestore, Realtime Database và hosting.",
+  "shortDescriptionEn": "Application Platform",
+  "descriptionEn": "An app platform with Auth, Firestore, Realtime Database, and hosting."
 }

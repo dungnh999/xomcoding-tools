@@ -4,7 +4,7 @@
   "slug": "devtoys",
   "category": "developer",
   "shortDescription": "Developer Toolbox",
-  "description": "Bộ công cụ offline cho developer: JSON, Base64, regex, ảnh...",
+  "description": "An offline developer toolbox for JSON, Base64, regex, images, and more.",
   "icon": "/icons/devtoys.svg",
   "website": "https://devtoys.app/",
   "github": "https://github.com/DevToys-app/DevToys",
@@ -17,5 +17,11 @@
     "utilities",
     "offline",
     "json"
-  ]
+  ],
+  "nameEn": "DevToys",
+  "nameVi": "DevToys",
+  "shortDescriptionVi": "Developer Toolbox",
+  "descriptionVi": "Bộ công cụ offline cho developer: JSON, Base64, regex, ảnh...",
+  "shortDescriptionEn": "Developer Toolbox",
+  "descriptionEn": "An offline developer toolbox for JSON, Base64, regex, images, and more."
 }

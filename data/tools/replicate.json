@@ -4,7 +4,7 @@
   "slug": "replicate",
   "category": "ai-ml",
   "shortDescription": "Run Models via API",
-  "description": "Chạy mô hình AI mã nguồn mở qua API tính theo lượt dùng.",
+  "description": "Run open source AI models through a pay-per-use API.",
   "icon": "/icons/replicate.svg",
   "website": "https://replicate.com/",
   "github": null,
@@ -17,5 +17,11 @@
     "models",
     "api",
     "inference"
-  ]
+  ],
+  "nameEn": "Replicate",
+  "nameVi": "Replicate",
+  "shortDescriptionVi": "Run Models via API",
+  "descriptionVi": "Chạy mô hình AI mã nguồn mở qua API tính theo lượt dùng.",
+  "shortDescriptionEn": "Run Models via API",
+  "descriptionEn": "Run open source AI models through a pay-per-use API."
 }

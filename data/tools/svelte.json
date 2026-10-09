@@ -4,7 +4,7 @@
   "slug": "svelte",
   "category": "frontend",
   "shortDescription": "Compile-time Framework",
-  "description": "Biên dịch thành JS thuần, không cần virtual DOM.",
+  "description": "A framework that compiles to plain JavaScript without a virtual DOM.",
   "icon": "/icons/svelte.svg",
   "website": "https://svelte.dev/",
   "github": "https://github.com/sveltejs/svelte",
@@ -17,5 +17,11 @@
     "framework",
     "compiler",
     "ui"
-  ]
+  ],
+  "nameEn": "Svelte",
+  "nameVi": "Svelte",
+  "shortDescriptionVi": "Compile-time Framework",
+  "descriptionVi": "Biên dịch thành JS thuần, không cần virtual DOM.",
+  "shortDescriptionEn": "Compile-time Framework",
+  "descriptionEn": "A framework that compiles to plain JavaScript without a virtual DOM."
 }

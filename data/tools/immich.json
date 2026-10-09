@@ -4,7 +4,7 @@
   "slug": "immich",
   "category": "storage",
   "shortDescription": "Photo & Video Backup",
-  "description": "Sao lưu ảnh và video tự hosting, thay thế Google Photos.",
+  "description": "Self-hosted photo and video backup as an alternative to Google Photos.",
   "icon": "/icons/immich.svg",
   "website": "https://immich.app/",
   "github": "https://github.com/immich-app/immich",
@@ -17,5 +17,11 @@
     "photos",
     "backup",
     "self-hosted"
-  ]
+  ],
+  "nameEn": "Immich",
+  "nameVi": "Immich",
+  "shortDescriptionVi": "Photo & Video Backup",
+  "descriptionVi": "Sao lưu ảnh và video tự hosting, thay thế Google Photos.",
+  "shortDescriptionEn": "Photo & Video Backup",
+  "descriptionEn": "Self-hosted photo and video backup as an alternative to Google Photos."
 }

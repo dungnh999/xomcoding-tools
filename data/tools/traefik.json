@@ -4,7 +4,7 @@
   "slug": "traefik",
   "category": "devops",
   "shortDescription": "Reverse Proxy",
-  "description": "Proxy tải cân bằng tự cấu hình khi tích hợp container.",
+  "description": "A load-balancing reverse proxy that auto-configures with containers.",
   "icon": "/icons/traefik.svg",
   "website": "https://traefik.io/",
   "github": "https://github.com/traefik/traefik",
@@ -17,5 +17,11 @@
     "proxy",
     "loadbalancer",
     "ingress"
-  ]
+  ],
+  "nameEn": "Traefik",
+  "nameVi": "Traefik",
+  "shortDescriptionVi": "Reverse Proxy",
+  "descriptionVi": "Proxy tải cân bằng tự cấu hình khi tích hợp container.",
+  "shortDescriptionEn": "Reverse Proxy",
+  "descriptionEn": "A load-balancing reverse proxy that auto-configures with containers."
 }

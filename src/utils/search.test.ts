@@ -46,7 +46,11 @@ describe('buildSearchText', () => {
     slug: 'docker',
     category: 'devops',
     shortDescription: 'Container Platform',
+    shortDescriptionEn: 'Container Platform',
+    shortDescriptionVi: 'Nền tảng container',
     description: 'Đóng gói và triển khai ứng dụng bằng container.',
+    descriptionEn: 'Package and deploy applications with containers.',
+    descriptionVi: 'Đóng gói và triển khai ứng dụng bằng container.',
     icon: '/icons/docker.svg',
     website: 'https://www.docker.com/',
     github: null,
@@ -64,6 +68,7 @@ describe('buildSearchText', () => {
     expect(text).toContain('devops')
     expect(text).toContain('container')
     expect(text).toContain('dong goi')
+    expect(text).toContain('package and deploy')
   })
 
   it('chạy ổn khi category không tồn tại', () => {

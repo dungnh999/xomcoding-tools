@@ -4,7 +4,7 @@
   "slug": "vue",
   "category": "frontend",
   "shortDescription": "Progressive Framework",
-  "description": "Framework linh hoạt để xây dựng giao diện người dùng.",
+  "description": "A flexible framework for building user interfaces.",
   "icon": "/icons/vuejs.svg",
   "website": "https://vuejs.org/",
   "github": "https://github.com/vuejs/core",
@@ -17,5 +17,11 @@
     "javascript",
     "framework",
     "ui"
-  ]
+  ],
+  "nameEn": "Vue.js",
+  "nameVi": "Vue.js",
+  "shortDescriptionVi": "Progressive Framework",
+  "descriptionVi": "Framework linh hoạt để xây dựng giao diện người dùng.",
+  "shortDescriptionEn": "Progressive Framework",
+  "descriptionEn": "A flexible framework for building user interfaces."
 }

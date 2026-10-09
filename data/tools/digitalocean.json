@@ -4,7 +4,7 @@
   "slug": "digitalocean",
   "category": "cloud",
   "shortDescription": "Cloud Provider",
-  "description": "VPS, Kubernetes và managed database với giá minh bạch.",
+  "description": "VPS, Kubernetes, and managed databases with transparent pricing.",
   "icon": "/icons/digitalocean.svg",
   "website": "https://www.digitalocean.com/",
   "github": "https://github.com/digitalocean",
@@ -17,5 +17,11 @@
     "vps",
     "kubernetes",
     "iaas"
-  ]
+  ],
+  "nameEn": "DigitalOcean",
+  "nameVi": "DigitalOcean",
+  "shortDescriptionVi": "Cloud Provider",
+  "descriptionVi": "VPS, Kubernetes và managed database với giá minh bạch.",
+  "shortDescriptionEn": "Cloud Provider",
+  "descriptionEn": "VPS, Kubernetes, and managed databases with transparent pricing."
 }

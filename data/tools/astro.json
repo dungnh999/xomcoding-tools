@@ -4,7 +4,7 @@
   "slug": "astro",
   "category": "frontend",
   "shortDescription": "Content-driven Framework",
-  "description": "Framework web ưu tiên nội dung, ship ít JavaScript hơn.",
+  "description": "A content-focused web framework that ships less JavaScript by default.",
   "icon": "/icons/astro.svg",
   "website": "https://astro.build/",
   "github": "https://github.com/withastro/astro",
@@ -17,5 +17,11 @@
     "ssg",
     "content",
     "islands"
-  ]
+  ],
+  "nameEn": "Astro",
+  "nameVi": "Astro",
+  "shortDescriptionVi": "Content-driven Framework",
+  "descriptionVi": "Framework web ưu tiên nội dung, ship ít JavaScript hơn.",
+  "shortDescriptionEn": "Content-driven Framework",
+  "descriptionEn": "A content-focused web framework that ships less JavaScript by default."
 }
