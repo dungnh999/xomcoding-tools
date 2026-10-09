@@ -48,11 +48,16 @@ interface SidebarProps {
   total: number
   selected: string
   onSelect: (id: string) => void
+  labels: {
+    allTools: string
+    all: string
+    categoriesLabel: string
+  }
 }
 
-export function Sidebar({ categories, counts, total, selected, onSelect }: SidebarProps) {
+export function Sidebar({ categories, counts, total, selected, onSelect, labels }: SidebarProps) {
   return (
-    <aside className="hidden w-56 shrink-0 lg:block" aria-label="Danh mục công cụ">
+    <aside className="hidden w-56 shrink-0 lg:block" aria-label={labels.categoriesLabel}>
       <nav className="sticky top-20 flex flex-col gap-1">
         <button
           type="button"
@@ -64,7 +69,7 @@ export function Sidebar({ categories, counts, total, selected, onSelect }: Sideb
           }`}
         >
           <Boxes className="size-4 shrink-0" aria-hidden="true" />
-          <span className="flex-1">Tất cả công cụ</span>
+          <span className="flex-1">{labels.allTools}</span>
           <span className="text-xs text-muted">{total}</span>
         </button>
 
@@ -97,15 +102,15 @@ interface MobileCategoriesProps extends Omit<SidebarProps, 'total'> {
   total: number
 }
 
-export function MobileCategories({ categories, counts, total, selected, onSelect }: MobileCategoriesProps) {
-  const items = [{ id: 'all', name: 'Tất cả', count: total }, ...categories.map((c) => ({
+export function MobileCategories({ categories, counts, total, selected, onSelect, labels }: MobileCategoriesProps) {
+  const items = [{ id: 'all', name: labels.all, count: total }, ...categories.map((c) => ({
     id: c.id,
     name: c.name,
     count: counts.get(c.id) ?? 0,
   }))]
 
   return (
-    <div className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 lg:hidden" role="tablist" aria-label="Danh mục công cụ">
+    <div className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 lg:hidden" role="tablist" aria-label={labels.categoriesLabel}>
       {items.map((item) => (
         <button
           key={item.id}

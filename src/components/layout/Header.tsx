@@ -1,21 +1,35 @@
-import { ExternalLink, Github, Menu, Plus, X } from 'lucide-react'
+import { ExternalLink, Github, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { site } from '../../config/site'
-import { CREATOR_PAGE_HASH } from '../../constants/routes'
+import type { Language } from '../../i18n'
 
-const navItems = [
-  { label: 'Công cụ', href: '#tools' },
-  { label: 'Đóng góp', href: '#contribute' },
-]
+interface HeaderCopy {
+  navTools: string
+  navContribute: string
+  languageLabel: string
+}
 
-export function Header() {
+export function Header({
+  lang,
+  onLanguageChange,
+  labels,
+}: {
+  lang: Language
+  onLanguageChange: (lang: Language) => void
+  labels: HeaderCopy
+}) {
   const [open, setOpen] = useState(false)
   const repo = site.repository?.replace(/\/$/, '') ?? null
+  const homeHref = import.meta.env.BASE_URL || '/'
+  const navItems = [
+    { label: labels.navTools, hash: '#tools' },
+    { label: labels.navContribute, hash: '#contribute' },
+  ]
 
   return (
     <header className="sticky top-0 z-50 border-b border-border-soft bg-background/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-[1320px] items-center gap-6 px-4 sm:px-6">
-        <a href="#top" className="flex items-center gap-3 whitespace-nowrap" aria-label="Xóm Coding Dev Tools — trang chủ">
+      <div className="mx-auto flex min-h-16 max-w-[1320px] items-center gap-3 px-4 py-3 sm:gap-6 sm:px-6">
+        <a href={homeHref} className="flex min-w-0 items-center gap-3" aria-label="Xóm Coding Dev Tools home">
           <img
             src={`${import.meta.env.BASE_URL}logo.png`}
             alt=""
@@ -23,17 +37,19 @@ export function Header() {
             height={36}
             className="size-9 rounded-lg object-contain"
           />
-          <span className="leading-tight">
-            <strong className="block text-[15px] font-bold text-text">
-              {site.name} <span className="text-primary-hover">•</span>{' '}
-              <span className="font-medium text-muted">{site.tagline}</span>
+          <span className="min-w-0 leading-tight">
+            <strong className="block truncate text-[15px] font-bold text-text">
+              {site.name}
             </strong>
+            <span className="mt-0.5 inline-flex w-fit items-center rounded-full border border-primary/40 bg-primary/15 px-2 py-0.5 text-[10px] font-bold tracking-wide text-primary-text">
+              {site.tagline}
+            </span>
           </span>
         </a>
 
         <nav className="ml-auto hidden items-center gap-6 text-[13px] text-slate-300 md:flex">
           {navItems.map((item) => (
-            <a key={item.href} href={item.href} className="transition-colors hover:text-primary-hover">
+            <a key={item.hash} href={`${homeHref}${item.hash}`} className="transition-colors hover:text-primary-hover">
               {item.label}
             </a>
           ))}
@@ -57,12 +73,20 @@ export function Header() {
           </a>
         </nav>
 
-        <a
-          href={CREATOR_PAGE_HASH}
-          className="hidden items-center gap-1.5 rounded-lg border border-primary-hover/70 bg-primary-soft px-3.5 py-2 text-[13px] font-bold whitespace-nowrap text-primary-text transition-colors hover:bg-primary/40 md:flex"
-        >
-          <Plus className="size-4" /> Tạo Pull Request
-        </a>
+        <div className="ml-auto hidden rounded-lg border border-border bg-surface p-1 md:flex" aria-label={labels.languageLabel}>
+          {(['en', 'vi'] as const).map((option) => (
+            <button
+              key={option}
+              type="button"
+              onClick={() => onLanguageChange(option)}
+              className={`rounded-md px-2.5 py-1.5 text-xs font-bold transition-colors ${
+                lang === option ? 'bg-primary text-white' : 'text-muted hover:bg-surface-hover hover:text-text'
+              }`}
+            >
+              {option.toUpperCase()}
+            </button>
+          ))}
+        </div>
 
         <button
           type="button"
@@ -80,8 +104,8 @@ export function Header() {
           <div className="flex flex-col gap-1 text-sm">
             {navItems.map((item) => (
               <a
-                key={item.href}
-                href={item.href}
+                key={item.hash}
+                href={`${homeHref}${item.hash}`}
                 onClick={() => setOpen(false)}
                 className="rounded-lg px-3 py-2.5 text-slate-300 hover:bg-surface-hover"
               >
@@ -106,13 +130,23 @@ export function Header() {
             >
               xomcoding.me
             </a>
-            <a
-              href={CREATOR_PAGE_HASH}
-              onClick={() => setOpen(false)}
-              className="mt-1 flex items-center justify-center gap-1.5 rounded-lg bg-primary px-3 py-2.5 font-bold text-white"
-            >
-              <Plus className="size-4" /> Tạo Pull Request
-            </a>
+            <div className="mt-2 grid grid-cols-2 gap-2" aria-label={labels.languageLabel}>
+              {(['en', 'vi'] as const).map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  onClick={() => {
+                    onLanguageChange(option)
+                    setOpen(false)
+                  }}
+                  className={`rounded-lg px-3 py-2.5 text-sm font-bold ${
+                    lang === option ? 'bg-primary text-white' : 'border border-border text-muted'
+                  }`}
+                >
+                  {option.toUpperCase()}
+                </button>
+              ))}
+            </div>
           </div>
         </nav>
       )}

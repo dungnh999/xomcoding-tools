@@ -4,10 +4,13 @@ import { forwardRef, useEffect, useRef } from 'react'
 interface SearchInputProps {
   value: string
   onChange: (value: string) => void
+  placeholder: string
+  ariaLabel: string
+  clearLabel: string
 }
 
 export const SearchInput = forwardRef<HTMLInputElement, SearchInputProps>(function SearchInput(
-  { value, onChange },
+  { value, onChange, placeholder, ariaLabel, clearLabel },
   ref,
 ) {
   const innerRef = useRef<HTMLInputElement | null>(null)
@@ -43,8 +46,8 @@ export const SearchInput = forwardRef<HTMLInputElement, SearchInputProps>(functi
         type="search"
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        placeholder="Tìm kiếm công cụ, danh mục, mục đích sử dụng..."
-        aria-label="Tìm kiếm công cụ"
+        placeholder={placeholder}
+        aria-label={ariaLabel}
         autoComplete="off"
         className="h-full min-w-0 flex-1 border-0 bg-transparent text-sm text-text outline-none placeholder:text-muted"
       />
@@ -52,7 +55,7 @@ export const SearchInput = forwardRef<HTMLInputElement, SearchInputProps>(functi
         <button
           type="button"
           onClick={() => onChange('')}
-          aria-label="Xóa tìm kiếm"
+          aria-label={clearLabel}
           className="grid size-6 place-items-center rounded-md text-muted hover:bg-surface-hover hover:text-text"
         >
           <X className="size-4" />

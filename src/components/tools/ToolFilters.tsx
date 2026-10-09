@@ -34,6 +34,14 @@ interface ToolFiltersProps {
   onPricing: (value: PricingFilter) => void
   onToggleOpenSource: () => void
   onToggleXom: () => void
+  labels: {
+    filterLabel: string
+    all: string
+    active: string
+    inactive: string
+    unknown: string
+    hasXomArticle: string
+  }
 }
 
 export function ToolFilters({
@@ -45,6 +53,7 @@ export function ToolFilters({
   onPricing,
   onToggleOpenSource,
   onToggleXom,
+  labels,
 }: ToolFiltersProps) {
   const allActive = status === 'all' && pricing === 'all' && !openSource && !xomOnly
 
@@ -56,29 +65,29 @@ export function ToolFilters({
   }
 
   return (
-    <div className="flex flex-wrap justify-center gap-2" role="group" aria-label="Bộ lọc">
+    <div className="flex flex-wrap justify-center gap-2" role="group" aria-label={labels.filterLabel}>
       <Chip active={allActive} onClick={resetScope}>
-        Tất cả
+        {labels.all}
       </Chip>
 
       <span className="mx-1 hidden self-center border-l border-border sm:block" aria-hidden="true" />
 
       <Chip active={status === 'active'} onClick={() => onStatus(status === 'active' ? 'all' : 'active')} dot="bg-active">
-        Hoạt động
+        {labels.active}
       </Chip>
       <Chip
         active={status === 'inactive'}
         onClick={() => onStatus(status === 'inactive' ? 'all' : 'inactive')}
         dot="bg-inactive"
       >
-        Không hoạt động
+        {labels.inactive}
       </Chip>
       <Chip
         active={status === 'unknown'}
         onClick={() => onStatus(status === 'unknown' ? 'all' : 'unknown')}
         dot="bg-unknown"
       >
-        Chưa xác định
+        {labels.unknown}
       </Chip>
 
       <span className="mx-1 hidden self-center border-l border-border sm:block" aria-hidden="true" />
@@ -102,7 +111,7 @@ export function ToolFilters({
       <span className="mx-1 hidden self-center border-l border-border sm:block" aria-hidden="true" />
 
       <Chip active={xomOnly} onClick={onToggleXom}>
-        Có bài viết Xóm Coding
+        {labels.hasXomArticle}
       </Chip>
     </div>
   )

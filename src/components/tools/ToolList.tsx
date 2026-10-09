@@ -8,24 +8,36 @@ interface ToolListProps {
   total: number
   isFiltering: boolean
   onReset: () => void
+  labels: {
+    showing: string
+    statsTools: string
+    noResultsTitle: string
+    noResultsBody: string
+    resetFilters: string
+    tableTool: string
+    tableUseCase: string
+    tablePricing: string
+    tableStatus: string
+    tableLinks: string
+    collapse: string
+    expand: string
+  }
 }
 
-export function ToolList({ categories, tools, total, isFiltering, onReset }: ToolListProps) {
+export function ToolList({ categories, tools, total, isFiltering, onReset, labels }: ToolListProps) {
   if (tools.length === 0) {
     return (
       <div className="grid place-items-center rounded-xl border border-dashed border-border bg-surface/50 px-6 py-16 text-center">
         <SearchX className="size-8 text-muted" aria-hidden="true" />
-        <p className="mt-4 text-sm font-semibold text-text">Không tìm thấy công cụ nào</p>
-        <p className="mt-1 text-[13px] text-muted">
-          Thử từ khóa khác hoặc xóa bớt bộ lọc đang áp dụng.
-        </p>
+        <p className="mt-4 text-sm font-semibold text-text">{labels.noResultsTitle}</p>
+        <p className="mt-1 text-[13px] text-muted">{labels.noResultsBody}</p>
         {isFiltering && (
           <button
             type="button"
             onClick={onReset}
             className="mt-4 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover"
           >
-            Xóa tất cả bộ lọc
+            {labels.resetFilters}
           </button>
         )}
       </div>
@@ -42,10 +54,10 @@ export function ToolList({ categories, tools, total, isFiltering, onReset }: Too
   return (
     <div>
       <p className="mb-3 px-3 text-xs text-muted" role="status">
-        Hiển thị <strong className="text-text">{tools.length}</strong> / {total} công cụ
+        {labels.showing} <strong className="text-text">{tools.length}</strong> / {total} {labels.statsTools}
       </p>
       {grouped.map((group) => (
-        <CategorySection key={group.category.id} category={group.category} tools={group.tools} />
+        <CategorySection key={group.category.id} category={group.category} tools={group.tools} labels={labels} />
       ))}
     </div>
   )

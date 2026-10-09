@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+Host: https://tools.xomcoding.me
+
 Sitemap: https://tools.xomcoding.me/sitemap.xml

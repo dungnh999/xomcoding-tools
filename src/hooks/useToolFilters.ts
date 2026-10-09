@@ -54,15 +54,17 @@ function useDebouncedValue<T>(value: T, delay: number): T {
  * (?category=&search=&status=&pricing=&opensource=1&xom=1).
  */
 export function useToolFilters() {
-  const [filters, setFilters] = useState<FilterState>(() => readFiltersFromUrl())
-  const [rawSearch, setRawSearch] = useState(() => readFiltersFromUrl().search)
+  const initialFilters = useMemo(() => readFiltersFromUrl(), [])
+  const [filters, setFilters] = useState<FilterState>(initialFilters)
+  const [rawSearch, setRawSearch] = useState(initialFilters.search)
   const search = useDebouncedValue(rawSearch, 200)
 
-  const current = useMemo<FilterState>(() => ({ ...filters, search }), [filters, search])
+  const displayFilters = useMemo<FilterState>(() => ({ ...filters, search: rawSearch }), [filters, rawSearch])
+  const appliedFilters = useMemo<FilterState>(() => ({ ...filters, search }), [filters, search])
 
   useEffect(() => {
-    writeFiltersToUrl(current)
-  }, [current])
+    writeFiltersToUrl(appliedFilters)
+  }, [appliedFilters])
 
   useEffect(() => {
     const onPopState = () => {
@@ -101,10 +103,11 @@ export function useToolFilters() {
     setRawSearch('')
   }, [])
 
-  const isFiltering = !isDefaultFilters(current)
+  const isFiltering = !isDefaultFilters(displayFilters)
 
   return {
-    filters: current,
+    filters: displayFilters,
+    appliedFilters,
     setSearch,
     setCategory,
     setStatus,

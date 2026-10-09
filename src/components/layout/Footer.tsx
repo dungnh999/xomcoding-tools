@@ -6,7 +6,7 @@ interface SocialLink {
   href: string
 }
 
-export function Footer() {
+export function Footer({ body, externalLinksLabel }: { body: string; externalLinksLabel: string }) {
   const repo = site.repository?.replace(/\/$/, '') ?? null
 
   const links: SocialLink[] = [
@@ -27,12 +27,12 @@ export function Footer() {
             {site.name} — {site.tagline}
           </p>
           <p className="mt-2 text-[13px] leading-relaxed text-muted">
-            Khám phá · Học hỏi · Chia sẻ · Phát triển cùng cộng đồng lập trình Việt Nam.
+            {body}
           </p>
           <p className="mt-3 text-xs text-muted/80">{site.slogan}</p>
         </div>
 
-        <nav className="flex flex-wrap gap-x-6 gap-y-2 text-[13px] text-muted" aria-label="Liên kết ngoài">
+        <nav className="flex flex-wrap gap-x-6 gap-y-2 text-[13px] text-muted" aria-label={externalLinksLabel}>
           {links.map((link) => (
             <a
               key={link.label}

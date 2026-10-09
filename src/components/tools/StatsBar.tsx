@@ -4,15 +4,22 @@ interface StatsBarProps {
   active: number
   unknown: number
   results: number
+  labels: {
+    statsTools: string
+    statsCategories: string
+    statsActive: string
+    statsUnknown: string
+    statsResults: string
+  }
 }
 
-export function StatsBar({ total, categories, active, unknown, results }: StatsBarProps) {
+export function StatsBar({ total, categories, active, unknown, results, labels }: StatsBarProps) {
   const items = [
-    { value: total, label: 'công cụ' },
-    { value: categories, label: 'danh mục' },
-    { value: active, label: 'đã xác nhận hoạt động' },
-    { value: unknown, label: 'chưa xác định' },
-    { value: results, label: 'kết quả' },
+    { value: total, label: labels.statsTools },
+    { value: categories, label: labels.statsCategories },
+    { value: active, label: labels.statsActive },
+    { value: unknown, label: labels.statsUnknown },
+    { value: results, label: labels.statsResults },
   ]
 
   return (

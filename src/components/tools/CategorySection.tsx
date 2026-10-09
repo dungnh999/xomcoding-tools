@@ -4,10 +4,19 @@ import type { Category, Tool } from '../../types/tool'
 import { CategoryIcon } from '../layout/Sidebar'
 import { ToolRow } from './ToolRow'
 
-const TABLE_HEAD = ['Công cụ', 'Mục đích sử dụng', 'Chi phí', 'Trạng thái', 'Liên kết']
+interface CategorySectionLabels {
+  tableTool: string
+  tableUseCase: string
+  tablePricing: string
+  tableStatus: string
+  tableLinks: string
+  collapse: string
+  expand: string
+}
 
-export function CategorySection({ category, tools }: { category: Category; tools: Tool[] }) {
+export function CategorySection({ category, tools, labels }: { category: Category; tools: Tool[]; labels: CategorySectionLabels }) {
   const [expanded, setExpanded] = useState(true)
+  const tableHead = [labels.tableTool, labels.tableUseCase, labels.tablePricing, labels.tableStatus, labels.tableLinks]
 
   if (tools.length === 0) return null
 
@@ -31,11 +40,11 @@ export function CategorySection({ category, tools }: { category: Category; tools
         >
           {expanded ? (
             <>
-              <ChevronUp className="size-3.5" /> Thu gọn
+              <ChevronUp className="size-3.5" /> {labels.collapse}
             </>
           ) : (
             <>
-              <ChevronDown className="size-3.5" /> Xem tất cả
+              <ChevronDown className="size-3.5" /> {labels.expand}
             </>
           )}
         </button>
@@ -44,7 +53,7 @@ export function CategorySection({ category, tools }: { category: Category; tools
       {expanded && (
         <div className="overflow-hidden rounded-xl border border-border bg-surface/70">
           <div className="hidden border-b border-border bg-surface px-3 py-2.5 text-[11px] font-semibold tracking-wide text-muted uppercase lg:grid lg:grid-cols-[minmax(190px,1.1fr)_minmax(0,1.5fr)_110px_56px_140px] lg:gap-4">
-            {TABLE_HEAD.map((label) => (
+            {tableHead.map((label) => (
               <span key={label}>{label}</span>
             ))}
           </div>
