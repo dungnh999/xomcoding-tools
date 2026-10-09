@@ -1,123 +1,151 @@
+
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0b0f14" />
-    <meta name="robots" content="index,follow,max-image-preview:large" />
-    <title>Xom Coding Dev Tools — Curated Developer Tools Directory</title>
-    <meta
-      name="description"
-      content="A curated bilingual directory of developer tools for AI, DevOps, frontend, databases, security, cloud, design, and productivity. Search, filter, verify status, and contribute on GitHub."
-    />
-    <meta
-      name="keywords"
-      content="developer tools, dev tools directory, software development tools, AI coding tools, AI developer tools, DevOps tools, frontend tools, database tools, cloud hosting tools, security tools, open source tools, self-hosted tools, web development tools, productivity tools for developers, công cụ lập trình, công cụ developer, công cụ AI, công cụ DevOps, Xóm Coding"
-    />
-    <meta name="author" content="Xóm Coding" />
-    <meta name="application-name" content="Xom Coding Dev Tools" />
-    <link rel="canonical" href="https://tools.xomcoding.me/" />
-    <link rel="alternate" hreflang="en" href="https://tools.xomcoding.me/" />
-    <link rel="alternate" hreflang="vi" href="https://tools.xomcoding.me/" />
-    <link rel="alternate" hreflang="x-default" href="https://tools.xomcoding.me/" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0f14" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Xóm Coding Dev Tools" />
-    <meta property="og:title" content="Xom Coding Dev Tools — Curated Developer Tools Directory" />
-    <meta
-      property="og:description"
-      content="Explore a bilingual directory of practical developer tools for AI, DevOps, frontend, databases, security, cloud, design, and productivity."
-    />
-    <meta property="og:url" content="https://tools.xomcoding.me/" />
-    <meta property="og:image" content="https://tools.xomcoding.me/logo.png" />
-    <meta property="og:image:alt" content="Logo Xóm Coding Dev Tools" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="vi_VN" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9WJKWRCGV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-Z9WJKWRCGV');
+  </script>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Xom Coding Dev Tools — Curated Developer Tools Directory" />
-    <meta
-      name="twitter:description"
-      content="Search and filter practical developer tools, check website status, and contribute through GitHub."
-    />
-    <meta name="twitter:image" content="https://tools.xomcoding.me/logo.png" />
+  <title>Xom Coding Dev Tools — Curated Developer Tools Directory</title>
+  <meta
+          name="description"
+          content="A curated bilingual directory of developer tools for AI, DevOps, frontend, databases, security, cloud, design, and productivity. Search, filter, verify status, and contribute on GitHub."
+  />
+  <meta
+          name="keywords"
+          content="developer tools, dev tools directory, software development tools, AI coding tools, AI developer tools, DevOps tools, frontend tools, database tools, cloud hosting tools, security tools, open source tools, self-hosted tools, web development tools, productivity tools for developers, công cụ lập trình, công cụ developer, công cụ AI, công cụ DevOps, Xóm Coding"
+  />
+  <meta name="author" content="Xóm Coding" />
+  <meta name="application-name" content="Xom Coding Dev Tools" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="canonical" href="https://tools.xomcoding.me/" />
+  <link rel="alternate" hreflang="en" href="https://tools.xomcoding.me/" />
+  <link rel="alternate" hreflang="vi" href="https://tools.xomcoding.me/" />
+  <link rel="alternate" hreflang="x-default" href="https://tools.xomcoding.me/" />
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "Organization",
-            "@id": "https://xomcoding.me/#organization",
-            "name": "Xóm Coding",
-            "url": "https://xomcoding.me/",
-            "logo": "https://tools.xomcoding.me/logo.png"
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Xóm Coding Dev Tools" />
+  <meta
+          property="og:title"
+          content="Xom Coding Dev Tools — Curated Developer Tools Directory"
+  />
+  <meta
+          property="og:description"
+          content="Explore a bilingual directory of practical developer tools for AI, DevOps, frontend, databases, security, cloud, design, and productivity."
+  />
+  <meta property="og:url" content="https://tools.xomcoding.me/" />
+  <meta property="og:image" content="https://tools.xomcoding.me/logo.png" />
+  <meta property="og:image:alt" content="Logo Xóm Coding Dev Tools" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="vi_VN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+          name="twitter:title"
+          content="Xom Coding Dev Tools — Curated Developer Tools Directory"
+  />
+  <meta
+          name="twitter:description"
+          content="Search and filter practical developer tools, check website status, and contribute through GitHub."
+  />
+  <meta
+          name="twitter:image"
+          content="https://tools.xomcoding.me/logo.png"
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+          rel="stylesheet"
+  />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://xomcoding.me/#organization",
+          "name": "Xóm Coding",
+          "url": "https://xomcoding.me/",
+          "logo": "https://tools.xomcoding.me/logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://tools.xomcoding.me/#website",
+          "name": "Xóm Coding Dev Tools",
+          "alternateName": "Dev Tools Xóm Coding",
+          "url": "https://tools.xomcoding.me/",
+          "description": "A bilingual curated directory of developer tools for builders.",
+          "keywords": [
+            "developer tools",
+            "dev tools directory",
+            "AI coding tools",
+            "DevOps tools",
+            "frontend tools",
+            "database tools",
+            "cloud hosting tools",
+            "security tools",
+            "open source tools",
+            "self-hosted tools",
+            "công cụ lập trình",
+            "Xóm Coding"
+          ],
+          "inLanguage": ["en", "vi"],
+          "publisher": {
+            "@id": "https://xomcoding.me/#organization"
           },
-          {
-            "@type": "WebSite",
-            "@id": "https://tools.xomcoding.me/#website",
-            "name": "Xóm Coding Dev Tools",
-            "alternateName": "Dev Tools Xóm Coding",
-            "url": "https://tools.xomcoding.me/",
-            "description": "A bilingual curated directory of developer tools for builders.",
-            "keywords": [
-              "developer tools",
-              "dev tools directory",
-              "AI coding tools",
-              "DevOps tools",
-              "frontend tools",
-              "database tools",
-              "cloud hosting tools",
-              "security tools",
-              "open source tools",
-              "self-hosted tools",
-              "công cụ lập trình",
-              "Xóm Coding"
-            ],
-            "inLanguage": ["en", "vi"],
-            "publisher": {
-              "@id": "https://xomcoding.me/#organization"
-            },
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://tools.xomcoding.me/?search={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
-          },
-          {
-            "@type": "CollectionPage",
-            "@id": "https://tools.xomcoding.me/#collection",
-            "name": "Xóm Coding Dev Tools",
-            "url": "https://tools.xomcoding.me/",
-            "isPartOf": {
-              "@id": "https://tools.xomcoding.me/#website"
-            },
-            "about": [
-              "developer tools",
-              "AI tools",
-              "DevOps",
-              "frontend",
-              "databases",
-              "security",
-              "cloud",
-              "open source"
-            ],
-            "inLanguage": ["en", "vi"]
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://tools.xomcoding.me/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
           }
-        ]
-      }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://tools.xomcoding.me/#collection",
+          "name": "Xóm Coding Dev Tools",
+          "url": "https://tools.xomcoding.me/",
+          "isPartOf": {
+            "@id": "https://tools.xomcoding.me/#website"
+          },
+          "about": [
+            "developer tools",
+            "AI tools",
+            "DevOps",
+            "frontend",
+            "databases",
+            "security",
+            "cloud",
+            "open source"
+          ],
+          "inLanguage": ["en", "vi"]
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
