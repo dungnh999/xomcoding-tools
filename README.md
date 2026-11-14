@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Deploy GitHub Pages](https://github.com/dungnh999/xomcoding-tools/actions/workflows/deploy.yml/badge.svg)](https://github.com/dungnh999/xomcoding-tools/actions/workflows/deploy.yml)
-[![Tools](https://img.shields.io/badge/tools-125-blue.svg)](https://tools.xomcoding.me)
+[![Tools](https://img.shields.io/badge/tools-134-blue.svg)](https://tools.xomcoding.me)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?logo=ko-fi&logoColor=white)](https://ko-fi.com/dungnh)
 
 A community-curated, open-source directory of developer tools — **in Vietnamese** — for the
@@ -21,7 +21,7 @@ A community-curated, open-source directory of developer tools — **in Vietnames
 Auto-updated from `data/` by the `check-tools` workflow:
 
 <!-- STATS:START -->
-- **125 tools** in **15 categories** · **122 tools verified active** · 0 inactive · 3 awaiting first check
+- **134 tools** in **15 categories** · **129 tools verified active** · 0 inactive · 5 awaiting first check
 <!-- STATS:END -->
 
 [![Contributors](https://img.shields.io/github/contributors/dungnh999/xomcoding-tools?color=2ea44f&label=contributors)](https://github.com/dungnh999/xomcoding-tools/graphs/contributors)
